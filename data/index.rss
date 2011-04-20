@@ -1,0 +1,4033 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://sfbay.craigslist.org/gms/">
+<title>craigslist | garage &#x26; moving sales in SF bay area</title>
+<link>http://sfbay.craigslist.org/gms/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:publisher>webmaster@craigslist.org</dc:publisher>
+<dc:creator>webmaster@craigslist.org</dc:creator>
+<dc:source>http://sfbay.craigslist.org/gms//</dc:source>
+<dc:title>craigslist | garage &#x26; moving sales in SF bay area</dc:title>
+<dc:type>Collection</dc:type>
+<syn:updateBase>2011-04-19T21:05:25-07:00</syn:updateBase>
+<syn:updateFrequency>4</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335866614.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335859243.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335856995.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335845800.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335747671.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335837941.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335800002.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335831052.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335829067.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335819318.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335797977.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335738613.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335738253.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335731165.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335690144.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335495280.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335650333.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335650083.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335644823.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335611499.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335621744.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335608735.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335602416.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335565047.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335561483.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335558193.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335530437.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335528256.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335525940.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335510602.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335467513.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335464526.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335447174.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335445366.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335439379.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335435481.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335431111.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335406258.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/scz/gms/2335395926.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335376998.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335298131.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335354247.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335335492.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/scz/gms/2335315724.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335314996.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335298573.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335297770.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335294118.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335286987.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335281476.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335276085.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335266705.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335267476.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335261195.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335253892.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335208007.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335185946.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335174589.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335167037.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335121529.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335140714.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2335141903.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2335131268.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335111860.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335049621.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2335041933.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2335017881.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2335010174.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334985605.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334975526.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334950771.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334943999.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2334922775.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334891402.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334861808.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2334837557.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2334804212.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334804090.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334660046.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2334635593.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334646532.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334611489.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2334563386.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334607822.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334602199.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2334566325.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334505869.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2334500573.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334503488.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2334467198.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334463168.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/gms/2334452286.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/nby/gms/2334445648.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/pen/gms/2334388962.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334370809.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2334364120.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2334342176.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/scz/gms/2334253693.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sby/gms/2333933793.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/sfc/gms/2333940934.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335866614.html">
+<title><![CDATA[BUICK TIRES FOR SALE (OAKLAND) $150]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335866614.html</link>
+<description><![CDATA[HELLO WE HAVE 4 BLACK BUICK TIRES FOR SALE AS IS ASKING $150 OBO IN EXCELLENT CONDITION SO IF U WANT THEM COME BY THEM ASAP WE TRYING TO MOVE SO PLEASE HELP US OUT CALL 510 575-7402 OR 510-213-3277 CALL CALL THANK U GOD BLESS<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=OAKLAND -->Location: OAKLAND
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:58:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335866614.html</dc:source>
+<dc:title><![CDATA[BUICK TIRES FOR SALE (OAKLAND) $150]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:58:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335859243.html">
+<title><![CDATA[Garage Door  (oakland hills / mills) $100]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335859243.html</link>
+<description><![CDATA[Barely used, 2 car Garage Door for sale.  4 panel insulated garage door with no windows.  Dimensions 16' x 7'
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:56:19-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335859243.html</dc:source>
+<dc:title><![CDATA[Garage Door  (oakland hills / mills) $100]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:56:19-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335856995.html">
+<title><![CDATA[SATURDAY 4/23 - MOVING SALE  (sebastopol)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335856995.html</link>
+<description><![CDATA[Moving - Many items for sale. 
+<br>
+
+<br>
+- 2 (30”) Flat Panel monitor from SHARP AQUOS
+<br>
+
+<br>
+- Lots of Electronics (New Digital Cameras, Computer stuffs,…)
+<br>
+
+<br>
+- New Scanner Machine
+<br>
+	
+<br>
+- Kids’ toys (Lots of Vintage Slot Car Tracks & Vintage Cars)
+<br>
+
+<br>
+- Furniture: Chairs, wood stools, aluminum stools
+<br>
+
+<br>
+- Lots of China, and more… 
+<br>
+
+<br>
+- Tons of Home Decorating accessories
+<br>
+
+<br>
+- Home Décor items (POTTERY BARN/DONNA KARAN…)
+<br>
+
+<br>
+- Artwork & Pictures Frames 
+<br>
+
+<br>
+- Designer Women's Clothing: size 2-4
+<br>
+
+<br>
+- Designer Men’s Clothing: size M 
+<br>
+
+<br>
+- Designer Women's shoes: size 7
+<br>
+
+<br>
+- Appliances (CUISINART…)
+<br>
+
+<br>
+- Tons of DVD’s
+<br>
+
+<br>
+- Lots of ONE DOLLAR Items
+<br>
+
+<br>
+- Free stuff too!
+<br>
+
+<br>
+LOCATION: 1236 Sexton Road, Sebastopol, CA 95472
+<br>
+8am to 1PM
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:51:25-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335856995.html</dc:source>
+<dc:title><![CDATA[SATURDAY 4/23 - MOVING SALE  (sebastopol)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:51:25-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335845800.html">
+<title><![CDATA[HUGE Garage Sale 4/23 Saturday 8am-3pm :)  (danville / san ramon)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335845800.html</link>
+<description><![CDATA[HUGE Garage Sale!!
+<br>
+2509 Canyon Lakes Drive, San Ramon 94582
+<br>
+Saturday April 23 ONLY, 8am-3pm 
+<br>
+If you come up to a gate, yes u are at the right place! It is in a gated community, but the gate will be open &#9786;
+<br>
+NO Early Birds PLEASE, we need time to set up! &#9786;
+<br>
+
+<br>
+TONS of Designer Clothes (Both Men’s and Women’s) Including Tops, Dresses, Suits, Pants, Jeans, shorts, sweaters, sweatshirts, EVERYTHING!
+<br>
+**Clothes are adult men and women & young adult men and women**
+<br>
+Brands including:
+<br>
+7 for all Mankind 
+<br>
+Rock & Republic
+<br>
+Banana Republic
+<br>
+Miss Sixty
+<br>
+Zara
+<br>
+Hugo Boss
+<br>
+BCBG MazAzria
+<br>
+Juicy Couture (3 Tracksuit Sets, a few shirts, and handbag)
+<br>
+Ralph Lauren
+<br>
+Nike
+<br>
+Champs
+<br>
+Guess
+<br>
+Tracy Reese
+<br>
+Victoria’s Secret
+<br>
+JouJou
+<br>
+La Rok
+<br>
+French Connection
+<br>
+Pierre Cardin
+<br>
+Mango
+<br>
+Maxmara
+<br>
+H&M
+<br>
+Beneton
+<br>
+Sean John
+<br>
+Calvin Clein
+<br>
+Gap
+<br>
+DKNY
+<br>
+Nautica
+<br>
+Abercrombie
+<br>
+Hurley
+<br>
+Emerica
+<br>
+Quiksilver
+<br>
+Converse
+<br>
+Reebok
+<br>
+Clothes are Separated into $1, $5, $3, $8, and Higher end items vary in prices. SUPER good Deals!!
+<br>
+
+<br>
+Other items include:
+<br>
+A variety of Designer Brand Shoes including Nike Air Jordans, Converse, and others!
+<br>
+A variety of handbags including Juicy Couture
+<br>
+Everlast punching bag set including Century Punching Bag metal stand for the Punching bag (stand is Century, punching bag is Everlast & red) In AMAZING condition. its a great, not cheap or old!!
+<br>
+Competitors Bench Weight Lifting Set 
+<br>
+Dark Wood Eating Bar w/ sitting area
+<br>
+Wardrobe Closets ($50)
+<br>
+Red Ikea Desk
+<br>
+Blue Ikea Chair
+<br>
+Bike
+<br>
+A whole collection of Swords
+<br>
+Tons of Books including Medical books, German books, accounting, and much more!
+<br>
+Games & Puzzles
+<br>
+
+<br>
+2 FREE BOXES INCLUDING:
+<br>
+1 whole box of free bedding, blankets, and curtains
+<br>
+TONS of clothes, including some designer clothes that might have a small rip or tear on them but still, FREE! &#9786;
+<br>
+
+<br>
+
+<br>
+EVERYTHING IS PRICED TO SELL. We are moving and need everything to go!
+<br>
+Thanks so much & I look forward to seeing you all there! &#9786;<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:40:06-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335845800.html</dc:source>
+<dc:title><![CDATA[HUGE Garage Sale 4/23 Saturday 8am-3pm :)  (danville / san ramon)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:40:06-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335747671.html">
+<title><![CDATA[Garage Sale saturday only (menlo park)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335747671.html</link>
+<description><![CDATA[508 6th ave
+<br>
+Menlo Park
+<br>
+
+<br>
+Various clothing, accesories and electronics.
+<br>
+9am to 3pm
+<br>
+SATURDAY ONLY 4/23/11<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:36:40-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335747671.html</dc:source>
+<dc:title><![CDATA[Garage Sale saturday only (menlo park)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:36:40-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335837941.html">
+<title><![CDATA[Moving Sale (petaluma)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335837941.html</link>
+<description><![CDATA[Relocating, sale 
+<br>
+Items available include;  furniture, antiques, patio furniture, some collectibles, house decor and much more! 
+<br>
+
+<br>
+Location- 417 Clearview Place, Petaluma 
+<br>
+Time- 7:00am NO EARLY BIRDS
+<br>
+it's NOT ok to contact this poster with services or other commercial interests<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:33:41-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335837941.html</dc:source>
+<dc:title><![CDATA[Moving Sale (petaluma)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:33:41-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335800002.html">
+<title><![CDATA[Garage Sale Sat. 4/23 8am-1pm Tools, Electronics, Designer Clothes (danville / san ramon)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335800002.html</link>
+<description><![CDATA[Large Garage Sale On Saturday 4/23 at 8am-1pm
+<br>
+11 Little Creek Ct San Ramon (Cross Street Canyon Creek)
+<br>
+Near Crow Canyon and 680
+<br>
+
+<br>
+Lots of great stuff for really cheap!  Many Many items for $1-5!!!
+<br>
+Tools! Tools! Tools! $1 and up
+<br>
+Like-new Glass and Black Laquer Plasma TV Stand - Very nice Designer styling $40
+<br>
+Working pairs of walkie-talkies (Many sets for cheap!!!) $20
+<br>
+Honda Scooters (2x running Spree 50's) $60
+<br>
+Huge Ice Chest $20
+<br>
+Flux Core welder (MIG) and Welding Helmet $30
+<br>
+Mini-Refrigerator $15
+<br>
+Folding 'captains' chairs beach chairs $5
+<br>
+Small Like-new Air Conditioner $20
+<br>
+Brand Name Audio Speakers (Worth $300+)
+<br>
+Lots of designer clothes, Womens xs-small and mens suit size 39
+<br>
+Lots of houseware, cookware, wine openers, and kitchen gadgets (I own a cookware store...get all my samples!)
+<br>
+Electronic and home stereo cables
+<br>
+Remote control cars
+<br>
+Carpet shamooo machine
+<br>
+Camping and Backpacking gear
+<br>
+Backpacks (backcountry style)
+<br>
+Antique model trains
+<br>
+Ipod docks
+<br>
+LED dimmers
+<br>
+Salelite TV Dishes and FTA Receivers
+<br>
+Antique Models
+<br>
+Commercial shelving
+<br>
+Antique video camera
+<br>
+Tools! Tools! Tools!
+<br>
+Vintage Comic books and More!!!
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:31:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335800002.html</dc:source>
+<dc:title><![CDATA[Garage Sale Sat. 4/23 8am-1pm Tools, Electronics, Designer Clothes (danville / san ramon)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:31:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335831052.html">
+<title><![CDATA[Kids Books/games, Cookie Lee Jewelry, Handmade Polymer Clay ornaments (hollister)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335831052.html</link>
+<description><![CDATA[Saturday, April 23rd, from 7 am-9am only
+<br>
+1168 South Street in Hollister
+<br>
+
+<br>
+Lots of kids books
+<br>
+Softcover books, 2 for $1.00
+<br>
+Hardcover $2.00
+<br>
+
+<br>
+Kids DVD's
+<br>
+
+<br>
+Kids Games and wooden puzzles
+<br>
+
+<br>
+Gently used Kids snow boots and hiking boots (Merrel brand)
+<br>
+
+<br>
+Radio flyer foldable trike for toddler, gently used, $20.00
+<br>
+
+<br>
+Cookie Lee Jewelry, went out of business sale, never used, new necklaces, bracelets and earrings (discontinued items)
+<br>
+
+<br>
+Handmade Polymer Clay whimisical figures in vintage bottle caps, $5.00 each
+<br>
+
+<br>
+More items to be added
+<br>
+
+<br>
+ALL MONEY MADE FROM THIS GARAGE SALE TO BENEFIT THE LEUKEMIA AND LYMPHOMA SOCIETY<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:27:45-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335831052.html</dc:source>
+<dc:title><![CDATA[Kids Books/games, Cookie Lee Jewelry, Handmade Polymer Clay ornaments (hollister)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:27:45-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335829067.html">
+<title><![CDATA[Large Moving Sale, April 23rd (hayward / castro valley) $1]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335829067.html</link>
+<description><![CDATA[Large Moving Sale, April 23
+<br>
+10:00 AM to 4:00 PM
+<br>
+Too much to list it all but everything related to home improvement like table saw, tile saw, mitter saw will need to go.
+<br>
+Also, futon sofa bed, kids toys inclucing a full Thomas the Train (blue track) set and much much more.
+<br>
+
+<br>
+15919 Paseo Del Campo, San Lorenzo, CA 94580
+<br>
+
+<br>
+Please, no early birds.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:24:46-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335829067.html</dc:source>
+<dc:title><![CDATA[Large Moving Sale, April 23rd (hayward / castro valley) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:24:46-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335819318.html">
+<title><![CDATA[Family Garage Sale! SAT 4/23/11 (mountain view)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335819318.html</link>
+<description><![CDATA[Huge Garage Sale! Come on over...One mans junk is another mans treasure!!
+<br>
+Sat. April 23rd 2011; 8-4pm 537 Mountain View Ave.
+<br>
+LOTS of goodies...Come check it out!
+<br>
+Furniture (hide~a~bed sofa & matching love seat), large screen TV, small appliances, Tools, 
+<br>
+clothes (adults, men and woman, teens) jewelry, you name it! 
+<br>
+Raising funds for my daughters upcoming national dance competition! 
+<br>
+Who knows...you may find just what your looking for!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:16:44-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335819318.html</dc:source>
+<dc:title><![CDATA[Family Garage Sale! SAT 4/23/11 (mountain view)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:16:44-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335797977.html">
+<title><![CDATA[Moving Sale (pacific heights)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335797977.html</link>
+<description><![CDATA[MOVING SALE
+<br>
+
+<br>
+IKEA OMAR METAL SHELF: $30.00
+<br>
+IKEA LERSTA FLOORLAMP: $ 5.00 EACH
+<br>
+CHROME MICROWAVE SHELF/CART: $15.00
+<br>
+WHITE 2 DRAWER DRESSER- 5 TOTAL: $18.00 EACH
+<br>
+KITCHEN STUFF
+<br>
+COFFEE MAKER: $10.00
+<br>
+
+<br>
+IF INTERESTED, PLEASE CALL 917.582.3773 OR EMAIL ME.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T20:01:41-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335797977.html</dc:source>
+<dc:title><![CDATA[Moving Sale (pacific heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T20:01:41-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335738613.html">
+<title><![CDATA[4/23 Clothing/Garage Sale - 10am-3pm (oakland lake merritt / grand)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335738613.html</link>
+<description><![CDATA[Come checkout my Clothing Sale @ 414 Fairmount Ave, Oakland, CA, from 10am-3pm, 4/23/11
+<br>
+
+<br>
+LOTS of Cute, fashionable womens' clothes: Dresses,  Skirts, Tops/Shirts & Jackets. 
+<br>
+- Bright, Spring F21 Dresses
+<br>
+- Eryn Brinie Brown Leatherette Jacket
+<br>
+- Guess Vintage Leather Jacket
+<br>
+- NineWest Black Booties & Boots 
+<br>
+- Lace up Wedges & Colorful Sandals
+<br>
+- Skirts: Pleated, Pencil and Maxi
+<br>
+- H&M Jackets
+<br>
+- Work Suit: Jones NY Pinstripe Suit
+<br>
+- Fun Handbags & Accessories
+<br>
+
+<br>
+Much MORE will be available and ready to SELL for cheap! 
+<br>
+Brands: H&M, Express, F21, Nine West, Urban Outfitters.
+<br>
+
+<br>
+EVERYTHING must go!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T19:16:52-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335738613.html</dc:source>
+<dc:title><![CDATA[4/23 Clothing/Garage Sale - 10am-3pm (oakland lake merritt / grand)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T19:16:52-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335738253.html">
+<title><![CDATA[Antiques, furniture, dishes, collectibles (sonoma) $100]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335738253.html</link>
+<description><![CDATA[We are clearing out a vacation rental house to move in a full time tenant and the house needs to be cleared before May 1. Victrola record player in excellent shape with several 78 rpm records, works and looks excellent. Chairs, dining table, beds, mattresses, linen, cookware, silverware, tables, desks, rocker and matching love seat, art, lamps, mirrors, lots more, come on Saturday from 8 to 4, southern Sonoma Valley. Call first 707-529-5330. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T19:15:19-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335738253.html</dc:source>
+<dc:title><![CDATA[Antiques, furniture, dishes, collectibles (sonoma) $100]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T19:15:19-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335731165.html">
+<title><![CDATA[rivate sale: craft supplies, patterns and books (hercules, pinole, san pablo, el sob) $5]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335731165.html</link>
+<description><![CDATA[It's Spring!!! I'm clearing out! 
+<br>
+ craft books. Hardcover books $5 or 3 for $10
+<br>
+
+<br>
+Broken jewelry perfect for a new design or project. $5.00 to $15.00 per piece or take the whole lot for $75.
+<br>
+
+<br>
+Many new sewing patterns sizes 16 to 20 - $15 each or 3 for $30
+<br>
+
+<br>
+Fat Bag of sewing notions, zipper, seam binding, buttons $10
+<br>
+
+<br>
+Hand made lace, doilies for repurposing into clothing - $5 to $15 per bag - or take all for $30
+<br>
+
+<br>
+Several project cut and ready to go - you get pattern, fabric, some notions - you just open and sew.  Most sizes 16 - 18  $25 each
+<br>
+
+<br>
+Several pieces of fabric in different colors, weights and type including, wool, linen, cotton, silks, polyester suiting - all fabric $3.00 a yard - Firm
+<br>
+
+<br>
+too much to post photos of all - just a small selection as an example
+<br>
+
+<br>
+Please e-mail for apt to view<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T19:14:53-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335731165.html</dc:source>
+<dc:title><![CDATA[rivate sale: craft supplies, patterns and books (hercules, pinole, san pablo, el sob) $5]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T19:14:53-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335690144.html">
+<title><![CDATA[Lots of kitchen items on sale (sunnyvale) $1]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335690144.html</link>
+<description><![CDATA[I have lots of kitchen items on sale. Soga glassware, crystalware, cup and saucer set, william sonoma and pottery barn crockery, electric gadgets (mixer, juicer, sandwitch maker, microwave). There is lots more. Most of it is in unopened condition. Please reply back if interested.
+<br>
+
+<br>
+Oster Blender $20 
+<br>
+Beater (Duraband) $5 
+<br>
+Cuisine Art Sandwich Toaster $10 
+<br>
+Black n Decker Orange juicer $5 
+<br>
+Unused Stylish Crocery- Williams Sonoma/ Pottery Barn (approx 20pieces) $40 
+<br>
+6 Crystal Glasses (Unused) $15 
+<br>
+Electronic heating Travel Mugs (Qty 2) $10 
+<br>
+12pc Cup and Saucer set (Macy's) $35 (Original prices $120) 
+<br>
+Pyrex 3 cup rectangular box (Qty 2) $8
+<br>
+Soga 6 piece mug set with matching glass (Unused) $25
+<br>
+Pottery barn table cloth (Unused) $10<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T18:42:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335690144.html</dc:source>
+<dc:title><![CDATA[Lots of kitchen items on sale (sunnyvale) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T18:42:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335495280.html">
+<title><![CDATA[Storage Cabinet Workbench Combo (sunnyvale) $20]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335495280.html</link>
+<description><![CDATA[Very sturdy heavy particle board top. 
+<br>
+Top 60in(W) X 24in(Deep) X 32in(H). 
+<br>
+
+<br>
+Cabinet base with shelves inside and sliding doors. 
+<br>
+48in(W) X 21 in(Deep)<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T18:40:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335495280.html</dc:source>
+<dc:title><![CDATA[Storage Cabinet Workbench Combo (sunnyvale) $20]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T18:40:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335650333.html">
+<title><![CDATA[Lots of Misc. Stuff for Sale! 4/22 & 4/23 (fairfield / vacaville) $1]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335650333.html</link>
+<description><![CDATA[Garage Sale! 
+<br>
+Friday, April 22: 8am - 3pm
+<br>
+Saturday, April 23: 8am - 12pm
+<br>
+
+<br>
+160 Huntington Dr. 
+<br>
+Vacaville 95687
+<br>
+
+<br>
+Clothes
+<br>
+Glassware
+<br>
+Dishes
+<br>
+Misc. Garage Stuff
+<br>
+Etc.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T18:18:25-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335650333.html</dc:source>
+<dc:title><![CDATA[Lots of Misc. Stuff for Sale! 4/22 & 4/23 (fairfield / vacaville) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T18:18:25-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335650083.html">
+<title><![CDATA[Moving sale (vallejo / benicia) $1]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335650083.html</link>
+<description><![CDATA[Moving sale, panasonic tv $100, side by side fridge 150, round glass table $50 with two chairs, two dressers 50,  and 22" chrome rims 1200, computer desk $50, email me or text me at 707 3348165, Make me an offer need to sell <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T18:17:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335650083.html</dc:source>
+<dc:title><![CDATA[Moving sale (vallejo / benicia) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T18:17:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335644823.html">
+<title><![CDATA[HUGE GARAGE SALE FRI&SAT (BAY POINT CA)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335644823.html</link>
+<description><![CDATA[HELLO !!THERE I'M HAVING A HUGE GARGE SALE SELLING A LOT OF STUFF STERLING JEWELRY RINGS NECKLACES BRACELETS 925, TOOLS A LOT SO TOOLS 4 WHEELBARROWS PICKS AND SHAVELS RACKS PRUNNERS MECANIC TOOLS SNAP-ON CRAFSTMAN KNIVES ANTIQUE HOUSEHOLD DECORATIONS MISC ITEMS ART WORK PICTURES VAN GOGH COINS 3 MOUNTAIN BIKECYCLES GARDEN TOOLS sport items too  SO COME ON DOWN AND FIND YOUR TREASURES 
+<br>
+     START AT 8AM 71 BELLA VISTA AVE BAY POINT  OFF WILLOW PASS RD<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=BAY POINT CA -->Location: BAY POINT CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T18:14:11-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335644823.html</dc:source>
+<dc:title><![CDATA[HUGE GARAGE SALE FRI&SAT (BAY POINT CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T18:14:11-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335611499.html">
+<title><![CDATA[Bed Frame, Mattress & Bedside Table  (fremont / union city / newark) $80]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335611499.html</link>
+<description><![CDATA[Must go !!!  In very good condition, hardly used.   <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:59:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335611499.html</dc:source>
+<dc:title><![CDATA[Bed Frame, Mattress & Bedside Table  (fremont / union city / newark) $80]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:59:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335621744.html">
+<title><![CDATA[couch (san jose north) $20]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335621744.html</link>
+<description><![CDATA[Couch ---$30 
+<br>
+
+<br>
+- Green white in color 
+<br>
+
+<br>
+-Good condition 
+<br>
+
+<br>
+
+<br>
+Call Parry at 4082187184.\
+<br>
+
+<br>
+MUST GO BY TONITE.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:59:34-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335621744.html</dc:source>
+<dc:title><![CDATA[couch (san jose north) $20]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:59:34-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335608735.html">
+<title><![CDATA[Bedside lamps for sale (mountain view) $9]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335608735.html</link>
+<description><![CDATA[2 bedside lamps for sale.
+<br>
+
+<br>
+$9 for both
+<br>
+
+<br>
+self pickup<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:51:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335608735.html</dc:source>
+<dc:title><![CDATA[Bedside lamps for sale (mountain view) $9]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:51:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335602416.html">
+<title><![CDATA[  Moving - Everything Goes (cupertino)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335602416.html</link>
+<description><![CDATA[Relocating,   sale  
+<br>
+Items available include;  some tools, furniture, car parts,   light fixtures, recessed can light trims, jet ski and parts,  garage cabnets
+, some collectibles, , motorcycle parts and riding gear, and much, much more!!!
+i have alot of things so please ask what you need.
+
+<br>
+  call Sal @ 408-828-8138
+<br>
+
+<br>
+Location; 10281 Imperial Ave, Cupertino, CA 95014<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:47:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335602416.html</dc:source>
+<dc:title><![CDATA[  Moving - Everything Goes (cupertino)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:47:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335565047.html">
+<title><![CDATA[OUT OF COUNTRY MOVING SALE (fremont / union city / newark) $10]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335565047.html</link>
+<description><![CDATA[
+<br>
+Every thing in a very good condition. I am selling it because I am not able to take it with me in my out of country move. 
+<br>
+
+<br>
+Brand New toddler Car Seat $150(I bought it in October 2010 used it hardly for 15 days as I had to move and could not carry , original price $250) 
+<br>
+Steam Vaccume Cleaner $100 (Original price $200) 
+<br>
+Matress : $50 
+<br>
+Comforter $10 
+<br>
+Brand new Breast pump : $50 
+<br>
+Microwave free 
+<br>
+Lots Kids and kitchen stuff. 
+<br>
+And much more. Come and check it out your self. lot of kids and kitchen stuff including brand new car seat also. Every thing must go before 23rd (coming ) weekend. Come quickly. Every thing needs to go. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:25:16-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335565047.html</dc:source>
+<dc:title><![CDATA[OUT OF COUNTRY MOVING SALE (fremont / union city / newark) $10]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:25:16-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335561483.html">
+<title><![CDATA[Mving Boxes (san jose south) $25]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335561483.html</link>
+<description><![CDATA[Moving Boxes: 
+<br>
+Small 14
+<br>
+Medium 11
+<br>
+Large 12
+<br>
+
+<br>
+Call if you want to pick up all. 408-390-8813
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:23:30-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335561483.html</dc:source>
+<dc:title><![CDATA[Mving Boxes (san jose south) $25]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:23:30-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335558193.html">
+<title><![CDATA[MUST MOVE IN 10 DAYS!! (dublin / pleasanton / livermore)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335558193.html</link>
+<description><![CDATA[3 DAY GARAGE SALE!
+<br>
+4/22-4/24 8AM EACH DAY
+<br>
+
+<br>
+MUST MOVE IN 10 DAYS - CAN'T TAKE IT WITH US!!
+<br>
+Washer, Dryer
+<br>
+Dishwasher, Refrigerator
+<br>
+Kitchenware, Beautiful Dishes
+<br>
+Oak Bedroom Set, Kitchen Cabinets, More Furniture 
+<br>
+Power Tools, Work Bench, Gorilla Rack Shelving
+<br>
+TVs, Electronics, AND MORE!!
+<br>
+
+<br>
+ALSO - Collectibles, Antiques, Office Supplies AND MORE MORE MORE!!!!!
+<br>
+
+<br>
+OAKMONT CIRCLE, LIVERMORE (SPRINGTOWN) FOLLOW THE FLORECENT ORANGE SIGNS!!!!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:21:07-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335558193.html</dc:source>
+<dc:title><![CDATA[MUST MOVE IN 10 DAYS!! (dublin / pleasanton / livermore)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:21:07-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335530437.html">
+<title><![CDATA[Free Furniture (oakland lake merritt / grand)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335530437.html</link>
+<description><![CDATA[BIFOLD FUTON FRAME WITH MATTRESS - solid wood (unfinished), clean mattress
+<br>
+COFFEE TABLE - laminated particle board, scratched up a bit
+<br>
+SMALL DESK - laminated particle board, scratched up a bit
+<br>
+BOOKCASE HEADBOARD (twin) - solid wood, decent shape
+<br>
+
+<br>
+510-415-2894<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:04:39-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335530437.html</dc:source>
+<dc:title><![CDATA[Free Furniture (oakland lake merritt / grand)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:04:39-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335528256.html">
+<title><![CDATA[Moving/garage sale-furniture, clothes and more-Sat 4/23 (novato)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335528256.html</link>
+<description><![CDATA[We are moving to the East coast and need to get rid of A LOT of our stuff! We will be selling: 
+<br>
+
+<br>
+Clothes
+<br>
+Furniture
+<br>
+Books/CD/Records
+<br>
+Kitchen supplies
+<br>
+and more!
+<br>
+
+<br>
+Saturday April 23rd from 7am to noon
+<br>
+
+<br>
+Grove Lane in Novato, just off of Center Road (two blocks from Lu Sutton Elementary School)<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:03:38-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335528256.html</dc:source>
+<dc:title><![CDATA[Moving/garage sale-furniture, clothes and more-Sat 4/23 (novato)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:03:38-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335525940.html">
+<title><![CDATA[PICKERS PURGE SALE IN PETALUMA (petaluma) $22]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335525940.html</link>
+<description><![CDATA[PICKERS PURGE SALE
+<br>
+
+<br>
+Multi day Pickers Sale in Petaluma
+<br>
+Starts this Friday 
+<br>
+april 22  8 until 2
+<br>
+April 23  8 until 2
+<br>
+april 24  10 until 2
+<br>
+
+<br>
+Furniture: Antiques, vintage, mid-century, industrial,
+<br>
+Domestic, foreign--Danish, Italian, etc.,  and mirrors
+<br>
+
+<br>
+Lighting:  Same range as furniture
+<br>
+
+<br>
+Smalls:  Ditto, glass, metal, wood, ceramic
+<br>
+
+<br>
+Art:  Across the board--2 and 3 dimentional
+<br>
+Small to large
+<br>
+
+<br>
+Musical Instruments: Guitars, wind instruments
+<br>
+and other things
+<br>
+
+<br>
+Rugs:  Persian, other Oriental, and other
+<br>
+ethnic sources
+<br>
+
+<br>
+Orientalia and Random Funky pieces
+<br>
+
+<br>
+So many items we had to take 
+<br>
+a 2400 sq. ft. building
+<br>
+
+<br>
+indoors, rain or shine
+<br>
+
+<br>
+corner of bodega ave. and
+<br>
+thompson lane
+<br>
+good signage and parking<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T17:02:01-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335525940.html</dc:source>
+<dc:title><![CDATA[PICKERS PURGE SALE IN PETALUMA (petaluma) $22]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T17:02:01-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335510602.html">
+<title><![CDATA[Calling collectors of all kinds (mountain view)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335510602.html</link>
+<description><![CDATA[April 30, 2011 -Saturday from 9:00-3:00PM.
+<br>
+May 1, 2011- (if anything is left) 9:00 -12:00PM
+<br>
+A wonderful yard sale with over 50yrs. of saving, collecting and gathering everything and anything from crystal salad bowl sets, circa 1940's, crystal dessert plates, antique cups and saucers, punch bowls and matching cups, like new mini blinds in white and blue, B-B-QUE's in excellent shape for all types of cooks, outdoor furniture sets-matching tables and chairs- 2sets, large lingerie chest (antique), Christmas decorations, pictures, dishes, brand new woman's clothing, size 6, shoes size 5 1/2, books, White GE Profile series electric cooktop and convection stove, with matching GE Profile convection microwave oven, (both purchased in 2007), a while GE Profile side by side refrigerator(2007) with water and ice service on the outside door.  Details at time of sale along with appliances.  All are in excellent shape .only one owner and caretaker.. VERY WELL MAINTAINED.   LOOK AND FEEL BRAND NEW- RIGHT OFF THE SHOW ROOM FLOOR....A great bargin for those who know how great  GE PROFILE  IS.. - all documents and paperwork available and will go with appliances....AND MORE MUCH MORE.
+<br>
+Bring your truck, uhaul, van and of course lots of cash! 
+<br>
+We will be open until we are sold out.  Must take appliances same day with purchase.
+<br>
+ADDRESS: 2091 San Luis Ave. Mountain View.
+<br>
+Right on the corner-can't miss it! All items on front lawn and garage #10.
+<br>
+
+<br>
+Don't come before we open or stay later than we close.  Come and look, buy, and 
+<br>
+tell your friends!
+<br>
+see you there!
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:53:12-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335510602.html</dc:source>
+<dc:title><![CDATA[Calling collectors of all kinds (mountain view)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:53:12-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335467513.html">
+<title><![CDATA[6 Family Yard Sale, Friday, 4/22 &amp; Sat. 4/23, 290 Saybrook Ave. Vacavi (fairfield / vacaville)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335467513.html</link>
+<description><![CDATA[Multi Family Yard Sale on Friday, April 22 & Saturday, April 23rd from 8:00 - 2:00
+<br>
+290 Saybrook Ave. Vacaville, directions from Nutree Road from Elmira Road Take the 2nd LEFT onto PORTSMOUTH AVE. and then the first Right on Saybrook Ave. 290 SAYBROOK AVE is on the LEFT.
+<br>
+We have a Toddler Bed with the mattress for $50.00, 10 cat carriers for $5.00 each, household items, clothes, baby items, queen bed frame, entertainment center, crib, jewelry, kitchen appliances, home decorations and a ton more
+<br>
+Call 707-208-8605 if you get lost<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:29:00-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335467513.html</dc:source>
+<dc:title><![CDATA[6 Family Yard Sale, Friday, 4/22 &amp; Sat. 4/23, 290 Saybrook Ave. Vacavi (fairfield / vacaville)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:29:00-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335464526.html">
+<title><![CDATA[MOVING SALE - Appointment only (north beach / telegraph hill)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335464526.html</link>
+<description><![CDATA[We are leaving for Europe and have to sell all our furniture and household goods. 
+
+We have furniture like office desks, vases, decorative items, chairs, dining sets, picture frames, kitchen tools,...
+
+For a more complete inventory please follow the linke below ...
+
+<table style="width:194px;"><tr><td align="center"><a href="https://picasaweb.google.com/106378192265088530167/MOVINGSALE?authkey=Gv1sRgCMKlwvC0s4WJEg&amp;feat=embedwebsite" rel="nofollow"><img src="https://lh4.googleusercontent.com/_TU8Hcr7AK7M/TapKvCQC21E/AAAAAAAAAKQ/nrLnim7Bahc/s160-c/MOVINGSALE.jpg" width="160" height="160"></a></td></tr><tr><td><a href="https://picasaweb.google.com/106378192265088530167/MOVINGSALE?authkey=Gv1sRgCMKlwvC0s4WJEg&amp;feat=embedwebsite" rel="nofollow">MOVING SALE</a></td></tr></table>
+
+By appointment only!!!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:27:24-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335464526.html</dc:source>
+<dc:title><![CDATA[MOVING SALE - Appointment only (north beach / telegraph hill)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:27:24-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335447174.html">
+<title><![CDATA[Great Yard Sale, Sat. April 23,  10am-4pm (sonoma)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335447174.html</link>
+<description><![CDATA[Lots of nice things in good condition!  Saturday, April 23, 10am-4pm
+<br>
+
+<br>
+Furniture (two dressers, breakfast/small dining table, floor lamp, ottoman, and two card table chairs)
+<br>
+Men's clothing 
+<br>
+Women's clothing and accessories (including a pink Coach wallet)
+<br>
+Children's clothing and shoes (for approx. 4-9 years of age, girls)
+<br>
+Cosmetics 
+<br>
+Books
+<br>
+Carry-on suitcase
+<br>
+Kitchenware (including a chrome toaster oven)
+<br>
+And more!
+<br>
+
+<br>
+21449 Shainsky Road
+<br>
+
+<br>
+Directions from Broadway going south:  Turn left on Watmaugh (just after Wedekind's plant nursery), then turn right on Shainsky.
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:22:13-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335447174.html</dc:source>
+<dc:title><![CDATA[Great Yard Sale, Sat. April 23,  10am-4pm (sonoma)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:22:13-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335445366.html">
+<title><![CDATA[HUGE YARD SALE THIS SATURDAY (san jose north) $11111]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335445366.html</link>
+<description><![CDATA[THERE WILL BE LOTS OF DIFFERENT STUFF,FISHING GEAR,GOLD MINING GEAR,DIRT BIKE GEAR,STEREO STUFF,AMPS,SPEAKERS,TOOLS,MILLER WELDERS WITH WIRE FEEDERS AND BOOM ,TOYS ,COLLECABLES RED LINE HOT WHEELS,AND MUCH MORE...OFF  OF 101 AND 880 GISH RD TO INDISTRIEL<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:19:35-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335445366.html</dc:source>
+<dc:title><![CDATA[HUGE YARD SALE THIS SATURDAY (san jose north) $11111]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:19:35-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335439379.html">
+<title><![CDATA[Estate Sale 4-22 to  4-23 (san jose east)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335439379.html</link>
+<description><![CDATA[98 Gordon Ave
+<br>
+Alum Rock & McKee Rd Area
+<br>
+Multi- Family  Garage/Estate Sale
+<br>
+Collectables- Furniture-Brick-a-brack-China-Jewelery and more
+<br>
+Fri 9-5
+<br>
+Sat 9-4<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:17:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335439379.html</dc:source>
+<dc:title><![CDATA[Estate Sale 4-22 to  4-23 (san jose east)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:17:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335435481.html">
+<title><![CDATA[Estate Garage Sale Items at Public Auction Saturday Apr. 23, 10am (sunnyvale)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335435481.html</link>
+<description><![CDATA[<b>
+<font color="Navy">
+<font size="5">
+<b><i><center><font size="7"><u><i> Estate Garage Sale Items at Public Auction Saturday Apr. 23, 10am
+</i></u></font>
+</font><br>
+<br><br> 
+<p>------------------------------------------------------------------------------------------------------------------------------------------------
+<br><br>
+</b></i><font size="5"> 
+
+<u>Partial list of other items:</u><br> 
+Multiple lots of fine and costume Jewelry, Coins, Sterling Silver<br>
+items, Netsukes, Estate & Antique Furniture, Fine & Decorative Art, <br>
+Prints & Paintings, Books, Carved Ivory, Bronzes, Collectibles, <br>
+Linens, Rugs, Glass, Crystal, Porcelain, Clocks & Watches, Buddy L<br>
+and other toys, Electronics, Tools, Tool Boxes, Power Tools, <br>
+Barber’s Chairs, Refrigerators, Washers, Dryers, Patio Furniture <br>
+2006 Chrysler 300C SRT-8 and more, approximately 900 lots <br><br>
+Additional items: <br><br>
+
+<u>1960s / 1970s Chevrolet / GM / Ford and Other Parts </u><br>
+Large quantity of high performance and other parts including engines,<br>
+Blocks, Rochester Quadrajet 4 barrel carburetors, small block heads, <br>
+GM 4 speed transmission, aluminum wheels, M50 tires, Ford 40 inch <br>
+rear axle housing, rear end gear sets, Corvette and other rear differentials,<br>
+ tools and more. <br> 
+
+<br><br>
+<br><br>
+</b></u></font><br><br>
+Auction time:  Saturday April 23, 2011 and starts at 10:00am<br>
+Location: 760 Kifer Rd. Sunnyvale, CA 94086 <br>
+Preview: <br>
+Friday: April 22, 1:00pm to 8:00pm <br>
+Saturday: April 23, 8:30am to 10:00am <br><br>
+
+Please <b>call us at 408-245-1863 </b>or visit our website for more details.<br>
+<font size="5"> <a href="http://www.dgwauctioneers.com" rel="nofollow">http://www.dgwauctioneers.com</a>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:11:22-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335435481.html</dc:source>
+<dc:title><![CDATA[Estate Garage Sale Items at Public Auction Saturday Apr. 23, 10am (sunnyvale)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:11:22-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335431111.html">
+<title><![CDATA[IKEA SULTAN HARESTUA Spring mattress (lower nob hill) $120]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335431111.html</link>
+<description><![CDATA[FOR SALE I HAVE A IKEA SULTAN HARESTUA
+<br>
+Spring mattress IN GREAT CONDITION IT COMES FROM A SMOKE AND PET FREE HOME IVE ONLY HAS IT A MONTH...I AM MOVING FOR JOB RELOCATION AND I NEED TO SELL IT ASKING $120 OR BEST OFFER, LOCAL AND CASH ONLY 702-900-8648 CALL OR TEXT ANYTIME...
+<br>
+
+<br>
+<a href="http://www.ikea.com/us/en/catalog/products/70156597" rel="nofollow">http://www.ikea.com/us/en/catalog/products/70156597</a><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T16:09:02-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335431111.html</dc:source>
+<dc:title><![CDATA[IKEA SULTAN HARESTUA Spring mattress (lower nob hill) $120]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T16:09:02-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335406258.html">
+<title><![CDATA[CA KING BED MATTRESS SET (daly city) $200]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335406258.html</link>
+<description><![CDATA[MOVING AND DOWNSIZING
+<br>
+
+<br>
+CA KING BED  PILLOW TOP BOTH SIDES-2 BOX SPRINGS AND METAL FLOOR FRAME
+<br>
+3 YEARS OLD- FROM MACYS  $2000    SEALY POSTURE BLAH BLAH
+<br>
+
+<br>
+THE MOST COMFORTABLE BED IN THE UNIVERSE
+<br>
+ONE OWNER-SINGLE-
+<br>
+A FEW SCRAPES ON OUTER EDGES FROM MOVING AS IT WEIGHS A TON-BUT AT THIS PRICE FOR A GREAT MATTRESS-YOU CANT COMPLAIN!!!SO DONT!!!
+<br>
+PICK UP ONLY
+<br>
+
+<br>
+YOU CAN BUY A MATTRESS PAD AT ROSS FOR $25
+<br>
+CASH QUICK SALE<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:55:37-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335406258.html</dc:source>
+<dc:title><![CDATA[CA KING BED MATTRESS SET (daly city) $200]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:55:37-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/scz/gms/2335395926.html">
+<title><![CDATA[Multi-Family Yard Sale (watsonville)]]></title>
+<link>http://sfbay.craigslist.org/scz/gms/2335395926.html</link>
+<description><![CDATA[330 Madison St. in Watsonville
+<br>
+
+<br>
+-Small TV 
+<br>
+-Dresser (off white color)
+<br>
+-Large Mirror (round, wall mount, matches dresser)
+<br>
+-Xbox games
+<br>
+-Nintendo 64
+<br>
+-Clothes
+<br>
+-Books
+<br>
+-Household Items
+<br>
+-Shoes
+<br>
+-Bags
+<br>
+-Pottery
+<br>
+-Chairs
+<br>
+-Table
+<br>
+-Possible scrap wood from old awning and shed
+<br>
+
+<br>
+We speak fluent English and Spanish (habla Español)
+<br>
+
+<br>
+330 Madison St. in Watsonville
+<br>
+Google Maps: <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=330+Madison+Street,+Watsonville,+CA&aq=0&sll=37.0625,-95.677068&sspn=7.289242,92.373047&safe=on&ie=UTF8&hq=&hnear=330+Madison+St,+Watsonville,+California+95076&ll=36.921695,-121.760573&spn=0.018527,0.061455&z=15" rel="nofollow">http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=330+Madison+Street,+Watsonville,+CA&aq=0&sll=37.0625,-95.677068&sspn=7.289242,92.373047&safe=on&ie=UTF8&hq=&hnear=330+Madison+St,+Watsonville,+California+95076&ll=36.921695,-121.760573&spn=0.018527,0.061455&z=15</a>
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:51:49-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/scz/gms/2335395926.html</dc:source>
+<dc:title><![CDATA[Multi-Family Yard Sale (watsonville)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:51:49-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335376998.html">
+<title><![CDATA[OUTDOOR CHRISTMAS DECORATIONS (petaluma) $350]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335376998.html</link>
+<description><![CDATA[LARGE COLLECTION OF OUTDOOR CHRISTMAS DECORATIONS,  WE ARE CLEANING OUT THE GARAGE.  THERE IS A 20 FOOT ANIMATED SNOW GLOBE, 10 FOOT ANIMATED SNOW GLOBE, 5 FOOT TALL SANTA THAT POPS IN AND OUT OF CHIMNEY,.  PLUS, THERE IS MUCH MUCH MORE.  EVERYTHING WORKS, EVERYTHING IN EXCELLENT CONDITION, AND EVERYTHING IN ORIGINAL BOXES AND WELL TAKEN CARE OF.
+<br>
+WILL COVER YOUR FRONT YARD AND THE KIDS AND ADULTS  LOVE.  WE ARE  SELLING BECAUSE NO MORE LITTLE KIDS AT HOME AND WOULD LIKE TO SEE SOMEONE ELSE ENJOY.  VERY NICE ITEMS AND WE PAID OVER 2500.00 FOR WHAT WE ARE ASKING 350.00 FOR..
+<br>
+
+<br>
+THANKS!!!!!!!!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:40:52-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335376998.html</dc:source>
+<dc:title><![CDATA[OUTDOOR CHRISTMAS DECORATIONS (petaluma) $350]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:40:52-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335298131.html">
+<title><![CDATA[GARAGE SALE - San Martin (morgan hill)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335298131.html</link>
+<description><![CDATA[Large Garage Sale at 
+<br>
+12395 Columbet Ave, San Martin 
+<br>
+408.607.2482 for info...Thanks... <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:37:47-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335298131.html</dc:source>
+<dc:title><![CDATA[GARAGE SALE - San Martin (morgan hill)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:37:47-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335354247.html">
+<title><![CDATA[OFFICE/PLUMBING/TOOLS YARD  SALE (hollister)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335354247.html</link>
+<description><![CDATA[APRIL 23RD 7.30 AM 338 THIRD ST HOLLISTER JR PLUMBING BUILDING . TOOLS, DESKS, FILE CABS.,FAUCETS,TOILETS,FREEZER UNUT, LADDERS, OLD CELL PHONE & NEXTTELL UNITS, OLD COMPUTERS MONITORS & PRINTERS, 20 CASES FLOOR TILE, OAK HARDWOOD FLOORING, CAMPER FOR FORD F-250. SEE ATATCHED LINK TO PHOTOS. 7.30AM APRIL 23 338 THIRD ST HOLLISTER. <a href="http://gallery.me.com/toddrenz/100090" rel="nofollow">http://gallery.me.com/toddrenz/100090</a><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:30:14-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335354247.html</dc:source>
+<dc:title><![CDATA[OFFICE/PLUMBING/TOOLS YARD  SALE (hollister)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:30:14-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335335492.html">
+<title><![CDATA[GARAGE SALES! EVERYTHING MUST GO! (milpitas) $1]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335335492.html</link>
+<description><![CDATA[We are having a garage and moving sales! Everything from appliances, toy, dishes, furnitures, electronics, clothes, EVERYTHING. Anytime between Thursday through Sunday from 10am-6pm. 
+<br>
+
+<br>
+Please email me if interest in coming by to take a look.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:19:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335335492.html</dc:source>
+<dc:title><![CDATA[GARAGE SALES! EVERYTHING MUST GO! (milpitas) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:19:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/scz/gms/2335315724.html">
+<title><![CDATA[GARAGE SALE (aptos)]]></title>
+<link>http://sfbay.craigslist.org/scz/gms/2335315724.html</link>
+<description><![CDATA[HUGE SALE!!! APTOS/RIO DEL MAR GARAGE SALE -LOTS O STUFF! APPLETON DRIVE<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:10:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/scz/gms/2335315724.html</dc:source>
+<dc:title><![CDATA[GARAGE SALE (aptos)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:10:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335314996.html">
+<title><![CDATA[Moving Sale! Table, Couch, Chair,TV, Queen Mattress, Box Spring&amp; Frame (hayes valley)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335314996.html</link>
+<description><![CDATA[I am moving out next weekso I need to let some stuff go! 
+<br>
+Smoke free apartment! 
+<br>
+
+<br>
+31'Round café table  diameter, 34' high 
+<br>
+Blonde wood with metal legs $30 
+<br>
+
+<br>
+20 Wega Sony Tv 2004 with remote- its old school but has great picture and sound 
+<br>
+$30
+<br>
+
+<br>
+ Comfort Source Queen Mattress, Box Spring and Frame $40 
+<br>
+
+<br>
+
+<br>
+I have a leopard yes I said leopard couch and chair $25 for both! 
+<br>
+Lightweight and easy to move!! 
+<br>
+Couch measures 
+<br>
+70' length 
+<br>
+31' width 
+<br>
+28' Heigth 
+<br>
+
+<br>
+Chair 
+<br>
+32' Heigth 
+<br>
+26' Width 
+<br>
+Decent shape except they are little faded but the cushions which are attached are still firm. 
+<br>
+I can sell them seperately too! 
+<br>
+
+<br>
+I have a few more photos so if you have questions email me 
+<br>
+
+<br>
+Thanks, 
+<br>
+Michele 
+<br>
+415.690.0651 
+<br>
+
+<br>
+
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:08:06-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335314996.html</dc:source>
+<dc:title><![CDATA[Moving Sale! Table, Couch, Chair,TV, Queen Mattress, Box Spring&amp; Frame (hayes valley)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:08:06-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335298573.html">
+<title><![CDATA[multi family yard sale (south of san jose in gilroy)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335298573.html</link>
+<description><![CDATA[LOTS of nice clothing only 2 and 3 bucks each. lots of teen girl clothing and baby stuff. car seats.   Lots of jeans.  LOTS of baseball cards 20.00 bucks a box - and they are big boxes - my ex husbands crap.  Also have a big table and four chairs for only 40.00 and a 7ft sofa for only 25.00 excellent condition he won't be sleeping on it anymore LOL.  some cookware and some collectable toys as well.  DVDs and misc.  some junky dressers for 10 bucks each.  Free really junky nasty table too.  oh and a 50.00 ten speed.  and a 1250 84 nissan with pink slip.  nice.   and QUAIL ten bucks each.  what more do you want?  7774 Chestnut street Gilroy, ca 95020 831 664 8969 near the outlets south of san jose in Gilroy.  
+<br>
+
+<br>
+SATURDAY 9am - 5pm  NO early birds!!!!!!   <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=south of san jose in gilroy -->Location: south of san jose in gilroy
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T15:00:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335298573.html</dc:source>
+<dc:title><![CDATA[multi family yard sale (south of san jose in gilroy)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T15:00:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335297770.html">
+<title><![CDATA[Moving Sale (san jose south)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335297770.html</link>
+<description><![CDATA[Hello , i am trying to clear out a lot of un-needed items before i move. 
+<br>
+
+<br>
+PRICES ARE NOT FINAL. PLEASE MAKE OFFER 
+<br>
+
+<br>
+
+<br>
+Please feel FREE to email me
+<br>
+
+<br>
+
+<br>
+* Box of table clothes (round and square) 3.00 each 
+<br>
+
+<br>
+*Forever Yours Wedding dress Strapless ( corset back) 150.00 
+<br>
+
+<br>
+*Flower girl Dress ( lil girls size 1-2) 20.00 
+<br>
+
+<br>
+*Lots of wedding albums, glasses etc 5.00 each 
+<br>
+
+<br>
+*Infant pooh caarseat carrier with base 30.00
+<br>
+
+<br>
+*Box of pink martini glasses New 12.00 
+<br>
+
+<br>
+*Baby items ( newe breast pump, clothes, bottles, books, toys etc.....) 5.00 each 
+<br>
+
+<br>
+
+<br>
+* 4-in-1 crib ( crib, toddler bed, day bed, full bed) antique white 100.00
+<br>
+
+<br>
+* new foam changing table pad ( with pink or green cover) 20.00 
+<br>
+
+<br>
+*Boppy pillow 5.00
+<br>
+
+<br>
+* lil girls dresses from 18-2t 10.00 each 
+<br>
+
+<br>
+* college books
+<br>
+
+<br>
+* women's clothes from size 5-9 5.00 each 
+<br>
+
+<br>
+*women's shoes size 8.5-10 
+<br>
+
+<br>
+*Highchair 40.00 
+<br>
+
+<br>
+*toddler seat for dinner table 10.00 
+<br>
+
+<br>
+*maternity clothes sizes med-large 10.00 each 
+<br>
+
+<br>
+*lots of glass collectables of eeyore 5.00 each 
+<br>
+
+<br>
+Lots of XBOX 360 Games
+<br>
+
+<br>
+Lots of Nintendo DS Games and Accessories 
+<br>
+
+<br>
+
+<br>
+XBOX
+<br>
+Assasin's Creed 2
+<br>
+Halo Reach with controller (NEW)
+<br>
+Call of Duty: Modern warfare 2
+<br>
+
+<br>
+Nintendo
+<br>
+Travel  Bag  holds 12 games
+<br>
+Drawn to life: next chapter
+<br>
+Deal or no  deal
+<br>
+Big Brain
+<br>
+
+<br>
+
+<br>
+and much more!!!!!! 
+<br>
+
+
+<br>
+
+
+SATURDAY  APRIL 23rd 9-12pm
+<br>
+
+7184 ALDER SPRING WAY
+SAN JOSE, CA 95139
+
+
+
+<br><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:59:42-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335297770.html</dc:source>
+<dc:title><![CDATA[Moving Sale (san jose south)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:59:42-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335294118.html">
+<title><![CDATA[Moving Sale (San Ramon) $1]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335294118.html</link>
+<description><![CDATA[Ready May 8th
+<br>
+
+<br>
+
+<br>
+
+<br>
+1 Large refrigerator(white)- $75
+<br>
+
+<br>
+1 Apartment size refrigerator(white)-$45
+<br>
+
+<br>
+1 Washer(white) - $50
+<br>
+
+<br>
+1 Large Office Desk (dark oak) - $150
+<br>
+
+<br>
+1 Couch w/ottoman(beige) - $50
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+Will post pictures shortly. 
+<br>
+
+<br>
+Email if you have any questions. Only serious buyers please reply.
+<br>
+
+<br>
+
+<br>
+Thank you.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=San Ramon -->Location: San Ramon
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:58:22-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335294118.html</dc:source>
+<dc:title><![CDATA[Moving Sale (San Ramon) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:58:22-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335286987.html">
+<title><![CDATA[Sofa ,Beds,TV,Home Theatre,VCR  etc (sunnyvale)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335286987.html</link>
+<description><![CDATA[All Prices are negotiable!! since we r moving out everything must Go........................... 
+<br>
+
+<br>
+1)Sofa and Loveseat from JCPenny in a very good condition 2.5yrs old. Material is microfiber & can be easily cleaned: $700 (orignal price $1400) 
+<br>
+
+<br>
+2)Standard/Eastern King sized bed with extra firm mattress (bought from King Futon, San Jose):$200 
+<br>
+3) Double sized bed (convertible) with extra firm mattress from king futon, San Jose:$100 
+<br>
+4) coffee table :$15 
+<br>
+5)End Table with drawer:$15 
+<br>
+
+<br>
+Electronics:
+<br>
+1)panasonic home theatre SAHT920 :5 disc DVD player Music System( with wooofer ,side , surround speakers) : $100 
+<br>
+2)VCR : $20 
+<br>
+3)29" sharp TV(CRT) : $50 
+<br>
+4) entertainment center free 
+<br>
+
+<br>
+Toys:
+<br>
+1) Chicco infant gym -$20 condition -new 
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:54:32-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335286987.html</dc:source>
+<dc:title><![CDATA[Sofa ,Beds,TV,Home Theatre,VCR  etc (sunnyvale)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:54:32-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335281476.html">
+<title><![CDATA[SUNDAY 4/24 Moving Sale Everything has to go! (russian hill)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335281476.html</link>
+<description><![CDATA[I'm moving in two weeks and whatever doesn't fit in a bag or a suitcase is going. I mostly have knik knacks and bedroom stuff. I am selling a computer desk for $10.  Please come and dig through my stuff and make an offer. 
+<br>
+
+<br>
+Located on Hyde St. between Union and Green. 
+<br>
+Starts at 10am.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:52:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335281476.html</dc:source>
+<dc:title><![CDATA[SUNDAY 4/24 Moving Sale Everything has to go! (russian hill)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:52:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335276085.html">
+<title><![CDATA[estate/garage sale (daly city)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335276085.html</link>
+<description><![CDATA[<br>
+
+<br>
+
+<br>
+
+<br>
+we are having an estate sale fri  4.22 & sat 4.23 thats when you can take a look at the item.  sorry cant show you before hand. 
+<br>
+144 Miriam St.
+<br>
+john daly and vista grande ave
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+selling  maytag fridge, electric hot point stove, hospital bed, bedroom sets, bassette 8 seat dining room table, side tables and bar set and more!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:49:13-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335276085.html</dc:source>
+<dc:title><![CDATA[estate/garage sale (daly city)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:49:13-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335266705.html">
+<title><![CDATA[LADDERS (richmond / point / annex) $75]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335266705.html</link>
+<description><![CDATA[We are selling 2 tall wooden ladders
+<br>
+-Louisville ladder
+<br>
+-Werner ladder
+<br>
+
+<br>
+$75 each<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:47:59-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335266705.html</dc:source>
+<dc:title><![CDATA[LADDERS (richmond / point / annex) $75]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:47:59-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335267476.html">
+<title><![CDATA[Moving Out of State Sale (vallejo / benicia)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335267476.html</link>
+<description><![CDATA[Brown suede sofa and matching oversized chair
+<br>
+Golden/bronze glass table with 4 matching chairs
+<br>
+White cast iron bed frame - twin/full
+<br>
+Vizio flat screen tv with black swivel stand
+<br>
+Best selling books
+<br>
+Childrens clothes ( boys/girls age 10 thru 12)
+<br>
+Toys
+<br>
+Grill
+<br>
+Vases/dishes and so much more! 
+<br>
+
+<br>
+Saturday, April 23rd from 8am to 1pm at 120 Ohio Street, Vallejo - Please call 707.297.0329 if you would like to inquire about the furniture. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:45:09-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335267476.html</dc:source>
+<dc:title><![CDATA[Moving Out of State Sale (vallejo / benicia)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:45:09-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335261195.html">
+<title><![CDATA[ garden sale (santa rosa)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335261195.html</link>
+<description><![CDATA[we will be selling benches, columns, fire place, tables, limestone carvings  
+<br>
+
+<br>
+
+<br>
+we will be starting sunday the 24th at 8am 1975 russell ave santa rosa 94503
+<br>
+
+<br>
+chivaranoldworld.com 
+<br>
+
+<br>
+or email  for more info<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:42:07-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335261195.html</dc:source>
+<dc:title><![CDATA[ garden sale (santa rosa)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:42:07-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335253892.html">
+<title><![CDATA[BEAUTIFUL VINTAGE FLOWER VASE WALL DECORATION  (cupertino) $125]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335253892.html</link>
+<description><![CDATA[This is a vintage Flower in Vase wall decoration / art. It's about 3 ft. tall and it sits flat / flush against the wall. It protrudes about 4 inches out when it is mounted.
+<br>
+
+<br>
+House was furnished with vintage furniture and art in the 1960's
+<br>
+
+<br>
+The vase is bronze / gold in color and the flowers are varied.
+
+Price: $125 OR BEST OFFER
+<br>
+
+<br>
+<img src="http://img714.imageshack.us/img714/9933/dscn0205wb.jpg" height="500"></a><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:38:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335253892.html</dc:source>
+<dc:title><![CDATA[BEAUTIFUL VINTAGE FLOWER VASE WALL DECORATION  (cupertino) $125]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:38:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335208007.html">
+<title><![CDATA[We're Moving to New York, Everything Must Go! (SOMA / south beach)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335208007.html</link>
+<description><![CDATA[We're downsizing for New York City and you benefit from the bargains!
+<br>
+
+<br>
+- Furniture
+<br>
+- Housewares
+<br>
+- Appliances
+<br>
+- More!
+<br>
+
+<br>
+Check out our online sale page for more details on items and availability: 
+<br>
+
+<br>
+<a href="http://www.2398thstreet.com" rel="nofollow">http://www.2398thstreet.com</a>
+<br>
+
+<br>
+* We are entertaining all offers!
+<br>
+* We accept all major credit cards via Square!
+<br>
+* Everything must go!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:17:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335208007.html</dc:source>
+<dc:title><![CDATA[We're Moving to New York, Everything Must Go! (SOMA / south beach)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:17:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335185946.html">
+<title><![CDATA[MOVING SALE....PRIVATE.....APPT. ONLY (napa county)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335185946.html</link>
+<description><![CDATA[Private       MOVING SALE       By Appointment 
+<br>
+
+<br>
+Dealers Welcome 707 536 6743
+<br>
+
+<br>
+April 22, 23, 24
+<br>
+
+<br>
+Fine Art by Inez Helen Seibert/deceased
+<br>
+ 
+<br>
+Fine Art by Ralph Stone  Jacobs/New Hampshire artist
+<br>
+
+<br>
+Scandinavian Erotic Lithos
+<br>
+
+<br>
+Brown and Saltman 5 pc. Bedroom set
+<br>
+(needs some tender loving care)
+<br>
+
+<br>
+queen bed (2 yrs. old)
+<br>
+
+<br>
+Wonder Chambers by artist
+<br>
+
+<br>
+*****
+<br>
+
+<br>
+ladies L - XL clothes
+<br>
+
+<br>
+Small decor items
+<br>
+
+<br>
+Tie Dye by Artist
+<br>
+
+<br>
+707.536.6743<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:14:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335185946.html</dc:source>
+<dc:title><![CDATA[MOVING SALE....PRIVATE.....APPT. ONLY (napa county)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:14:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335174589.html">
+<title><![CDATA[Huge Rummage Sale (mill valley)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335174589.html</link>
+<description><![CDATA[Thousands of items… clothes, appliances, household goods, jewelry, books and more are on sale at the Buddhist Temple of Marin Semi-Annual Rummage Sale, Saturday Apr. 23 from 10am-4pm, and Sunday Apr. 24 from 11am-3pm.
+<br>
+
+<br>
+The temple is located at 390 Miller Avenue in Mill Valley, just north of Whole Foods.
+<br>
+
+<br>
+For more information, go to the events section of the temple’s website at www.buddhisttempleofmarin.org.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T14:01:58-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335174589.html</dc:source>
+<dc:title><![CDATA[Huge Rummage Sale (mill valley)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T14:01:58-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335167037.html">
+<title><![CDATA[downsizing sale (foster city)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335167037.html</link>
+<description><![CDATA[hi
+<br>
+i have couple of things which i need to downsize .
+<br>
+
+<br>
+1.dinning table(with 4 chairs)n can be easily taken in any sedan-foldable -$35
+<br>
+2.tv stand -$10
+<br>
+3.wooden chair -$5
+<br>
+4.sofa with love seat -$80(also has a matching carpet) all for $100
+<br>
+5.oster mixer-$7
+<br>
+6.dinner set(mainstay brand of walmart) 14 pcs(2 coffee mug is missing)-$8
+<br>
+7.iron box-$4
+<br>
+will email the pics on demand.all stuffs are in good condition.email and leave your name with phone number
+<br>
+thankyou.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:57:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335167037.html</dc:source>
+<dc:title><![CDATA[downsizing sale (foster city)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:57:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335121529.html">
+<title><![CDATA[Garage Sale 9 am to 3pm 2719 Whipple Ave (redwood city)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335121529.html</link>
+<description><![CDATA[We will have alot of clothes mostly for the following sizes.
+<br>
+Womans Medium and Large
+<br>
+Mens Large
+<br>
+Womens Shoes
+<br>
+
+<br>
+Children
+<br>
+Boys 1-4
+<br>
+Girls 1-4
+<br>
+xbox video games, vhs tapes, beenie babies, children toys, books etc... baseball cards
+<br>
+shoes, purses<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:50:21-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335121529.html</dc:source>
+<dc:title><![CDATA[Garage Sale 9 am to 3pm 2719 Whipple Ave (redwood city)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:50:21-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335140714.html">
+<title><![CDATA[Huge Garage Sale -Sat 4/23 - 535 Patterson Bl - PH (concord / pleasant hill / martinez)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335140714.html</link>
+<description><![CDATA[Huge sale - Lots of kids toys and books, household decorating goods, clothing, some furniture, exercise bike -  and lots more...
+<br>
+
+<br>
+
+<br>
+SAT 4/23 - 535 Patterson Blvd - Pleasant Hill - ACF Safeway at Oak Park - 9-3...See you there.
+<br>
+
+<br>
+CHECK BACK FOR PHOTOS<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:47:38-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335140714.html</dc:source>
+<dc:title><![CDATA[Huge Garage Sale -Sat 4/23 - 535 Patterson Bl - PH (concord / pleasant hill / martinez)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:47:38-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2335141903.html">
+<title><![CDATA[FOLLOW OUR YELLOW SIGNS, Huge Benefit Yard Sale, Multi Family (sunnyvale) $1]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2335141903.html</link>
+<description><![CDATA[Follow the YELLOW signs to the HUGE YARD SALE benefiting Laurelwood Preschool.
+<br>
+
+<br>
+Friday April 22, 8 am - 3 pm
+<br>
+Saturday April 23, 8 am - 3 pm
+<br>
+No early birds, cash only, no $50 and no $100 bills.
+<br>
+
+<br>
+You've seen our Craig's List ads this month - THIS IS IT!
+<br>
+Here's our constantly expanding Flickr Photo Set - Enjoy!
+<br>
+<a href="http://www.flickr.com/photos/10995157@N00/sets/72157626444835478/" rel="nofollow">http://www.flickr.com/photos/10995157@N00/sets/72157626444835478/</a>
+<br>
+
+<br>
+Follow the YELLOW SIGNS to the corner of Lochinvar Ave and Kerry Avenues in Sunnyvale.
+<br>
+
+<br>
+There's a yummy bake sale, too!
+<br>
+
+<br>
+RECENT ADDITIONS!
+<br>
+Step 2 Storybook Cottage and Woodland Climber
+<br>
+
+<br>
+BABY AND KID GEAR
+<br>
+Chicco Travel System
+<br>
+Chicco Polly High Chair
+<br>
+Maclaren Twin Triumph Stroller
+<br>
+Peg Perego Pliko P3 Stroller
+<br>
+Mobiles, Booster Seats for dining chairs,
+<br>
+Sets of Cloth diapers, several varieties
+<br>
+Kelty Carrier Elite, very gently used
+<br>
+Two Life jackets
+<br>
+Plastic Toddler high chair (for attaching big chairs)
+<br>
+High chair for attaching to tables,
+<br>
+
+<br>
+CLOTHES
+<br>
+Children's Clothes - infant boy and girl, toddler boy and girl, kids, teens, costumes.
+<br>
+Costumes - Elmo, Pirate, Superheros, Princesses, Witches' hat, Dora, Robin (of Batman and Robin), Pirate, Star Wars, Ninja, Batman,
+<br>
+Holiday Dresses for little girls, Special occasion dresses for ladies,
+<br>
+Men's Clothes - Pajamas, Casual short and long sleeved shirts, Button up short sleeved shirts, work wear, ties, bathrobe
+<br>
+
+<br>
+TOYS
+<br>
+Big Plastic Toddler and Kid Toys - Fisher Price, Step 2, Little Tykes,
+<br>
+Ride-On Plastic Cars - Four Little Tykes Cars (Gently Used and Used), Toddler Slide, Plastic Kitchen,
+<br>
+Kids' Bikes - two boys' bikes and one toddler bike
+<br>
+Ride On Fire Engine - metal, with bell and lights
+<br>
+Lots of complete puzzles & Games
+<br>
+Leap Frog Little Touch Leap Pad system with two Books
+<br>
+Leap Frog Leap Pad Cartridges and Books
+<br>
+Little People, Fisher Price, Little Tykes, Step 2
+<br>
+Little Tykes toddler work bench, Playskool Spinning Toys, Disney, Erector Set, Fisher Price Garage,
+<br>
+
+<br>
+HOUSEWARES
+<br>
+Espresso Maker, Wand Blenders, Kitchen Pots and Pans, Knife Set, Dishes, Silverware,
+<br>
+J. A Henkels Knife set
+<br>
+Stainless Steel silverware set for 6-8
+<br>
+Blue and white teacups with saucers (for 6),
+<br>
+Sheets and Curtains - new in package and used
+<br>
+Vases and Baskets
+<br>
+Picture Frames - and Photo Albums
+<br>
+Rugs, including one Pottery Barn Kids' Rug
+<br>
+
+<br>
+SPORTS
+<br>
+Skis and Poles, several sets
+<br>
+Tennis Rackets
+<br>
+Bikes for Kids
+<br>
+
+<br>
+ELECTRONICS and TOOLS
+<br>
+Saw Horses - two Stanley brand sawhorses, in good condition
+<br>
+PC Speaker sets
+<br>
+Harmon Karden Speaker Set
+<br>
+Phones
+<br>
+Mower - Push Mower
+<br>
+Seed Spreader/Fertilizer - Craftsman
+<br>
+Electronics - alarm clocks, analog phones
+<br>
+Kodak Picture Scanner System
+<br>
+WIFI products
+<br>
+Electric Scissors
+<br>
+
+<br>
+BOOKS, GAMES, VIDEO/DVD/CD
+<br>
+Children's Books - 25 cents
+<br>
+Paperback books = 25 cents
+<br>
+Hardback books = $1.00
+<br>
+DVDs $1.00 (including HUGE set of Baby Einstein)
+<br>
+CDs $1.00
+<br>
+VHS 25 cents
+<br>
+
+<br>
+HOME & GARDEN
+<br>
+Tools
+<br>
+Hedge Trimmers
+<br>
+Vent Filters
+<br>
+Brita Water Filters
+<br>
+White Bathroom Hanging Storage Cabinet, Black Entertainment Stand, Stools, Side Tables,
+<br>
+Office Supplies
+<br>
+Upright Fans
+<br>
+Antiqued Bronze Hanging Lamp
+<br>
+Blue Glass Adjustable Height Corner Desk
+<br>
+
+<br>
+CRAFT/SEW/HOLIDAY
+<br>
+Craft Supplies/Sewing/Fabric/Holiday Decorating/Party Supplies
+<br>
+Party kit - decorations and crafts for an Ocean/Under The Sea themed party
+<br>
+Fabric, Sewing Stuff, Buttons
+<br>
+
+<br>
+And if you are looking for a wonderful 3/4s and 4/5s preschool program, check out www.laurelwoodpreschool.com.
+<br>
+
+<br>
+See you there!!!!!!
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:47:12-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2335141903.html</dc:source>
+<dc:title><![CDATA[FOLLOW OUR YELLOW SIGNS, Huge Benefit Yard Sale, Multi Family (sunnyvale) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:47:12-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2335131268.html">
+<title><![CDATA[huge sale - lambretta, Nintendo DS, Epiphon Guitar and ikea furniture  (hayes valley)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2335131268.html</link>
+<description><![CDATA[I'm moving and having a huge sale! I've posted images of about 3/4 of the stuff here:
+<br>
+<a href="http://virtualhayesvalleystoopsale.tumblr.com" rel="nofollow">http://virtualhayesvalleystoopsale.tumblr.com</a>
+<br>
+
+<br>
+Please email me if you're interested in purchasing something.
+<br>
+
+<br>
+- 1962 lambreta
+<br>
+- igloo cooler
+<br>
+- eddie bauer tent
+<br>
+- waterford crystal wine glasses
+<br>
+- ikea coffee table
+<br>
+- ikea side chair
+<br>
+- 3 quart iced tea pot
+<br>
+- pots
+<br>
+- wooden salad bowls 
+<br>
+- hd aptex video camera
+<br>
+- ikea desk
+<br>
+- ikea file cabinet
+<br>
+- guitar
+<br>
+- antique picture
+<br>
+- pollen catcher fan
+<br>
+- rival mini crock pot
+<br>
+- red cruiser bicycle
+<br>
+-cushy ikea chair
+<br>
+
+<br>
+- nintendo ds
+<br>
+
+<br>
+
+<br>
+- rabbit corkscrew
+<br>
+
+<br>
+
+<br>
+- cannon scanner
+<br>
+
+<br>
+
+<br>
+- wine rack
+<br>
+
+<br>
+
+<br>
+- nintendo game cube controllers
+<br>
+
+<br>
+
+<br>
+- ribba ikea frame
+<br>
+
+<br>
+
+<br>
+- red cruiser bicycle 
+<br>
+
+<br>
+
+<br>
+- ikea storage shelf
+<br>
+
+<br>
+
+<br>
+- ikea billy bookshelf
+<br>
+
+<br>
+
+<br>
+- simple human trash bag holder
+<br>
+
+<br>
+
+<br>
+- 2 ikea gilbert chair
+<br>
+
+<br>
+
+<br>
+- fun yellow chair
+<br>
+
+<br>
+
+<br>
+- westcott 8 ft lightweight stand
+<br>
+
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:42:05-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2335131268.html</dc:source>
+<dc:title><![CDATA[huge sale - lambretta, Nintendo DS, Epiphon Guitar and ikea furniture  (hayes valley)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:42:05-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335111860.html">
+<title><![CDATA[Vacuum (hercules, pinole, san pablo, el sob) $30]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335111860.html</link>
+<description><![CDATA[I have a fantastically working Dirt Devil for sale for $30.00 !!
+<br>
+
+<br>
+Please pick up in El Sobrante
+<br>
+
+<br>
+Thanks!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:33:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335111860.html</dc:source>
+<dc:title><![CDATA[Vacuum (hercules, pinole, san pablo, el sob) $30]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:33:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335049621.html">
+<title><![CDATA[Garage Sale (Many Items) SAT 4/23 (brentwood / oakley) $1]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335049621.html</link>
+<description><![CDATA[GARAGE SALE SATURDAY 4/23 - FROM 8AM TO 3PM @ 4635 WENTE CT. OAKLEY
+<br>
+LOTS OF GOOD STUFF FOR EVERYONE:
+<br>
+THERE WILL BE TOOLS AND TOOL BOXES, MECHANIC EQUIPMENT, HOUSEHOLD ITEMS, TOYS, CLOTHES, FRAMED PAINTINGS, BOOKS, MOVIES, EXERCISE DVD'S AND EQUIPMENT, ELECTRONICS, WINDOW COVERINGS, POWERWHEELS, AND A GO CART. 
+<br>
+PLUS MANY OTHER ITEMS
+<br>
+
+<br>
+COME ON BY AND CHECK IT OUT , NO EARLY BIRDS PLEASE WE WILL NOT BE READY TILL 8AM
+<br>
+
+<br>
+THANK YOU<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:05:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335049621.html</dc:source>
+<dc:title><![CDATA[Garage Sale (Many Items) SAT 4/23 (brentwood / oakley) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:05:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2335041933.html">
+<title><![CDATA[Moving Sale - (fremont / union city / newark) $1000]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2335041933.html</link>
+<description><![CDATA[2 leather Sofa *4 & 2 seater), Sofa center table. 2 queen bed with unopened Box - New Englander & Serta. Wooden Dining Table with 4 Chair. 4 big / medium wooden case for clothes/books/toys. Most bought since 2008. 27 inch flat screen TV. 1 vaccuum cleaner. 1 study table with leather rotating chair. 1 grill bought in 2011. TV stand.
+<br>
+
+<br>
+All above for $1000
+<br>
+
+<br>
+Thanks,
+<br>
+Satyendra
+<br>
+510-402-4337<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:02:31-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2335041933.html</dc:source>
+<dc:title><![CDATA[Moving Sale - (fremont / union city / newark) $1000]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:02:31-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2335017881.html">
+<title><![CDATA[VivaTerra Sample Sale (san rafael)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2335017881.html</link>
+<description><![CDATA[Home furnishings and decor cataloger VivaTerra is having a sample sale at it's offices this Friday.
+<br>
+
+<br>
+When - Fri, April 22nd 10AM to 4PM
+<br>
+Where - 2171 East Francisco Blvd. Suite I, San Rafael, CA 94901
+<br>
+What - furniture, home decor, bedding, rugs, dinnerware, bags, apparel and more. All merchandise is photo samples, damaged returns or overstocks.
+<br>
+
+<br>
+Cash and check only. Merchandise is sold as is and cannot be returned.
+<br>
+
+<br>
+<a href="http://www.vivaterra.com/sample-sale" rel="nofollow">http://www.vivaterra.com/sample-sale</a>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T13:00:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2335017881.html</dc:source>
+<dc:title><![CDATA[VivaTerra Sample Sale (san rafael)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T13:00:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2335010174.html">
+<title><![CDATA[Parking lot Rummage Sale (redwood city) $30]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2335010174.html</link>
+<description><![CDATA[The Redwood City Elks Lodge is having their annual parking lot rummage sale June 11, 2011. Come check out the amazing variety of items for sale!Wilmington Way off Jefferson in Emerald Hills. If you are interested in a booth yourself please contact me via this email or call the Lodge directly. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:49:08-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2335010174.html</dc:source>
+<dc:title><![CDATA[Parking lot Rummage Sale (redwood city) $30]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:49:08-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334985605.html">
+<title><![CDATA[tanks, shoe racks, table, foreman grill (san jose south) $10]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334985605.html</link>
+<description><![CDATA[two light color ply wood shoe racks or adding extra shelving in your closet.  two levels.  $10 each
+<br>
+three level metal shoe rack very sturdy.  $25
+<br>
+100+ gallon glass tank with brown gravel and floating rock with light fixture and covering needs cleaning $50
+<br>
+reptile tank with plants and fixture $50
+<br>
+30 gallon plexi glass tank with blue gravel needs cleaning $35
+<br>
+foreman grill never used  $15
+<br>
+Foreman mini rotisserie $30
+<br>
+table under tank $30 great condition<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:39:20-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334985605.html</dc:source>
+<dc:title><![CDATA[tanks, shoe racks, table, foreman grill (san jose south) $10]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:39:20-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334975526.html">
+<title><![CDATA[moving sale  (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334975526.html</link>
+<description><![CDATA[need to sell asap 3pc brown microfiber suede like new ,ford rims ,gmc radio, exercise bike (aerobic rider),cal king bed and boxsping and more please call for more info 510 491 6343<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:34:30-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334975526.html</dc:source>
+<dc:title><![CDATA[moving sale  (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:34:30-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334950771.html">
+<title><![CDATA[Garage Sale - Bikes, Exercise Equipment, Toys, and Misc  (san jose south)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334950771.html</link>
+<description><![CDATA[There will be a garage sale in South San Jose, Almaden Area. 
+<br>
+
+<br>
+The Garage Sale will take place on Saturday, April 23, 2011 and will begin at 8:30am. 
+<br>
+
+<br>
+It is located at: 
+<br>
+6543 Leyland Park Dr. 
+<br>
+San Jose, CA 95120 
+<br>
+
+<br>
+Directly across from Castillero Middle School. 
+<br>
+
+<br>
+Although we have not compiled all of the items we will be selling, I can list what we have thus far: 
+<br>
+
+<br>
+(3) Mountain Bikes 
+<br>
+Computer desk 
+<br>
+Rowing Machine
+<br>
+Stationary Bike 
+<br>
+Exercise Stepper 
+<br>
+Punching Bag 
+<br>
+Full Drum Set only 2 1/2 years old 
+<br>
+Miscellaneous Toys 
+<br>
+Some clothing 
+<br>
+Books 
+<br>
+Rolling Laptop Table 
+<br>
+Back 2 Life (Back Machine) 
+<br>
+13 inch Television 
+<br>
+Plastic Shelving Units 
+<br>
+
+<br>
+THERE WILL BE MORE! 
+<br>
+
+<br>
+Hope to see you there :) 
+<br>
+
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:24:49-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334950771.html</dc:source>
+<dc:title><![CDATA[Garage Sale - Bikes, Exercise Equipment, Toys, and Misc  (san jose south)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:24:49-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334943999.html">
+<title><![CDATA[Computer / network equipment (santa clara) $2]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334943999.html</link>
+<description><![CDATA[In the ally on Newhall at Winchester
+<br>
+Saturday only 4/23 from 9am - 1pm
+<br>
+
+<br>
+CPU cases
+<br>
+IBM RISC 6000
+<br>
+HP desktop equipped... Just needs hard drive
+<br>
+Microcom  modems
+<br>
+Motorola fractional T1 modem
+<br>
+16 port concentrators
+<br>
+HP printer scanner fax
+<br>
+Rack, shelves & rack mountable equipment
+<br>
+Cables and more...
+<br>
+
+<br>
+All must go. All fair offers for any or all equipment will be accepted.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:21:27-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334943999.html</dc:source>
+<dc:title><![CDATA[Computer / network equipment (santa clara) $2]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:21:27-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2334922775.html">
+<title><![CDATA[WEEKEND MOVING SALE (south san francisco)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2334922775.html</link>
+<description><![CDATA[RESPOND FOR DETAILS
+<br>
+
+<br>
+LOTS OF NICE FURNISHINGS
+<br>
+ART
+<br>
+2 SOFAS
+<br>
+DINING ROOM SOLID WOOD TABLE
+<br>
+HIGH END WALL UNIT
+<br>
+MIRRORS
+<br>
+TABLE LAMPS
+<br>
+COFFEE TABLE
+<br>
+
+<br>
+SOSF/DALY CITY BORDER  RIGHT BELOW SKYLINE BETWEEN WESTBOROUGH AND HICKEY<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:12:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2334922775.html</dc:source>
+<dc:title><![CDATA[WEEKEND MOVING SALE (south san francisco)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:12:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334891402.html">
+<title><![CDATA[Fremont Garage Sale 4/23 Sat. Mowry & Blacow  (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334891402.html</link>
+<description><![CDATA[GARAGE SALE SATURDAY 4/23  
+<br>
+
+<br>
+10:00-3:00
+<br>
+
+<br>
+MOWRY & BLACOW RD.
+<br>
+
+<br>
+MISCELLANEOUS THINGS STOP BY TO SEE!!!!!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T12:01:09-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334891402.html</dc:source>
+<dc:title><![CDATA[Fremont Garage Sale 4/23 Sat. Mowry & Blacow  (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T12:01:09-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334861808.html">
+<title><![CDATA[Dog enclosure and Dog house]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334861808.html</link>
+<description><![CDATA[Dog chain link enclosure 4ft tall x 5ft wide.  Dog house for small dog.  You take down and remove.  I am taking the best offer<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T11:47:46-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334861808.html</dc:source>
+<dc:title><![CDATA[Dog enclosure and Dog house]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T11:47:46-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2334837557.html">
+<title><![CDATA[Garage Sale (fairfax)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2334837557.html</link>
+<description><![CDATA[Sat. April 23 only, 9 am - 3 pm, 214 Marinda Dr., Fairfax, CA 94930.  Household/kitchen items, clothing, books, tools, Fostoria American, linens, oak furniture (buffet, dresser, 4 DR chairs, filing cabinet), Xmas tree stand, dog ramp, potting bench, fireplace screen & tools, vases, framed pictures, knick-knacks<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T11:42:20-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2334837557.html</dc:source>
+<dc:title><![CDATA[Garage Sale (fairfax)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T11:42:20-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2334804212.html">
+<title><![CDATA[Three-family moving sale 4/23 only! (sunset / parkside)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2334804212.html</link>
+<description><![CDATA[A three-family yard/moving sale on 17th Ave. btw Pacheco and Quintara on Saturday, 4/23, 11 am - 4 pm. Beautiful round dining room table, large oval coffee table, set of six antique dining room chairs with needlepoint seats, four-drawer antique wooden filing cabinet, 1930s small armoire with amazing amounts of storage, stainless steel-topped kitchen island, four-shelf chrome rack, chrome rolling clothes hanging racks with top and bottom shelves (large), bookshelves, darling white wicker antique writing desk and matching wicker chair, artwork, antique wall-hung display shelves, end tables, gorgeous throne-like Victorian wing chair with both upholstery AND a fitted custom slip-cover in pristine condition, vases, designer handbags, place mats, decorative objects, collectables, AND MORE!
+<br>
+
+<br>
+We also have two VERY large armoires, one beautiful polished wood antique with deep fixed shelves and LOTS of storage ($425), and one country antique, also with deep fixed shelves mixed with hanging storage ($310). They are in a garage around the corner from the site of the antique sale. Please inquire if interested -- they're big and heavy and you will have to find a way to move them yourself. Those are great prices for these pieces.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T11:26:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2334804212.html</dc:source>
+<dc:title><![CDATA[Three-family moving sale 4/23 only! (sunset / parkside)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T11:26:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334804090.html">
+<title><![CDATA[Albany El Cerrito Citywide Garage Sales (albany / el cerrito)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334804090.html</link>
+<description><![CDATA[El Cerrito & Albany - 2 Citywide Garage Sales
+<br>
+El Cerrito - Satruday, May 7th
+<br>
+Albany - Saturday, May 14th
+<br>
+
+<br>
+Shop dozens of sales - 9am - 3pm both days
+<br>
+
+<br>
+Get listings of sales a week in advance - 
+<br>
+El Cerrito: starting 4/29 @ www.el-cerrito.org & El Cerrito Recycling Center - 7501 Schmidt Lane, & Community Center - 7707 Moeser Lane
+<br>
+Albany: starting 5/6 @ www.albanyca.org & Albany City Hall - 1000 San Pablo Avenue, & Community Center - 1249 Marin Avenue<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T11:25:17-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334804090.html</dc:source>
+<dc:title><![CDATA[Albany El Cerrito Citywide Garage Sales (albany / el cerrito)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T11:25:17-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334660046.html">
+<title><![CDATA[Moving sale (sunnyvale) $1]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334660046.html</link>
+<description><![CDATA[Hi,
+<br>
+I have
+<br>
+1. round patio table with 6 plastic chairs for sale $20.
+<br>
+2.Rocking chair $5
+<br>
+3. bread toaster $5
+<br>
+4. 4 unit plastic storage for any items to storage $15
+<br>
+5.Dresser $100 with oval mirror
+<br>
+6.computer table with chair $25
+<br>
+7. microwave stand $10
+<br>
+8. Honnah montanna beach chair $4
+<br>
+9. Dining table with 4 chairs  $60.
+<br>
+<a href="http://furnituredirectkent.com/index.php?main_page=product_info&products_id=16" rel="nofollow">http://furnituredirectkent.com/index.php?main_page=product_info&products_id=16</a>
+<br>
+10.Queen bed with rails  $70
+<br>
+11. Night stand $50
+<br>
+Please call me @408 996 7916.
+<br>
+If you would like to buy
+<br>
+Thanks 
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:30:32-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334660046.html</dc:source>
+<dc:title><![CDATA[Moving sale (sunnyvale) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:30:32-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2334635593.html">
+<title><![CDATA[Sat. 4/23 Garage/Moving Sale (sunset / parkside)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2334635593.html</link>
+<description><![CDATA[Beautiful wood desk with leather top, bookshelves, desk chair, lamps, Pelican case, sports equip, kitchen equip, free sofa in good shape, speakers, small desk, clothing, filing cabinet...
+<br>
+Generously unloading items from the house.
+<br>
+45th Ave at Judah. NW corner.
+<br>
+9am - 4pm.
+<br>
+Sat April 23rd.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:23:54-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2334635593.html</dc:source>
+<dc:title><![CDATA[Sat. 4/23 Garage/Moving Sale (sunset / parkside)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:23:54-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334646532.html">
+<title><![CDATA[April 23 &amp; 24 Estate and office closing sale (dublin / pleasanton / livermore)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334646532.html</link>
+<description><![CDATA[Estate and Office closing Stuff sale: 9 to 4 PM Saturday 23rd and Sunday 24th.
+<br>
+Antiques include Eastlake dining set and love seat, beleek tea set, carnival glass, love seat and chair set Office items include printers, tables, desks, various electronics, refrigerator, etc.
+<br>
+Priced to sell. 2235 Fourth Street, Livermore<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:23:20-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334646532.html</dc:source>
+<dc:title><![CDATA[April 23 &amp; 24 Estate and office closing sale (dublin / pleasanton / livermore)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:23:20-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334611489.html">
+<title><![CDATA[MOVING SALE! Saturday 4/23 8-2 (santa clara)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334611489.html</link>
+<description><![CDATA[Moving Sale from 8am-2pm @ near Las Padres Blvd/Benton St in Santa Clara. Look for brightly colored signs.
+<br>
+
+<br>
+Furniture! Electronics! Trinkets! Books! Framed Pictures! Clothes! Kitchenware! and more...
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:10:19-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334611489.html</dc:source>
+<dc:title><![CDATA[MOVING SALE! Saturday 4/23 8-2 (santa clara)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:10:19-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2334563386.html">
+<title><![CDATA[MOVING SALE! SAT 4/23 9am (burlingame)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2334563386.html</link>
+<description><![CDATA[Moving/Garage sale 
+<br>
+EVERYTHING MUST GO! 
+<br>
+
+<br>
+clothing/shoes/jewelry
+<br>
+candles/decor/books
+<br>
+furniture/pillows/lamps 
+<br>
+
+<br>
+tons of storage containers! 
+<br>
+and more!
+<br>
+
+<br>
+
+<br>
+sorry! forgot to put the date up! 
+<br>
+
+<br>
+1215 CAPUCHINO AVE 
+<br>
+BURLINGAME 
+<br>
+(CROSS STREET BROADWAY) <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:08:53-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2334563386.html</dc:source>
+<dc:title><![CDATA[MOVING SALE! SAT 4/23 9am (burlingame)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:08:53-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334607822.html">
+<title><![CDATA[Moving And Everything Must Go A House Full Of Very High And Furniture (san jose south)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334607822.html</link>
+<description><![CDATA[all of 
+this furniture is less than two months old and in excellent condition the LCD 
+TV is 32 inches and is in great working order their are no rips or marks on sofa 
+set there are no scratches on the bedroom set or dining table as well and the 
+coffee table and end tables it all still looks like new the sofa set is black 
+and made by hand with wood legs the bedroom set and dining table and coffee 
+table and end tables are also balck I purchased this furniture in the city of palo alto 
+
+I must sell everything as soon as possible and will take 
+any reasonable offer the furniture is in the city of Morgan Hill just 15 min. 
+from San Jose and can be viewed anytime call Lisa at (408) 771-3634 thanks 
+
+
+
+
+<br>
+<a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=048.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/048.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=057.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/057.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=058.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/058.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=072.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/072.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=017.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/017.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=010.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/010.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=013.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/013.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=009.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/009.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=008.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/008.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=015.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/015.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=036.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/036.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=038.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/038.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=lisa068.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/lisa068.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=031.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/031.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=035.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/035.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=lisa056.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/lisa056.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=lisa049.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/lisa049.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=lisa043.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/lisa043.jpg" border="0"></a><a href="http://s1221.photobucket.com/albums/dd466/lisa374/?action=view&amp;current=lisa044.jpg" target="_blank" rel="nofollow"><img src="http://i1221.photobucket.com/albums/dd466/lisa374/lisa044.jpg" border="0"></a><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:08:15-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334607822.html</dc:source>
+<dc:title><![CDATA[Moving And Everything Must Go A House Full Of Very High And Furniture (san jose south)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:08:15-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334602199.html">
+<title><![CDATA[              Moving  Sale (san jose south)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334602199.html</link>
+<description><![CDATA[*I HAVE A 1948 CHRYSLER WINDSOR FOR SALE                                                                                                                                                                                                                                             *ANTIQUE  1900 CASH REGISTER                                                                                                                                                                                                                                                                             *BLUE LEATHER RECLINER
+<br>
+*SKY BLUE RECLINER                                                                                                                                                                                                                                                                                                  *RIFLE CABINET                                                                                                                                                                                                                                                                                                        *SEE'S CANDY DOLLS                                                                                                                                                                                                                                                                                       *MICHAEL JORDON USA STARING LINE UP FIGURES                                                                                                                                                                                                                                        *USA MICHAEL JORDAN USA BOOK                                                                                                                                                                                                                                                                      *BROY HILL COFFEE TABLE                                                                                                                                                                                                                                                                                   *BOOK SELF                                                                                                                                                                                                                                                                                                                 *GIRLS DISNEY 16" BIKE  
+<br>
+*SAMSUNG METRO SLIDER 
+<br>
+* PHONE                                                                                                                                                                                                                                                                                     
+<br>
+*LAMPS                                                                                                                                                                                                                                                                                                                     *TOOLS                                                                                                                                                                                                                                                                                                                         *WOMEN VINTAGE COATS W/ FUR AROUND THE COLLAR                                                                                                                                                                                                                                 *SOME NEW DRESSES WITH TAGS ON THEM                                                                                                                                                                                                                                                  *DICKEYS  MEN'S COAT'S {LG. 3X
+<br>
+
+<br>
+CALL 408-600-7088                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T10:06:02-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334602199.html</dc:source>
+<dc:title><![CDATA[              Moving  Sale (san jose south)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T10:06:02-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2334566325.html">
+<title><![CDATA[Rummage Sale (novato)]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2334566325.html</link>
+<description><![CDATA[Loma Verde Elementary School will be hosting a rummage sale on Saturday April 23rd from 9am-4pm.  The address is 399 Alameda de la Loma, Novato 94949. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:54:01-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2334566325.html</dc:source>
+<dc:title><![CDATA[Rummage Sale (novato)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:54:01-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334505869.html">
+<title><![CDATA[Moving sale 04/23 (concord / pleasant hill / martinez)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334505869.html</link>
+<description><![CDATA[Saturday 04/23, moving/garage sale.  Dining room set, TVs, miscellanous tools, miscellanous household items, dishes, glasses, clothes, shoes, costume jewelry 3800 Lornell Court, Concord 7-3.  <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:36:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334505869.html</dc:source>
+<dc:title><![CDATA[Moving sale 04/23 (concord / pleasant hill / martinez)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:36:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2334500573.html">
+<title><![CDATA[Clean Out Sale - Wed 12noon -4pm - 62 Ina Court (excelsior / outer mission)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2334500573.html</link>
+<description><![CDATA[CLEAN OUT SALE – Wed 4/20  12noon – 4pm /// 62 Ina Court / La Grande (right near Moscow & Avalon Streets – Excelsior District of S. F.
+<br>
+
+<br>
+There is a lot of old furniture pieces (curio cabinet, green painted buffet, kitchen table / 4 chairs, chests, bookcases, cute oak claw table, benches, tables, chairs, cabinets, etc), MANY OLD FRAMED ARTWORKS, lots of tools, tons of sewing notions (lace, linen, supplies, materials, fabrics, crotchet, etc), figurines, LOTS OF SMALLS (figurines, vases, china, lamps, wood carvings, TOOLS, books, kitchen & garage items, MUCH MORE – Again this only for 4 hours Wed 12 noon – 4pm
+<br>
+
+<br>
+Sorry these are the only photos available but they will give you a rough idea what is available. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:31:17-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2334500573.html</dc:source>
+<dc:title><![CDATA[Clean Out Sale - Wed 12noon -4pm - 62 Ina Court (excelsior / outer mission)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:31:17-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334503488.html">
+<title><![CDATA[Moving Sale Saturday (berkeley)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334503488.html</link>
+<description><![CDATA[Moving sale Saturday, April 23rd. 2619 Regent Street, Cottage A. There's a cottage behind the main house, walk down the driveway to the cottage. You'll see me. I have a great picnic umbrella table ($85)an oak sleigh bed (Double, with firm mattress and box spring, $250) an oak dresser ($150) an oak rocking chair ($75) a hand made chest, a hand made tool box, a cast iron bed frame (twin), a computer desk, shelves, pots and pans, misc items. Call me before the sale---any time---if you'd like to see any of the items. We can set up a convenient time for you to stop by. I'm in Berkeley, near Willard Park. Thanks. Greg. 415-420-0393<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:29:33-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334503488.html</dc:source>
+<dc:title><![CDATA[Moving Sale Saturday (berkeley)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:29:33-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2334467198.html">
+<title><![CDATA[Garage Sale - Saturday 4/23 - 8-1pm (san mateo) $1]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2334467198.html</link>
+<description><![CDATA[1508 York Avenue, san mateo
+<br>
+
+<br>
+we'll have shoes, clothes, lamps, children's toys, baby gear . . .  and a whole lot more!  
+<br>
+
+<br>
+we potentially will have an outdoor umbrella, an outdoor bistro set (3 chairs/small round table), round maroon rug w/ pad.  these are all posted on CL separately.  please call with any questions. 650-391-8857
+<br>
+
+<br>
+great prices!!!  <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:15:36-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2334467198.html</dc:source>
+<dc:title><![CDATA[Garage Sale - Saturday 4/23 - 8-1pm (san mateo) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:15:36-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334463168.html">
+<title><![CDATA[Garage Sale (pittsburg / antioch) $1]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334463168.html</link>
+<description><![CDATA[Garage sale Saturday April 30, 2011 starting at 7am. 2629 Silverado Drive Antioch CA. Please no email responses about this post. We will have the following and much more for sale:
+<br>
+*Books *Clothes *Work Clothes Men/Women *Coffee Table/End Table *Dinner Wear *Silverwear *Movies *Home Decorations *Nice Bedding *Games *Kitchen Wear *Throw Pillows *Storage Containers *Shoe Racks *Desk *Dresser *TV *DVD Player <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:15:19-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334463168.html</dc:source>
+<dc:title><![CDATA[Garage Sale (pittsburg / antioch) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:15:19-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/gms/2334452286.html">
+<title><![CDATA[**** GARAGE SALE****SAT.23RD***9-4 (fremont / union city / newark)]]></title>
+<link>http://sfbay.craigslist.org/eby/gms/2334452286.html</link>
+<description><![CDATA[GARAGE SALE - SATURDAY - APRIL 23RD FROM   9-4. 
+<br>
+
+<br>
+ TV'S, DRESSER, GIRLS CLOTHING, WOMENS CLOTHING, TOYS, BOOKS AND MORE.
+<br>
+
+<br>
+38176 FARWELL DRIVE, FREMONT CA (RIGHT NEXT TO MATTOS ELEMENTARY SCHOOL)<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:11:13-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/gms/2334452286.html</dc:source>
+<dc:title><![CDATA[**** GARAGE SALE****SAT.23RD***9-4 (fremont / union city / newark)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:11:13-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/nby/gms/2334445648.html">
+<title><![CDATA[Big Fat Garage Sale/ 2nd One (rohnert pk / cotati) $1]]></title>
+<link>http://sfbay.craigslist.org/nby/gms/2334445648.html</link>
+<description><![CDATA[Come One Come All to our 2nd Annual Big Fat Garage Sale on 4/23 Saturday at 8 a.m. to ? Multi- family member's have been cleaning out closets, garages and such and ready for you to come and buy! So far we have Picture frames, candle holders, kitchen stuff, Clothes ranging in sizes Small - Plus Size, Shoes, Baby items, household wares, Beautiful Sewing table with storage Bench for $10!! I'm sure you'll find something to take off our hands!!  Sale is at 556 Baron Drive Rohnert Park/ Cross street is Burton Ave. we are at the end of street, plenty of parking and hope to see you all!!  (Early Birds what can I say except none of us will answer ????? about items until 8 am)<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T09:06:06-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/nby/gms/2334445648.html</dc:source>
+<dc:title><![CDATA[Big Fat Garage Sale/ 2nd One (rohnert pk / cotati) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T09:06:06-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/pen/gms/2334388962.html">
+<title><![CDATA[&#9618;&#9619;&#9608;&#9658;Moving Sale...EVERYTHING MUST GO TODAY!!! (redwood city)]]></title>
+<link>http://sfbay.craigslist.org/pen/gms/2334388962.html</link>
+<description><![CDATA[We're moving and need to get rid of a few things ASAP!!! Please call if interested (650) 208-9554. These are only suggested prices...we REALLY need to get rid of this stuff NOW!
+<br>
+<br>
+We have the following items for sale:
+<br>
+<br>
+Medela Breast Pump - Pump in Style backpack - $80/obo
+<br>
+Medela Breast Pump - Pump in Style shoulder bag - $60/obo
+<br>
+Maternity Clothes - Size S-M - $25 (several tops, some skirts & sweaters - 1 full bag)
+<br>
+Winnie the Pooh Diaper Bag - FREE (well used)
+<br>
+Tinkerbell soft toy box that folds up when not in use - $5
+<br>
+Remote Control Pink Ride-on Car that goes 2.5mph - $100/obo
+<br>
+Lots of handmade jewelry and loose beads for sale - $1 and up
+<br>
+Portable 7" DVD player with car adapter - $50 ($129 new...We have DVD headrests now and don't need it.)
+<br>
+Large Pet Bed (pillow) - $5
+<br>
+Ford Side Steps for 2005 and up - $75/obo
+<br>
+Pet Water & Food dispensers - FREE
+<br>
+Litter Box - FREE
+<br>
+Red Dress Shoes - $10 (only warn once for a wedding)
+<br>
+Silver Dress shoes - $10 (only warn once for a wedding)
+<br>
+<br>
+<a href="http://s956.photobucket.com/albums/ae48/mackay4610/Misc%20Items/?action=view&amp;current=Catstuff007.jpg" target="_blank" rel="nofollow"><img src="http://i956.photobucket.com/albums/ae48/mackay4610/Misc%20Items/Catstuff007.jpg" border="0"></a>
+<br>
+<a href="http://s956.photobucket.com/albums/ae48/mackay4610/Misc%20Items/?action=view&amp;current=MoreCatStuff003.jpg" target="_blank" rel="nofollow"><img src="http://i956.photobucket.com/albums/ae48/mackay4610/Misc%20Items/MoreCatStuff003.jpg" border="0"></a>
+<br>
+<a href="http://s956.photobucket.com/albums/ae48/mackay4610/Misc%20Items/?action=view&amp;current=006.jpg" target="_blank" rel="nofollow"><img src="http://i956.photobucket.com/albums/ae48/mackay4610/Misc%20Items/006.jpg" border="0"></a>
+<br>
+<a href="http://s956.photobucket.com/albums/ae48/mackay4610/?action=view&amp;current=FordSideSteps1.jpg" target="_blank" rel="nofollow"><img src="http://i956.photobucket.com/albums/ae48/mackay4610/FordSideSteps1.jpg" border="0"></a>
+<br>
+<a href="http://s956.photobucket.com/albums/ae48/mackay4610/?action=view&amp;current=rcpower001.jpg" target="_blank" rel="nofollow"><img src="http://i956.photobucket.com/albums/ae48/mackay4610/rcpower001.jpg" border="0"></a>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T08:43:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/pen/gms/2334388962.html</dc:source>
+<dc:title><![CDATA[&#9618;&#9619;&#9608;&#9658;Moving Sale...EVERYTHING MUST GO TODAY!!! (redwood city)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T08:43:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334370809.html">
+<title><![CDATA[MOVING TODAY!!!!! (willow glen / cambrian) $1]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334370809.html</link>
+<description><![CDATA[   PERFECT PICTURE 65 INCH HD T.V.--- GET READY FOR THE GAMES!!!! WOOD DRESSER,, WICKER SHELVES,, DESK AND MISC. DISHES,,,, COME AND GET IT ,,,, SUPER CHEAP!!!   DEBBIE 408-313-2762<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T08:38:22-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334370809.html</dc:source>
+<dc:title><![CDATA[MOVING TODAY!!!!! (willow glen / cambrian) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T08:38:22-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2334364120.html">
+<title><![CDATA[HUGE Neighborhood Sale - Saturday - Apr 23 (willow glen / cambrian)]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2334364120.html</link>
+<description><![CDATA[HUGE Neighborhood Sale Saturday April 23 by THIRTEEN families.  Come find your treasure at our neighborhood sale on 8 short blocks in Willow Glen; between Newport and Cottle, from Curnter to Malone.  Also join some of our friends further down Cottle and also on Fairview.  Don't miss out!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T08:34:31-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2334364120.html</dc:source>
+<dc:title><![CDATA[HUGE Neighborhood Sale - Saturday - Apr 23 (willow glen / cambrian)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T08:34:31-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2334342176.html">
+<title><![CDATA[Garage Sale on Saturday, April 23rd, near Cesar Chavez and Bryant 7AM (bernal heights) $1]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2334342176.html</link>
+<description><![CDATA[I am having a garage sale, starting this Saturday morning at 7am (4/23).  I will  have some great items for sale, so please stop by and check it out.  My address is 153 Peralta Avenue (crossstreets are Florida St and York St).  Look for the signs at Bryant and Cesar Chavez!
+<br>
+
+<br>
+
+<br>
+
+<br>
+moving sidewalk appliance electronic   <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T08:24:58-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2334342176.html</dc:source>
+<dc:title><![CDATA[Garage Sale on Saturday, April 23rd, near Cesar Chavez and Bryant 7AM (bernal heights) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T08:24:58-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/scz/gms/2334253693.html">
+<title><![CDATA[Rockin' yard sale!! 4-23  (santa cruz)]]></title>
+<link>http://sfbay.craigslist.org/scz/gms/2334253693.html</link>
+<description><![CDATA[Saturday from 9am to 1pm (or so) 
+<br>
+My friends, neighbors and I are all bringing something to sell!!!
+<br>
+1106 N. Branciforte Ave
+<br>
+Santa Cruz, CA 95062 
+<br>
+
+<br>
+I'm selling a wide variety of things but if you love cute women's clothes (sizes 3 to 9), shoes (size 6 1/2 to 7)  purses and accessories you will be very happy! Prices for clothes will be ridiculously affordable, but not typical yard sale prices. I have quite a collection and it is almost new quality, I am willing to bargain!!!
+<br>
+
+<br>
+My friends are bringing things like electronics, books, clothes, and lots more!!!
+<br>
+
+<br>
+There will be an awesome FREE BOX and fresh organic lemonade for sale as well,
+<br>
+
+<br>
+Hope to see you there!
+<br>
+ 
+<br>
+ <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T07:47:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/scz/gms/2334253693.html</dc:source>
+<dc:title><![CDATA[Rockin' yard sale!! 4-23  (santa cruz)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T07:47:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sby/gms/2333933793.html">
+<title><![CDATA[Moving Sale Various Items (san jose west) $5]]></title>
+<link>http://sfbay.craigslist.org/sby/gms/2333933793.html</link>
+<description><![CDATA[Brand New Igloo Elite Cooler - $5 each (2 available)
+<br>
+Clock - $5
+<br>
+Toastmaster Toaster - $7 (LIKE NEW)
+<br>
+Black office high chair - $8 (LIKE NEW)
+<br>
+Mini Hair drier - $8 (LIKE NEW)
+<br>
+Black and Decker Iron - $10 (LIKE NEW)
+<br>
+
+<br>
+***Items are barely used and stored box. LIKE NEW. Must see.***
+<br>
+Please contact 415-419-6370. Serious buyer only.
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T03:13:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sby/gms/2333933793.html</dc:source>
+<dc:title><![CDATA[Moving Sale Various Items (san jose west) $5]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T03:13:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/sfc/gms/2333940934.html">
+<title><![CDATA[Electronics moving sale... Laptops, Monitors, Stereo,adaptors,dvd etc. (downtown / civic / van ness)]]></title>
+<link>http://sfbay.craigslist.org/sfc/gms/2333940934.html</link>
+<description><![CDATA[Used Electronics moving sale...2:00pm till 6:30pm Used Laptops, Computer towers, Monitors, Stereos, Speakers, I-pod accesorys, costume jewelry, Cannondale F-7 27spd., Old Les Paul copy  electric guitar, old romainian accoustic guitar, artwork, paintings. Electric piano, wall clocks and accesorys.   Sale starts Tue. april 19th at 2:00pm till 7:30 pm....Till Friday aprill  22. Located at 265 Eddy st. between Jones and Tailor inside 
+<br>
+Auto parking mall. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-04-19T03:01:29-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sfbay.craigslist.org/sfc/gms/2333940934.html</dc:source>
+<dc:title><![CDATA[Electronics moving sale... Laptops, Monitors, Stereo,adaptors,dvd etc. (downtown / civic / van ness)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-04-19T03:01:29-07:00</dcterms:issued>
+</item>
+</rdf:RDF>
