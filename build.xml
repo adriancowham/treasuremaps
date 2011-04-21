@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TreasureMaps" default="test"  basedir=".">
+	
+	<property name="lib" value="lib" />
+	<property name="test-classes" value="out/test" />
+	
+	<path id="scalatest-classpath">
+    	<pathelement location="${lib}/scalatest-1.3/scalatest-1.3.jar"/>
+    	<pathelement location="${lib}/scala-library.jar"/>
+  	</path>
+
+	<taskdef name="scalatest" classname="org.scalatest.tools.ScalaTestAntTask">
+   		<classpath refid="scalatest-classpath"/>
+   	</taskdef>
+
+	<target name="compile">
+	
+	</target>
+		
+	<target name="test" >
+		<scalatest runpath="${test-classes}" />
+	</target>
+		
+</project>
