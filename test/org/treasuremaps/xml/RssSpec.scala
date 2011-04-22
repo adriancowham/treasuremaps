@@ -8,7 +8,6 @@ import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.Spec
 
 import scala.xml.XML
-import scala.xml.Elem
 
 /*			
 <item rdf:about="http://sfbay.craigslist.org/eby/gms/2335866614.html">
@@ -52,6 +51,10 @@ class RssSpec extends Spec with ShouldMatchers    {
 		
 		it( "should get the link of the post" ) {
 			( firstItem \ "link" ).text should equal( "http://sacramento.craigslist.org/gms/2339995422.html" );
-		}				
+		}	
+		
+		it( "should get the description of the post" ) {
+			( firstItem \ "description" ).text should not be('empty)
+		}			
     }
 }
