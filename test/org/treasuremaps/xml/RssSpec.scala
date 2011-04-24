@@ -1,6 +1,5 @@
 package org.treasuremaps.xml
 
-
 import org.scalatest.junit.JUnitRunner
 
 import org.junit.runner.RunWith
@@ -73,16 +72,6 @@ class RssSpec extends Spec with ShouldMatchers    {
 			// item -> description 
 			( firstItem \ "description" ).text should not be('empty)
 		}		
-		
-		it( "should parse for addresses ending in Way" ) {
-			
-			val desc = (firstItem \ "description") text
-			val AddyRegex = new Regex( """(?s).*(\d{4} .* [Ww]ay).*""" );
-			desc match {
-				case AddyRegex( addy ) => addy should equal( "1818 Irongate Way" ) 
-				case _ => fail
-			}
-		}
 		
 		it( "shoud get the location of the treasure" ) {
 			
