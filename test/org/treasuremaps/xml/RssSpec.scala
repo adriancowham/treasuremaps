@@ -77,12 +77,11 @@ class RssSpec extends Spec with ShouldMatchers    {
 		it( "shoud get the location of the treasure" ) {
 			
 			// item -> description -> ul ( with class=blurbs ) -> li.head ( with text.contains "Location:" )
-			val desc = (firstItem \ "description").text
-			// println( desc )
-			val LocRegex = """(?s).*Location: (.*)\s<li>.*""".r
+			val desc = (firstItem \ "description") text
+			val LocRegex = new Regex( """(?s).*Location: (.*)\s<li>.*""" )
 			desc match {	
-				case LocRegex( loc ) => { println( loc ) }
-				case _ => { println( "losing" ) }
+				case LocRegex( loc ) => loc should equal( "North Natomas" )
+				case _ => fail
 			}
 		}
     }
