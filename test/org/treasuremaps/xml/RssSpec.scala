@@ -64,7 +64,7 @@ class RssSpec extends Spec with ShouldMatchers    {
 		
 		it( "should get the link of the post" ) {
 			
-			// item -> link			
+			// item	 -> link			
 			( firstItem \ "link" ).text should equal( "http://sacramento.craigslist.org/gms/2339995422.html" );
 		}	
 		
@@ -77,12 +77,12 @@ class RssSpec extends Spec with ShouldMatchers    {
 		it( "shoud get the location of the treasure" ) {
 			
 			// item -> description -> ul ( with class=blurbs ) -> li.head ( with text.contains "Location:" )
-			val desc = firstItem \ "description"
-			println( desc text )
-			val LocRegex = new Regex( """^.*""" )
-			desc.text match {
-				case LocRegex => println( "winning" )
-				case _ => println( "losing" )
+			val desc = (firstItem \ "description").text
+			// println( desc )
+			val LocRegex = """(?s).*Location: (.*)\s<li>.*""".r
+			desc match {	
+				case LocRegex( loc ) => { println( loc ) }
+				case _ => { println( "losing" ) }
 			}
 		}
     }
