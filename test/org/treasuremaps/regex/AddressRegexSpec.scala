@@ -83,4 +83,27 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 			}
 		}
 	}	
+	
+	describe( "Addresses with Court regular expressions" ) {
+				
+		val expected = Source.fromFile( "data/addresses/addresses_with_court_expected.txt" ).getLines.toArray
+
+		val addyRegex = new Regex( """(?s).*(\d{4} .* (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt]\.?)).*""" );
+		val feed = XML loadFile( "data/addresses/addresses_with_court.xml" );
+		val posts = feed \ "item"
+		
+		it( "should parse for addresses on a court" ) {
+						// make sure the data sets have the same length
+			expected.length should equal( posts.length )
+			var i = 0
+			for( item <- posts \ "description" ) {
+				
+				item text match {
+					case addyRegex( addy ) => addy should equal( expected( i ) ) 
+					case _ => fail
+				}
+				i += 1
+			}
+		}
+	}	
 }
