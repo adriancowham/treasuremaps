@@ -13,10 +13,10 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 
 	describe( "Addresses with Way regular expressions" ) {
 		
-		val expected = Source.fromFile( "data/addresses/addresses_with_way_expected.txt" ).getLines.toArray
+		val expected = Source.fromFile( "data/addresses/addresses_on_a_way_expected.txt" ).getLines.toArray
 				
 		val addyRegex = new Regex( """(?s).*(\b\d.*[Ww][Aa][Yy]).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_with_way.xml" );
+		val feed = XML loadFile( "data/addresses/addresses_on_a_way.xml" );
 		val posts = feed \ "item"
 		
 		it( "should parse for addresses on a Way" ) {
@@ -40,10 +40,10 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 	
 	describe( "Addresses with Drive regular expressions" ) {
 				
-		val expected = Source.fromFile( "data/addresses/addresses_with_drive_expected.txt" ).getLines.toArray
+		val expected = Source.fromFile( "data/addresses/addresses_on_a_drive_expected.txt" ).getLines.toArray
 
 		val addyRegex = new Regex( """(?s).*(\d{3} .* [Dd][Rr][Ii][Vv][Ee]).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_with_drive.xml" );
+		val feed = XML loadFile( "data/addresses/addresses_on_a_drive.xml" );
 		val posts = feed \ "item"
 		
 		it( "should parse for addresses on a Drive" ) {
@@ -63,10 +63,10 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 	
 	describe( "Addresses with Lane regular expressions" ) {
 				
-		val expected = Source.fromFile( "data/addresses/addresses_with_lane_expected.txt" ).getLines.toArray
+		val expected = Source.fromFile( "data/addresses/addresses_on_a_lane_expected.txt" ).getLines.toArray
 
 		val addyRegex = new Regex( """(?s).*(\d{3} .* [Ll][Aa][Nn][Ee]).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_with_lane.xml" );
+		val feed = XML loadFile( "data/addresses/addresses_on_a_lane.xml" );
 		val posts = feed \ "item"
 		
 		it( "should parse for addresses on a Lane" ) {
@@ -86,10 +86,10 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 	
 	describe( "Addresses with Court regular expressions" ) {
 				
-		val expected = Source.fromFile( "data/addresses/addresses_with_court_expected.txt" ).getLines.toArray
+		val expected = Source.fromFile( "data/addresses/addresses_on_a_court_expected.txt" ).getLines.toArray
 
 		val addyRegex = new Regex( """(?s).*(\d{4} .* (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt]\.?)).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_with_court.xml" );
+		val feed = XML loadFile( "data/addresses/addresses_on_a_court.xml" );
 		val posts = feed \ "item"
 		
 		it( "should parse for addresses on a court" ) {
