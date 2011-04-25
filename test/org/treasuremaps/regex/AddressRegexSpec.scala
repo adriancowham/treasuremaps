@@ -27,10 +27,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 			for( item <- posts \ "description" ) {
 				
 				item text match {
-					case addyRegex( addy ) => {
-						println( addy )
-						addy should equal( expected( i ) ) 
-					}
+					case addyRegex( addy ) => addy should equal( expected( i ) ) 
 					case _ => fail
 				}
 				i += 1
@@ -90,6 +87,29 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 
 		val addyRegex = new Regex( """(?s).*(\d{4} .* (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt]\.?)).*""" );
 		val feed = XML loadFile( "data/addresses/addresses_on_a_court.xml" );
+		val posts = feed \ "item"
+		
+		it( "should parse for addresses on a court" ) {
+						// make sure the data sets have the same length
+			expected.length should equal( posts.length )
+			var i = 0
+			for( item <- posts \ "description" ) {
+				
+				item text match {
+					case addyRegex( addy ) => addy should equal( expected( i ) ) 
+					case _ => fail
+				}
+				i += 1
+			}
+		}
+	}	
+	
+	describe( "Addresses with Road regular expressions" ) {
+				
+		val expected = Source.fromFile( "data/addresses/addresses_on_a_road_expected.txt" ).getLines.toArray
+
+		val addyRegex = new Regex( """(?s).*(\d{4} .* (?:[Rr][Oa][Aa][Dd]|[Rr][Dd]\.?)).*""" );
+		val feed = XML loadFile( "data/addresses/addresses_on_a_road.xml" );
 		val posts = feed \ "item"
 		
 		it( "should parse for addresses on a court" ) {
