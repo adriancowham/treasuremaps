@@ -11,119 +11,116 @@ import scala.xml.XML
 @RunWith( classOf[ JUnitRunner ] )
 class AddressRegexSpec extends Spec with ShouldMatchers {
 
-	describe( "Addresses with Way regular expressions" ) {
+	def matchInDescription( 
+			regex: 			String,
+			actualFile: 	String,
+			expectedFile:	String ): Boolean =	{
 		
-		val expected = Source.fromFile( "data/addresses/addresses_on_a_way_expected.txt" ).getLines.toArray
-				
-		val addyRegex = new Regex( """(?s).*(\b\d.*[Ww][Aa][Yy]).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_on_a_way.xml" );
-		val posts = feed \ "item"
+		// create the regular expression instance
+		val addyRegex = new Regex( regex )
+		// load the target XML file containing the posts
+		val feed = XML loadFile( actualFile )
+		// load the file with the expected values and convert to list
+		var expectedValues = Source.fromFile( expectedFile ).getLines.toList
+		// parse and get all the item elements from the XML file
+		val posts = feed \ "item"			
+		
+		expectedValues.length should equal( posts.length )
+		for( item <- posts \ "description" ) {				
+			item text match {
+				case addyRegex( addy ) => addy.trim should equal( expectedValues.head ) 
+				case _ => fail
+			}
+			expectedValues = expectedValues tail
+		}
+		false
+	}
+		
+	describe( "Regular expressions for addresses on a Way" ) {
 		
 		it( "should parse for addresses on a Way" ) {
 			
-			// make sure the data sets have the same length
-			expected.length should equal( posts.length )
-			var i = 0
-			for( item <- posts \ "description" ) {
-				
-				item text match {
-					case addyRegex( addy ) => addy should equal( expected( i ) ) 
-					case _ => fail
-				}
-				i += 1
-			}
+			matchInDescription( 
+					"""(?s).*(\b\d.*[Ww][Aa][Yy]).*""",
+					"data/addresses/addresses_on_a_way.xml",
+					"data/addresses/addresses_on_a_way_expected.txt" )
 		}
 	}
 	
-	describe( "Addresses with Drive regular expressions" ) {
-				
-		val expected = Source.fromFile( "data/addresses/addresses_on_a_drive_expected.txt" ).getLines.toArray
-
-		val addyRegex = new Regex( """(?s).*(\d{3} .* [Dd][Rr][Ii][Vv][Ee]).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_on_a_drive.xml" );
-		val posts = feed \ "item"
+	describe( "Regular expressions for addresses on a Drive" ) {				
 		
 		it( "should parse for addresses on a Drive" ) {
-						// make sure the data sets have the same length
-			expected.length should equal( posts.length )
-			var i = 0
-			for( item <- posts \ "description" ) {
-				
-				item text match {
-					case addyRegex( addy ) => addy should equal( expected( i ) ) 
-					case _ => fail
-				}
-				i += 1
-			}
+			
+			matchInDescription( 
+					"""(?s).*(\b\d.*(?:[Dd][Rr][Ii][Vv][Ee]|[Dd][Rr]\.?)).*""",
+					"data/addresses/addresses_on_a_drive.xml",
+					"data/addresses/addresses_on_a_drive_expected.txt" )
 		}
 	}
 	
-	describe( "Addresses with Lane regular expressions" ) {
-				
-		val expected = Source.fromFile( "data/addresses/addresses_on_a_lane_expected.txt" ).getLines.toArray
-
-		val addyRegex = new Regex( """(?s).*(\d{3} .* [Ll][Aa][Nn][Ee]).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_on_a_lane.xml" );
-		val posts = feed \ "item"
+	describe( "Regular expressions for addresses on a Lane" ) {				
 		
 		it( "should parse for addresses on a Lane" ) {
-						// make sure the data sets have the same length
-			expected.length should equal( posts.length )
-			var i = 0
-			for( item <- posts \ "description" ) {
-				
-				item text match {
-					case addyRegex( addy ) => addy should equal( expected( i ) ) 
-					case _ => fail
-				}
-				i += 1
-			}
+			
+			matchInDescription(
+					"""(?s).*(\d{3} .* [Ll][Aa][Nn][Ee]).*""",
+					"data/addresses/addresses_on_a_lane.xml",
+					"data/addresses/addresses_on_a_lane_expected.txt" )
 		}
 	}	
 	
-	describe( "Addresses with Court regular expressions" ) {
-				
-		val expected = Source.fromFile( "data/addresses/addresses_on_a_court_expected.txt" ).getLines.toArray
-
-		val addyRegex = new Regex( """(?s).*(\d{4} .* (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt]\.?)).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_on_a_court.xml" );
-		val posts = feed \ "item"
+	describe( "Regular expressions for addresses on a Court" ) {
 		
 		it( "should parse for addresses on a court" ) {
-						// make sure the data sets have the same length
-			expected.length should equal( posts.length )
-			var i = 0
-			for( item <- posts \ "description" ) {
-				
-				item text match {
-					case addyRegex( addy ) => addy should equal( expected( i ) ) 
-					case _ => fail
-				}
-				i += 1
-			}
+			
+			matchInDescription( 
+					"""(?s).*(\s\d+ .{1,15} (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt]\.?)).*""",
+					"data/addresses/addresses_on_a_court.xml",
+					"data/addresses/addresses_on_a_court_expected.txt")
 		}
 	}	
 	
-	describe( "Addresses with Road regular expressions" ) {
-				
-		val expected = Source.fromFile( "data/addresses/addresses_on_a_road_expected.txt" ).getLines.toArray
-
-		val addyRegex = new Regex( """(?s).*(\d{4} .* (?:[Rr][Oa][Aa][Dd]|[Rr][Dd]\.?)).*""" );
-		val feed = XML loadFile( "data/addresses/addresses_on_a_road.xml" );
-		val posts = feed \ "item"
+	describe( "Regular expressions for addresses on a Road" ) {
 		
-		it( "should parse for addresses on a court" ) {
-						// make sure the data sets have the same length
-			expected.length should equal( posts.length )
-			var i = 0
-			for( item <- posts \ "description" ) {
-				
-				item text match {
-					case addyRegex( addy ) => addy should equal( expected( i ) ) 
-					case _ => fail
-				}
-				i += 1
-			}
+		it( "should parse for addresses on a Road" ) {
+			
+			matchInDescription(
+					"""(?s).*(\d{4} .* (?:[Rr][Oa][Aa][Dd]|[Rr][Dd]\.?)).*""",
+					"data/addresses/addresses_on_a_road.xml",
+					"data/addresses/addresses_on_a_road_expected.txt" )
+		}
+	}	
+	
+	describe( "Regular expressions for addresses on a Circle" ) {
+		
+		it( "should parse for addresses on a circle" ) {
+			
+			matchInDescription(
+					"""(?s).*(\d{3} .* (?:[Cc][Ii][Rr][Cc][Ll][Ee]|[Cc][Ii][Rr]\.?)).*""",
+					"data/addresses/addresses_on_a_circle.xml",
+					"data/addresses/addresses_on_a_circle_expected.txt" )
+		}
+	}	
+	
+	describe( "Regular expressions for addresses on an Avenue" ) {
+		
+		it( "should parse for addresses on a circle" ) {
+			
+			matchInDescription(
+					"""(?s).*(\d{4} .* (?:[Aa][Vv][Ee][Nn][Uu][Ee]|[Aa][Vv][Ee]\.?)).*""",
+					"data/addresses/addresses_on_an_avenue.xml",
+					"data/addresses/addresses_on_an_avenue_expected.txt" )
+		}
+	}
+	
+	describe( "Regular expressions for addresses on an Place" ) {
+		
+		it( "should parse for addresses on a place" ) {
+			
+			matchInDescription(
+					"""(?s).*(\d{4} .* (?:[Pp][Ll][Aa][Cc][Ee]|[Pp][Ll]\.?)).*""",
+					"data/addresses/addresses_on_a_place.xml",
+					"data/addresses/addresses_on_a_place_expected.txt" )
 		}
 	}	
 }
