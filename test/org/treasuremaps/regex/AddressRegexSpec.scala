@@ -26,9 +26,12 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		val posts = feed \ "item"			
 		
 		expectedValues.length should equal( posts.length )
-		for( item <- posts \ "description" ) {				
+		for( item <- posts \ "description" ) {
 			item text match {
-				case addyRegex( addy ) => addy.trim should equal( expectedValues.head ) 
+				case addyRegex( addy ) => {
+					println( addy trim )
+					addy.trim should equal( expectedValues.head ) 
+				}
 				case _ => fail
 			}
 			expectedValues = expectedValues tail
@@ -41,7 +44,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a Way" ) {
 			
 			matchInDescription( 
-					"""(?s).*(\b\d.*[Ww][Aa][Yy]).*""",
+					"""(?s).*((?:^\d+|\s\d+).{1,15}[Ww][Aa][Yy]).*""",
 					"data/addresses/addresses_on_a_way.xml",
 					"data/addresses/addresses_on_a_way_expected.txt" )
 		}
@@ -63,7 +66,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a Lane" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{3} .* [Ll][Aa][Nn][Ee]).*""",
+					"""(?s).*(\s\d+ .* [Ll][Aa][Nn][Ee]).*""",
 					"data/addresses/addresses_on_a_lane.xml",
 					"data/addresses/addresses_on_a_lane_expected.txt" )
 		}
@@ -85,7 +88,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a Road" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{4} .* (?:[Rr][Oa][Aa][Dd]|[Rr][Dd]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+) .{1,15} (?:[Rr][Oa][Aa][Dd]|[Rr][Dd]\.?)).*""",
 					"data/addresses/addresses_on_a_road.xml",
 					"data/addresses/addresses_on_a_road_expected.txt" )
 		}
@@ -113,14 +116,25 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		}
 	}
 	
-	describe( "Regular expressions for addresses on an Place" ) {
+	describe( "Regular expressions for addresses on a Place" ) {
 		
 		it( "should parse for addresses on a place" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{4} .* (?:[Pp][Ll][Aa][Cc][Ee]|[Pp][Ll]\.?)).*""",
+					"""(?s).*(\d{4} .{1,15} (?:[Pp][Ll][Aa][Cc][Ee]|[Pp][Ll]\.?)).*""",
 					"data/addresses/addresses_on_a_place.xml",
 					"data/addresses/addresses_on_a_place_expected.txt" )
+		}
+	}	
+	
+	describe( "Regular expressions for addresses on a Street" ) {
+		
+		it( "should parse for addresses on a street" ) {
+			
+			matchInDescription(
+					"""(?s).*(\d{4} .{1,15} (?:[Ss][Tt][Rr][Ee]+[Tt]|[Ss][Tt]\.?)).*""",
+					"data/addresses/addresses_on_a_street.xml",
+					"data/addresses/addresses_on_a_street_expected.txt" )
 		}
 	}	
 }
