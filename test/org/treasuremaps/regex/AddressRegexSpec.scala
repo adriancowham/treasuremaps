@@ -99,7 +99,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a circle" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{3} .* (?:[Cc][Ii][Rr][Cc][Ll][Ee]|[Cc][Ii][Rr]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+) .{1,15} (?:[Cc][Ii][Rr][Cc][Ll][Ee]|[Cc][Ii][Rr]\.?)).*""",
 					"data/addresses/addresses_on_a_circle.xml",
 					"data/addresses/addresses_on_a_circle_expected.txt" )
 		}
