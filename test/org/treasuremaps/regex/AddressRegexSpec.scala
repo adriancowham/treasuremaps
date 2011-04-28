@@ -55,7 +55,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a Drive" ) {
 			
 			matchInDescription( 
-					"""(?s).*(\b\d.*(?:[Dd][Rr][Ii][Vv][Ee]|[Dd][Rr]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+|\b\d+) .{1,15}(?:[Dd][Rr][Ii][Vv][Ee]|[Dd][Rr])).*""",
 					"data/addresses/addresses_on_a_drive.xml",
 					"data/addresses/addresses_on_a_drive_expected.txt" )
 		}
@@ -66,7 +66,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a Lane" ) {
 			
 			matchInDescription(
-					"""(?s).*(\s\d+ .* [Ll][Aa][Nn][Ee]).*""",
+					"""(?s).*(\b\d+ .{1,15} (?:[Ll][Aa][Nn][Ee]|[Ll][Nn])).*""",
 					"data/addresses/addresses_on_a_lane.xml",
 					"data/addresses/addresses_on_a_lane_expected.txt" )
 		}
@@ -77,7 +77,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a court" ) {
 			
 			matchInDescription( 
-					"""(?s).*(\s\d+ .{1,15} (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt]\.?)).*""",
+					"""(?s).*(\s\d+ .{1,15} (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt])).*""",
 					"data/addresses/addresses_on_a_court.xml",
 					"data/addresses/addresses_on_a_court_expected.txt")
 		}
@@ -88,7 +88,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a Road" ) {
 			
 			matchInDescription(
-					"""(?s).*((?:^\d+|\s\d+) .{1,15} (?:[Rr][Oa][Aa][Dd]|[Rr][Dd]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+|\b\d+) .{1,15} (?:[Rr][Oo][Aa][Dd]|[Rr][Dd])).*""",
 					"data/addresses/addresses_on_a_road.xml",
 					"data/addresses/addresses_on_a_road_expected.txt" )
 		}
@@ -99,7 +99,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a circle" ) {
 			
 			matchInDescription(
-					"""(?s).*((?:^\d+|\s\d+) .{1,15} (?:[Cc][Ii][Rr][Cc][Ll][Ee]|[Cc][Ii][Rr]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+) .{1,15} (?:[Cc][Ii][Rr][Cc][Ll][Ee]|[Cc][Ii][Rr])).*""",
 					"data/addresses/addresses_on_a_circle.xml",
 					"data/addresses/addresses_on_a_circle_expected.txt" )
 		}
@@ -110,7 +110,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a circle" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{4} .* (?:[Aa][Vv][Ee][Nn][Uu][Ee]|[Aa][Vv][Ee]\.?)).*""",
+					"""(?s).*((?:\b\d+) .{1,15} (?:[Aa][Vv][Ee][Nn][Uu][Ee]|[Aa][Vv][Ee])).*""",
 					"data/addresses/addresses_on_an_avenue.xml",
 					"data/addresses/addresses_on_an_avenue_expected.txt" )
 		}
@@ -121,7 +121,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a place" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{4} .{1,15} (?:[Pp][Ll][Aa][Cc][Ee]|[Pp][Ll]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+|\b\d+) .{1,15} (?:[Pp][Ll][Aa][Cc][Ee]|[Pp][Ll])).*""",
 					"data/addresses/addresses_on_a_place.xml",
 					"data/addresses/addresses_on_a_place_expected.txt" )
 		}
@@ -132,7 +132,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a street" ) {
 			
 			matchInDescription(
-					"""(?s).*(\d{4} .{1,15} (?:[Ss][Tt][Rr][Ee]+[Tt]|[Ss][Tt]\.?)).*""",
+					"""(?s).*((?:^\d+|\s\d+|\b\d+) .{1,15} (?:[Ss][Tt][Rr][Ee]+[Tt]|[Ss][Tt])).*""",
 					"data/addresses/addresses_on_a_street.xml",
 					"data/addresses/addresses_on_a_street_expected.txt" )
 		}
