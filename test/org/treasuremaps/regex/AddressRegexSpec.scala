@@ -2,19 +2,20 @@ package org.treasuremaps.regex
 
 import org.junit.runner.RunWith
 import org.scalatest.Spec
+import org.scalatest.BeforeAndAfterAll
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.matchers.ShouldMatchers
-import scala.io.Source
 import scala.util.matching.Regex
 import scala.xml.XML
+import scala.io.Source
 
 @RunWith( classOf[ JUnitRunner ] )
-class AddressRegexSpec extends Spec with ShouldMatchers {
-
+class AddressRegexSpec extends Spec with ShouldMatchers with BeforeAndAfterAll {
+	
 	def matchInDescription( 
 			regex: 			String,
 			actualFile: 	String,
-			expectedFile:	String ): Boolean =	{
+			expectedFile:	String ) = {
 		
 		// create the regular expression instance
 		val addyRegex = new Regex( regex )
@@ -36,15 +37,28 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 			}
 			expectedValues = expectedValues tail
 		}
-		false
 	}
+	
+	val addressFiles = List( "data/addresses/addresses_on_a_way.xml", 
+			 "data/addresses/addresses_on_a_drive.xml",
+			 "data/addresses/addresses_on_a_lane.xml",
+			 "data/addresses/addresses_on_a_court.xml",
+			 "data/addresses/addresses_on_a_road.xml",
+			 "data/addresses/addresses_on_a_circle.xml",
+			 "data/addresses/addresses_on_an_avenue.xml",
+			 "data/addresses/addresses_on_a_place.xml",
+			 "data/addresses/addresses_on_a_street.xml" );
+	
+	override def beforeAll {
 		
+	}
+	
 	describe( "Regular expressions for addresses on a Way" ) {
 		
 		it( "should parse for addresses on a Way" ) {
 			
 			matchInDescription( 
-					"""(?s).*((?:^\d+|\s\d+).{1,15}[Ww][Aa][Yy]).*""",
+					"""(?s).*((?:^\d+|\s\d+|\b\d+).{1,15}[Ww][Aa][Yy]).*""",
 					"data/addresses/addresses_on_a_way.xml",
 					"data/addresses/addresses_on_a_way_expected.txt" )
 		}
@@ -77,7 +91,7 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 		it( "should parse for addresses on a court" ) {
 			
 			matchInDescription( 
-					"""(?s).*(\s\d+ .{1,15} (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt])).*""",
+					"""(?s).*(\b\d+ .{1,15} (?:[Cc][Oo][Uu][Rr][Tt]|[Cc][Tt])).*""",
 					"data/addresses/addresses_on_a_court.xml",
 					"data/addresses/addresses_on_a_court_expected.txt")
 		}
@@ -129,12 +143,13 @@ class AddressRegexSpec extends Spec with ShouldMatchers {
 	
 	describe( "Regular expressions for addresses on a Street" ) {
 		
+		val regex = """(?s).*((?:^\d+|\s\d+|\b\d+) .{1,15} (?:[Ss][Tt][Rr][Ee]+[Tt]|[Ss][Tt]))\W.*"""
+		
 		it( "should parse for addresses on a street" ) {
 			
-			matchInDescription(
-					"""(?s).*((?:^\d+|\s\d+|\b\d+) .{1,15} (?:[Ss][Tt][Rr][Ee]+[Tt]|[Ss][Tt])).*""",
+			matchInDescription( regex,
 					"data/addresses/addresses_on_a_street.xml",
 					"data/addresses/addresses_on_a_street_expected.txt" )
-		}
-	}	
+		}		
+	}		
 }

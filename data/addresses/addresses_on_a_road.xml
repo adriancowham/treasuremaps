@@ -341,4 +341,23 @@ April 30th 2011 from 9-2pm
 <dc:type>text</dc:type> 
 <dcterms:issued>2011-04-27T21:29:36-07:00</dcterms:issued> 
 </item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2350364293.html"> 
+<title><![CDATA[Vacaville Garage Sale - Sat April 30, 11 am (6989 Lewis Road, Vacaville)]]></title> 
+<link>http://sacramento.craigslist.org/gms/2350364293.html</link> 
+<description><![CDATA[Garage Sale, 11 am to 3 pm, 6989 Lewis Road, Vacaville. Couch, love seat, chest, coffee table, chairs, more...<!-- START CLTAGS --> 
+ 
+ 
+<br><br><ul class="blurbs"> 
+<li> <!-- CLTAG GeographicArea=6989 Lewis Road, Vacaville -->Location: 6989 Lewis Road, Vacaville
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul> 
+<!-- END CLTAGS -->]]></description> 
+<dc:date>2011-04-27T20:03:02-07:00</dc:date> 
+<dc:language>en-us</dc:language> 
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights> 
+<dc:source>http://sacramento.craigslist.org/gms/2350364293.html</dc:source> 
+<dc:title><![CDATA[Vacaville Garage Sale - Sat April 30, 11 am (6989 Lewis Road, Vacaville)]]></dc:title> 
+<dc:type>text</dc:type> 
+<dcterms:issued>2011-04-27T20:03:02-07:00</dcterms:issued> 
+</item> 
+
 </posts>
