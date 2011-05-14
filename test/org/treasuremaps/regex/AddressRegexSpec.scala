@@ -39,20 +39,6 @@ class AddressRegexSpec extends Spec with ShouldMatchers with BeforeAndAfterAll {
 		}
 	}
 	
-	val addressFiles = List( "data/addresses/addresses_on_a_way.xml", 
-			 "data/addresses/addresses_on_a_drive.xml",
-			 "data/addresses/addresses_on_a_lane.xml",
-			 "data/addresses/addresses_on_a_court.xml",
-			 "data/addresses/addresses_on_a_road.xml",
-			 "data/addresses/addresses_on_a_circle.xml",
-			 "data/addresses/addresses_on_an_avenue.xml",
-			 "data/addresses/addresses_on_a_place.xml",
-			 "data/addresses/addresses_on_a_street.xml" );
-	
-	override def beforeAll {
-		
-	}
-	
 	describe( "Regular expressions for addresses on a Way" ) {
 		
 		it( "should parse for addresses on a Way" ) {
