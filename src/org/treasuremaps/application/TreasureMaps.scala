@@ -3,6 +3,8 @@ package org.treasuremaps.application
 import java.util._
 import java.text.SimpleDateFormat
 
+import java.io.FileWriter
+
 import org.treasuremaps.rss.Rss
 import org.treasuremaps.regex.AddressRegex
 
@@ -22,32 +24,49 @@ object TreasureMaps {
 		// parse feed all the posts
 		val posts = rss \ "item"
 		
-		// generate a base filename for today
+		// generate a base filename with today's date
 		val today = Calendar.getInstance.getTime
-		val dateFormat = new SimpleDateFormat( "yyyy_MM_dd_" )
-		val destFile = "data/analytics/" + dateFormat.format( today )
+		val suffix = new SimpleDateFormat( "yyyy_MM_dd" ).format( today )
 		
 		// for every "post" in the feed, try to match its description against a
-		// regular expression		
+		// regular expression
+		var matched = false
 		for( post <- posts \ "description" ) {
 			// TODO: create filenames based on date/time for the current day and the type of 
 			// street qualifier
 			post text match {
-				case AddressRegex.FullyQualifiedWay		( addy ) => appendToFile( post text, destFile + "_way.xml" )
-				case AddressRegex.FullyQualifiedStreet	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedCourt	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedAvenue	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedPlace	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedLane	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedCircle	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedRoad	( addy ) => appendToFile( post text, "" )
-				case AddressRegex.FullyQualifiedDrive	( addy ) => appendToFile( post text, "" )
-				case _ => appendToFile( post text, "" )
+				case AddressRegex.FullyQualifiedWay		( addy ) => matched = appendToFile( post text, generateFilename( "ways-", suffix ) )
+				case AddressRegex.FullyQualifiedStreet	( addy ) => matched = appendToFile( post text, generateFilename( "streets-", suffix ) )
+				case AddressRegex.FullyQualifiedCourt	( addy ) => matched = appendToFile( post text, generateFilename( "courts-", suffix ) )
+				case AddressRegex.FullyQualifiedAvenue	( addy ) => matched = appendToFile( post text, generateFilename( "avenues-", suffix ) )
+				case AddressRegex.FullyQualifiedPlace	( addy ) => matched = appendToFile( post text, generateFilename( "places-", suffix ) )
+				case AddressRegex.FullyQualifiedLane	( addy ) => matched = appendToFile( post text, generateFilename( "lanes-", suffix ) )
+				case AddressRegex.FullyQualifiedCircle	( addy ) => matched = appendToFile( post text, generateFilename( "circles-", suffix ) )
+				case AddressRegex.FullyQualifiedRoad	( addy ) => matched = appendToFile( post text, generateFilename( "roads-", suffix ) )
+				case _ => appendToFile( post text, generateFilename( "unidentifiables-", suffix ) )
+			}
+		}
+		// Workaround for a defect in the scala compiler, need to break-up the pattern
+		// matching
+		if( !matched ) {
+			for( post <- posts \ "description" ) {
+				post text match {
+					case AddressRegex.FullyQualifiedDrive	( addy ) => appendToFile( post text, generateFilename( "drives-", suffix ) )
+					case _ => appendToFile( post text, generateFilename( "unidentifiables-", suffix ) )					
+				}
 			}
 		}
 	}
 	
-	def appendToFile( text :String, filename :String ) = {
-		
+	def generateFilename( prefix :String, suffix :String ) :String= {
+		return "data/analytics/" + prefix + suffix + ".xml"
+	}
+	
+	// TODO: Convert to scala speak when possible
+	def appendToFile( text :String, filename :String ) :Boolean = {
+		val writer = new FileWriter( filename, true )
+		writer.write( text )
+		writer.close()
+		return true;
 	}
 }
