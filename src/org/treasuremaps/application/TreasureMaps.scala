@@ -30,30 +30,27 @@ object TreasureMaps {
 		
 		// for every "post" in the feed, try to match its description against a
 		// regular expression
-		var matched = false
 		for( post <- posts \ "description" ) {
 			// TODO: create filenames based on date/time for the current day and the type of 
 			// street qualifier
 			post text match {
-				case AddressRegex.FullyQualifiedWay		( addy ) => matched = appendToFile( post text, generateFilename( "ways-", suffix ) )
-				case AddressRegex.FullyQualifiedStreet	( addy ) => matched = appendToFile( post text, generateFilename( "streets-", suffix ) )
-				case AddressRegex.FullyQualifiedCourt	( addy ) => matched = appendToFile( post text, generateFilename( "courts-", suffix ) )
-				case AddressRegex.FullyQualifiedAvenue	( addy ) => matched = appendToFile( post text, generateFilename( "avenues-", suffix ) )
-				case AddressRegex.FullyQualifiedPlace	( addy ) => matched = appendToFile( post text, generateFilename( "places-", suffix ) )
-				case AddressRegex.FullyQualifiedLane	( addy ) => matched = appendToFile( post text, generateFilename( "lanes-", suffix ) )
-				case AddressRegex.FullyQualifiedCircle	( addy ) => matched = appendToFile( post text, generateFilename( "circles-", suffix ) )
-				case AddressRegex.FullyQualifiedRoad	( addy ) => matched = appendToFile( post text, generateFilename( "roads-", suffix ) )
+				case AddressRegex.FullyQualifiedWay		( addy ) => appendToFile( post text, generateFilename( "ways-", suffix ) )
+				case AddressRegex.FullyQualifiedStreet	( addy ) => appendToFile( post text, generateFilename( "streets-", suffix ) )
+				case AddressRegex.FullyQualifiedCourt	( addy ) => appendToFile( post text, generateFilename( "courts-", suffix ) )
+				case AddressRegex.FullyQualifiedAvenue	( addy ) => appendToFile( post text, generateFilename( "avenues-", suffix ) )
+				case AddressRegex.FullyQualifiedPlace	( addy ) => appendToFile( post text, generateFilename( "places-", suffix ) )
+				case AddressRegex.FullyQualifiedLane	( addy ) => appendToFile( post text, generateFilename( "lanes-", suffix ) )
+				case AddressRegex.FullyQualifiedCircle	( addy ) => appendToFile( post text, generateFilename( "circles-", suffix ) )
+				case AddressRegex.FullyQualifiedRoad	( addy ) => appendToFile( post text, generateFilename( "roads-", suffix ) )
 				case _ => appendToFile( post text, generateFilename( "unidentifiables-", suffix ) )
 			}
 		}
 		// Workaround for a defect in the scala compiler, need to break-up the pattern
 		// matching
-		if( !matched ) {
-			for( post <- posts \ "description" ) {
-				post text match {
-					case AddressRegex.FullyQualifiedDrive	( addy ) => appendToFile( post text, generateFilename( "drives-", suffix ) )
-					case _ => appendToFile( post text, generateFilename( "unidentifiables-", suffix ) )					
-				}
+		for( post <- posts \ "description" ) {
+			post text match {
+				case AddressRegex.FullyQualifiedDrive	( addy ) => appendToFile( post text, generateFilename( "drives-", suffix ) )
+				case _ => appendToFile( post text, generateFilename( "unidentifiables-", suffix ) )					
 			}
 		}
 	}
@@ -63,10 +60,9 @@ object TreasureMaps {
 	}
 	
 	// TODO: Convert to scala speak when possible
-	def appendToFile( text :String, filename :String ) :Boolean = {
+	def appendToFile( text :String, filename :String ) = {
 		val writer = new FileWriter( filename, true )
 		writer.write( text )
 		writer.close()
-		return true;
 	}
 }
