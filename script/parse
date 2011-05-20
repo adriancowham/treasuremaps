@@ -10,53 +10,120 @@ exec scala -deprecation "$0" "$@"
 /////////////////////////////////////////////////////////////////////////
 import scala.io.Source
 import scala.collection.immutable.List
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.HashSet
+
+/////////////////////////////////////////////////////////////////////////
+// Filenames to parse
+/////////////////////////////////////////////////////////////////////////
+val SacCountyStreetNames = "data/centerlines-sac_county.csv"
 
 /////////////////////////////////////////////////////////////////////////
 // CSV Column Names and their Indexes
 /////////////////////////////////////////////////////////////////////////
-val RequiredValues = 	new Pair( 2, "STREETNAME" ) :: 
-						new Pair( 3, "STREETTYPE" ) :: 
-						new Pair( 9, "FULLSTREET" ) :: 
-						new Pair( 10, "CITYLEFT" )	:: 
-						new Pair( 11, "CITYRIGHT" ) :: 
-						new Pair( 12, "ZIPLEFT" ) 	::
-						new Pair( 13, "ZIPRIGHT" )	:: Nil
+
+val StreetNameIndex = 2
+val StreetTypeIndex = 3
+val StreetFullIndex = 9
+val CityLeftIndex = 10
+val CityRightIndex = 11
+val ZipLeftIndex = 12
+val ZipRightIndex = 13
+
+val RequiredValueStreetNameIndex = 0
+
+val RequiredValues = 	new Pair( StreetNameIndex, "STREETNAME" ) 	:: 
+						new Pair( StreetTypeIndex, "STREETTYPE" ) 	:: 
+						new Pair( StreetFullIndex, "FULLSTREET" )	:: 
+						new Pair( CityLeftIndex, "CITYLEFT" )		:: 
+						new Pair( CityRightIndex, "CITYRIGHT" ) 	:: 
+						new Pair( ZipLeftIndex, "ZIPLEFT" ) 		::
+						new Pair( ZipRightIndex, "ZIPRIGHT" )		:: Nil
 
 /////////////////////////////////////////////////////////////////////////
-// Function definitions
+// Begin Function definitions
 /////////////////////////////////////////////////////////////////////////
 
-def selfTest( metadata: String ) = {
+def selfTest( metadata: Array[ String ] ) = {
 
-	val cols = metadata.split( "," )
 	// validate that the data is what we think it is, if this fails print
 	// an error message and exit the script
-	if( !RequiredValues.forall( value => cols( value._1 ) == value._2 ) ) {
+	if( !RequiredValues.forall( value => metadata( value._1 ) == value._2 ) ) {
 		println( "ERROR: Sac County street name data file has change, cannot proceed.")
 		sys.exit
 	}
+}
+
+def validEntry( items: Array[ String ], visitedItems: HashSet[ String ] ) :Boolean = {
+
+	return items( StreetNameIndex ) != "UNNAMED" && !visitedItems( generateDataKey( items ) )
+}
+
+def generateDataKey( data: Array[ String ] ) :String = {
+
+	return data( StreetFullIndex )
 }
 
 /////////////////////////////////////////////////////////////////////////
 // End Function definitions
 /////////////////////////////////////////////////////////////////////////
 
-// get all the lines of the file
-val fileLines = Source.fromFile( "data/centerlines-sac_county.csv" ).getLines
+/////////////////////////////////////////////////////////////////////////
+// Begin Script
+/////////////////////////////////////////////////////////////////////////
 
-// perform a self-test on the CSV column definitions
-selfTest( fileLines.next )
+// used to keep track of all the addresses we've visited so we don't record
+// duplicates
+val visited = new HashSet[String]()
 
-// open data file and iterate through lines
-for( line <- Source.fromFile( "data/centerlines-sac_county.csv" ).getLines ) {
+// Iterator containing all the lines of the file
+val lines = Source.fromFile( SacCountyStreetNames ).getLines
+
+// have to do this bullshit twice because for some reason calling size()
+// moves the iterator to the end...this behavior actually makes sense
+val numLines = Source.fromFile( SacCountyStreetNames ).getLines.size
+
+println( "package org.treasuremaps.data.saccounty\n")
+println( "import import scala.collection.mutable.HashMap\n" )
+println( "object SacCounty { " )
+println( "\tval StreetNames = HashMap( " )
+
+lines.zipWithIndex.foreach { case( line, lineIndex ) =>
 
 	val splitStr = line.split( "," )
 	
+	// perform a self-test on the CSV column definitions ( i.e. the first line )
+	if( lineIndex == 0 ) {  selfTest( splitStr ) }
+	
+	// only handle valid entries ( i.e. entries we haven't already seen
+	// and street names that are not equal to "UNNAMED"
+	else if( validEntry( splitStr, visited ) ) {
+		// record a visit for this address	
+		visited += generateDataKey( splitStr )
+		val builder = new StringBuilder()
+		builder.append( "\t" )
+		builder.append( """"""" )
+		builder.append( splitStr( RequiredValues( RequiredValueStreetNameIndex )._1 ) )
+		builder.append( """"""" )
+		builder.append( " -> ( " )
+	
+		RequiredValues.view.zipWithIndex.foreach { case( value, index ) => 
+			builder.append( """"""" )
+			builder.append( splitStr( value._1 ) )
+			builder.append( """"""" )
+			// only append the comma if we need it
+			if( index < RequiredValues.size - 1 ) { builder.append( """, """ ) }
+		}
+	
+		builder.append( " ) " )
+		if( lineIndex < numLines - 1 ) { builder.append( ", " ) }
+		println( builder.toString )	
+	}
+
 }
+println( "\t)" );
+println( "}" )
 
-// for each line in the file, split the CSV and pull out the street,
-// steet type, full street, city left, city right, zip right, zip left
-
-// build data structure
-
-// generate java code for the sac county data
+/////////////////////////////////////////////////////////////////////////
+// End Script
+/////////////////////////////////////////////////////////////////////////
