@@ -1,0 +1,62 @@
+#!/bin/sh
+exec scala -deprecation "$0" "$@"
+!#
+/////////////////////////////////////////////////////////////////////////
+// Script to parse CSV files containing street names for Sac County
+/////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+// Imports
+/////////////////////////////////////////////////////////////////////////
+import scala.io.Source
+import scala.collection.immutable.List
+
+/////////////////////////////////////////////////////////////////////////
+// CSV Column Names and their Indexes
+/////////////////////////////////////////////////////////////////////////
+val RequiredValues = 	new Pair( 2, "STREETNAME" ) :: 
+						new Pair( 3, "STREETTYPE" ) :: 
+						new Pair( 9, "FULLSTREET" ) :: 
+						new Pair( 10, "CITYLEFT" )	:: 
+						new Pair( 11, "CITYRIGHT" ) :: 
+						new Pair( 12, "ZIPLEFT" ) 	::
+						new Pair( 13, "ZIPRIGHT" )	:: Nil
+
+/////////////////////////////////////////////////////////////////////////
+// Function definitions
+/////////////////////////////////////////////////////////////////////////
+
+def selfTest( metadata: String ) = {
+
+	val cols = metadata.split( "," )
+	// validate that the data is what we think it is, if this fails print
+	// an error message and exit the script
+	if( !RequiredValues.forall( value => cols( value._1 ) == value._2 ) ) {
+		println( "ERROR: Sac County street name data file has change, cannot proceed.")
+		sys.exit
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////
+// End Function definitions
+/////////////////////////////////////////////////////////////////////////
+
+// get all the lines of the file
+val fileLines = Source.fromFile( "data/centerlines-sac_county.csv" ).getLines
+
+// perform a self-test on the CSV column definitions
+selfTest( fileLines.next )
+
+// open data file and iterate through lines
+for( line <- Source.fromFile( "data/centerlines-sac_county.csv" ).getLines ) {
+
+	val splitStr = line.split( "," )
+	
+}
+
+// for each line in the file, split the CSV and pull out the street,
+// steet type, full street, city left, city right, zip right, zip left
+
+// build data structure
+
+// generate java code for the sac county data

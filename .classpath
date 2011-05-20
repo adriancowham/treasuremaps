@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="out/src" path="src"/>
+	<classpathentry excluding="org/treasuremaps/script/Parser.scala" kind="src" output="out/src" path="src"/>
 	<classpathentry kind="src" output="out/test" path="test"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
