@@ -74,7 +74,7 @@ class RssSpec extends Spec with ShouldMatchers    {
 		}		
 		
 		it( "shoud get the location of the treasure" ) {
-			
+			//one man's trash is another man's treasure?	
 			// item -> description -> ul ( with class=blurbs ) -> li.head ( with text.contains "Location:" )
 			val desc = (firstItem \ "description") text
 			val LocRegex = new Regex( """(?s).*Location: (.*)\s<li>.*""" )
