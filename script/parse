@@ -13,6 +13,10 @@ import scala.collection.immutable.List
 import scala.collection.mutable.HashMap
 import scala.collection.mutable.HashSet
 
+import java.io.File
+import java.io.FileWriter
+import java.io.BufferedWriter
+
 /////////////////////////////////////////////////////////////////////////
 // Filenames to parse
 /////////////////////////////////////////////////////////////////////////
@@ -64,6 +68,14 @@ def generateDataKey( data: Array[ String ] ) :String = {
 	return data( StreetFullIndex )
 }
 
+def generateCode( data: String ) = {
+	println( data )
+	val out = new FileWriter( "gen/org/treasuremaps/data/SacCounty.scala" )
+	out.write( data )
+	out.flush
+	out.close
+}
+
 /////////////////////////////////////////////////////////////////////////
 // End Function definitions
 /////////////////////////////////////////////////////////////////////////
@@ -83,10 +95,11 @@ val lines = Source.fromFile( SacCountyStreetNames ).getLines
 // moves the iterator to the end...this behavior actually makes sense
 val numLines = Source.fromFile( SacCountyStreetNames ).getLines.size
 
-println( "package org.treasuremaps.data.saccounty\n")
-println( "import import scala.collection.mutable.HashMap\n" )
-println( "object SacCounty { " )
-println( "\tval StreetNames = HashMap( " )
+val builder = new StringBuilder()
+builder.append( "package org.treasuremaps.data.saccounty\n\n")
+builder.append( "import scala.collection.mutable.HashMap\n\n" )
+builder.append( "object SacCounty { " )
+builder.append( "\tval StreetNames = HashMap( " )
 
 lines.zipWithIndex.foreach { case( line, lineIndex ) =>
 
@@ -100,8 +113,7 @@ lines.zipWithIndex.foreach { case( line, lineIndex ) =>
 	else if( validEntry( splitStr, visited ) ) {
 		// record a visit for this address	
 		visited += generateDataKey( splitStr )
-		val builder = new StringBuilder()
-		builder.append( "\t" )
+		builder.append( "\t\n" )
 		builder.append( """"""" )
 		builder.append( splitStr( RequiredValues( RequiredValueStreetNameIndex )._1 ) )
 		builder.append( """"""" )
@@ -117,12 +129,12 @@ lines.zipWithIndex.foreach { case( line, lineIndex ) =>
 	
 		builder.append( " ) " )
 		if( lineIndex < numLines - 1 ) { builder.append( ", " ) }
-		println( builder.toString )	
 	}
 
 }
-println( "\t)" );
-println( "}" )
+builder.append( "\t)" );
+builder.append( "}" )
+generateCode( builder.toString )
 
 /////////////////////////////////////////////////////////////////////////
 // End Script
