@@ -7,6 +7,7 @@ import scala.collection.mutable.HashSet
 import scala.xml.XML
 import scala.xml.Node
 import scala.xml.PrettyPrinter
+import org.treasuremaps.model.tables.StreetNames
 import org.treasuremaps.rss.Rss
 import org.treasuremaps.regex.AddressRegex
 import scala.util.matching.Regex
@@ -21,7 +22,6 @@ object TreasureMaps {
 	 * Main
 	 */
 	def main( args :Array[ String ] ) {
-		
 		// get RSS feed from remote location
 		val rss = new Rss().getFeed( "http://sacramento.craigslist.org/gms/index.rss" );
 		// parse feed all the posts

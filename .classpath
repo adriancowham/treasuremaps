@@ -2,10 +2,10 @@
 <classpath>
 	<classpathentry excluding="org/treasuremaps/script/Parser.scala" kind="src" output="out/src" path="src"/>
 	<classpathentry kind="src" output="out/test" path="test"/>
-	<classpathentry kind="src" output="out/src" path="gen"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/scalatest-1.3/scalatest-1.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/scalaquery_2.8.1-0.9.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
