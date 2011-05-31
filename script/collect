@@ -1,0 +1,1 @@
+scala -cp ~/projects/treasuremaps/treasuremaps.jar src/org/treasuremaps/scripts/Collector.scala
