@@ -4,7 +4,7 @@
 	<classpathentry kind="src" output="out/test" path="test"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/scalatest-1.3/scalatest-1.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/scalatest-1.4.1/scalatest-1.4.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

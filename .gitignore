@@ -2,3 +2,5 @@ out/
 treasuremaps/
 .settings
 derby.log
+treasuremaps.jar
+.scala_dependencies
