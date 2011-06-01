@@ -1,0 +1,65 @@
+#!/bin/sh
+exec scala -cp .:out/src -deprecation "$0" "$@"
+!#
+/////////////////////////////////////////////////////////////////////////
+// Script to calculate the ratio of regex matches to non-matches
+/////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+// Imports
+/////////////////////////////////////////////////////////////////////////
+import scala.xml._
+import scala.collection.immutable.List
+
+/////////////////////////////////////////////////////////////////////////
+// Function Definitions
+/////////////////////////////////////////////////////////////////////////
+
+def countPosts( feed: List[String] ) : Int = {
+	var postCount = 0
+	feed.foreach( postCount += count( _ ) )
+	return postCount
+}
+
+def count( filename: String ) : Int = {
+	// open the feed
+	val rss = XML load( filename )
+	// parse feed all the posts
+	val posts = rss \ "description"
+
+	println( "Filename: " + filename + " - " + posts.size )
+	return posts size
+}
+
+/////////////////////////////////////////////////////////////////////////
+// Constants
+/////////////////////////////////////////////////////////////////////////
+
+// list of posts where an address couldn't be identified
+val unidentifiables = "data/analytics/unidentifiables.xml" :: Nil
+
+// list of posts where an address was identified with high confidence
+val identifiables = "data/analytics/avenues.xml" :: 
+				"data/analytics/circles.xml" :: 
+				"data/analytics/courts.xml" :: 
+				"data/analytics/drives.xml" :: 
+				"data/analytics/lanes.xml" :: 
+				"data/analytics/places.xml" ::
+				"data/analytics/roads.xml" :: 
+				"data/analytics/streets.xml" :: 
+				"data/analytics/ways.xml" :: Nil
+
+
+/////////////////////////////////////////////////////////////////////////
+// Start Script
+/////////////////////////////////////////////////////////////////////////
+val known :Double = countPosts( identifiables )
+val unknown :Double = countPosts( unidentifiables )
+
+println( "--------------------------------------------------")
+println( "Total Unknown: " + unknown )
+println( "Total Known: " + known )
+println( "Percentage Known: %.2f".format( unknown/known * 100 ) )
+/////////////////////////////////////////////////////////////////////////
+// End Script
+/////////////////////////////////////////////////////////////////////////
