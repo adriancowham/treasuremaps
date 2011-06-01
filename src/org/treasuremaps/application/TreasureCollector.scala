@@ -6,7 +6,6 @@ import scala.collection.mutable.HashSet
 import scala.xml.XML
 import scala.xml.Node
 import scala.xml.PrettyPrinter
-import org.treasuremaps.model.tables.StreetNames
 import org.treasuremaps.rss.Rss
 import org.treasuremaps.regex.AddressRegex
 import scala.util.matching.Regex
@@ -22,6 +21,7 @@ class TreasureCollector {
 		
 		println("collecting")
 		val rss = new Rss().getFeed( "http://sacramento.craigslist.org/gms/index.rss" );
+		
 		// parse feed all the posts
 		val posts = rss \ "item"
 				
@@ -91,6 +91,7 @@ class TreasureCollector {
 	
 	// TODO: Convert to scala speak when possible
 	def appendToFile( node :Node, filename :String ) = {
+		println("Writing file: " + filename)
 		val builder = new StringBuilder()
 		val printer = new PrettyPrinter( 100, 5 )
 		printer.format( node, builder )
