@@ -6,7 +6,6 @@ import scala.collection.mutable.HashSet
 import scala.xml.XML
 import scala.xml.Node
 import scala.xml.PrettyPrinter
-import org.treasuremaps.model.tables.StreetNames
 import org.treasuremaps.rss.Rss
 import org.treasuremaps.regex.AddressRegex
 import scala.util.matching.Regex
