@@ -1,28 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="TreasureMaps" default="all"  basedir=".">
+<!--
+	ANT build file for org.treasuremaps.*
 	
+	@author: Brendan O'Bra
+	@author: Adrian Cowham
+-->
+
+<project name="TreasureMaps" default="all"  basedir=".">
+
+	<!--
+		Property definitions
+	-->
+	<!-- directory for all libraries required to compile the production code -->
 	<property name="lib" value="lib" />
+
+ 	<!-- directory for all libraries required to compile the test code -->
+	<property name="test-lib" value="test-lib" /> 
+
+	<!-- output directory for the production classes -->
+	<property name="production-classes" value="out/src" />
+
+	<!-- output directory for the test classes -->
 	<property name="test-classes" value="out/test" />
- 	<property name="scala.home" value="/usr/local/scala" />	
+	
+	<!-- jar file name, generated as a result of the "jar" target-->
+	<property name="jarfile-name" value="out/treasuremaps.jar" />
+	
+	<!--
+		Path definitions
+	-->
+	<!-- classpath for loading the scalatest ANT task definition -->
 	<path id="scalatest-classpath">
-    	<pathelement location="${lib}/scalatest-1.4.1/scalatest-1.4.1.jar"/>
+    	<pathelement location="${test-lib}/scalatest-1.4.1/scalatest-1.4.1.jar"/>
     	<pathelement location="${lib}/scala-library.jar"/>
   	</path>
-	<taskdef name="scalatest" classname="org.scalatest.tools.ScalaTestAntTask">
-		<classpath refid="scalatest-classpath"/>
-	</taskdef>
-	<path id="scala-compile-classpath">
+
+	<!-- classpath for compiling the treasuremaps production code-->
+	<path id="production-classpath">
 		<pathelement location="${lib}/scala-compiler.jar"   />
 		<pathelement location="${lib}/scala-library.jar"   />
-		<!--<pathelement location="${lib}/scalaquery_2.9.0-0.9.4.jar"/>-->
-	</path>
-	<path id="test-classpath">
-		<path refid="scalatest-classpath"/>
-		<path refid="scala-compile-classpath"/>
-		<pathelement location="${lib}/junit.jar"/>
 	</path>
 
-	
+	<!-- classpath for compile the treasuremaps test code -->
+	<path id="test-classpath">
+		<path refid="scalatest-classpath"/>
+		<path refid="production-classpath"/>
+		<pathelement location="${test-lib}/junit.jar"/>
+	</path>
+
+	<!--
+		Task definitions
+	-->
+	<!-- scalatest ANT task definition used for running the tests -->
+	<taskdef name="scalatest" classname="org.scalatest.tools.ScalaTestAntTask">
+		<classpath refid="scalatest-classpath"/>
+	</taskdef>	
 	
 	<taskdef resource="scala/tools/ant/antlib.xml">
 		<classpath>
@@ -31,37 +62,48 @@
 		</classpath>
 	</taskdef>
 	
+	<!--
+		Target definitions
+	-->
+	<!-- prereq to compile, creates the necessary directory structures -->
 	<target name="compile-init">
 		<mkdir dir="${test-classes}"/>
+		<mkdir dir="${production-classes}"/>
 	</target>
 	
-	<target name="compile" depends="compile-init">
-		<scalac srcdir="src" destdir="out" classpathref="scala-compile-classpath">
-			<include name="**/*.scala" />
-			<exclude name="**/Collector.scala"/>
-		</scalac>
+	<!-- compiles all the treasuremaps production and test code into the "out/src" and "out/test" 
+	directories respectively -->
+	<target name="compile" depends="compile-init, compile-production, compile-test" />
+
+	<!-- compiles all the treasure maps production code into the "out/" directory -->
+	<target name="compile-production" depends="compile-init">
+		<scalac srcdir="src" destdir="${production-classes}" classpathref="production-classpath" />
 	</target>
 	
+	<!-- compiles all the treasuremaps test code into the "out/test" directory -->
 	<target name="compile-test" depends="compile-init">
-		<scalac srcdir="test" destdir="${test-classes}" classpathref="test-classpath">
-			<include name="**/*.scala" />
-		</scalac>
+		<scalac srcdir="test" destdir="${test-classes}" classpathref="test-classpath" />
 	</target>
 	
+	<!-- wipes the development env clean of residue -->
 	<target name="clean">
-		<delete dir="out" />
-		<delete file="treasuremaps.jar" />
+		<delete dir="${production-classes}" />
+		<delete dir="${test-classes}" />
+		<delete file="${jarfile-name}" />
 	</target>
 	
+	<!-- create the jar file from the output of the production compile -->
 	<target name="jar" depends="compile">
-		<jar destfile="treasuremaps.jar" basedir="out" >
+		<jar destfile="${jarfile-name}" basedir="${production-classes}" >
 			<include name="**/*.class"/>
 		</jar>
 	</target>
 		
-	<target name="test" depends="jar,compile-test" >
+	<!-- runs all the treasuremaps tests-->
+	<target name="test" depends="jar" >
 		<scalatest runpath="${test-classes}" />
 	</target>
-	<target name="all" depends="clean,test"/>
-		
+
+	<!-- default target used for convienently compiling the code and running all the tests -->
+	<target name="all" depends="clean, test"/>		
 </project>
