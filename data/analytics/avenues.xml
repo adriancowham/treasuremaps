@@ -1,3 +1,5 @@
+<items>
+
 <description 
 xmlns:admin="http://webns.net/mvcb/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:ev="http://purl.org/rss/1.0/modules/event/" xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
      HUGE MOVING SALE &lt;br&gt;
@@ -783,3 +785,4 @@ Sunday  Pls. call first
 &lt;li&gt;&lt;!-- CLTAG outsideContactOK=on --&gt;it's ok to contact this poster with services or other commercial interests&lt;/ul&gt;
 &lt;!-- END CLTAGS --&gt;
 </description>
+</items>

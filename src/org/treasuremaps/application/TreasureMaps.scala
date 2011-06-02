@@ -31,8 +31,6 @@ object TreasureMaps {
 		// for every "post" in the feed, try to match its description against a
 		// regular expression
 		for( post <- posts \ "description" ) {
-			// TODO: create filenames based on date/time for the current day and the type of 
-			// street qualifier
 			post text match {
 				case AddressRegex.FullyQualifiedWay( addy ) => { 
 						appendToFile( post, generateFilename( "ways" ) )
