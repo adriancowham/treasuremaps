@@ -16,9 +16,11 @@ import scala.collection.immutable.List
 /////////////////////////////////////////////////////////////////////////
 
 def countPosts( feed: List[String] ) : Int = {
-	var postCount = 0
-	feed.foreach( postCount += count( _ ) )
-	return postCount
+
+	if( feed.size == 1 ) { return count( feed.head ) }
+	else { 
+		return count( feed.head ) + countPosts( feed.tail ) 
+	}
 }
 
 def count( filename: String ) : Int = {
