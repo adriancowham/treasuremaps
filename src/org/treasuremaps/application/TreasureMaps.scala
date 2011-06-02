@@ -1,15 +1,12 @@
 package org.treasuremaps.application
 
-import java.util._
-import java.text.SimpleDateFormat
 import java.io.FileWriter
-import scala.collection.mutable.HashSet
-import scala.xml.XML
-import scala.xml.Node
-import scala.xml.PrettyPrinter
-import org.treasuremaps.rss.Rss
 import org.treasuremaps.regex.AddressRegex
+import org.treasuremaps.rss.Rss
+import scala.collection.mutable.HashSet
 import scala.util.matching.Regex
+import scala.xml.{PrettyPrinter, Node}
+import scala.collection.mutable.HashMap
 
 /**
  * Test application used to consume a CL RSS feed, parse it, and capture
@@ -17,6 +14,18 @@ import scala.util.matching.Regex
  */
 object TreasureMaps {
 
+	// doesn't seem Scala-ish, refactor
+	def saveData( parsedData: HashMap[String, List[Node]], 
+	    visited: HashSet[Node],
+	    streetType: String, 
+	    data: Node ) = {
+	  
+	  val temp = parsedData.getOrElse( streetType, Nil )
+	  parsedData += streetType -> ( data :: temp)
+	  
+	  visited += data
+	}
+	
 	/**
 	 * Main
 	 */
@@ -27,42 +36,35 @@ object TreasureMaps {
 		val posts = rss \ "item"
 				
 		val visited = new HashSet[Node]()
-
+		val parsedData = new HashMap[String, List[Node]]
+		
 		// for every "post" in the feed, try to match its description against a
 		// regular expression
 		for( post <- posts \ "description" ) {
 			post text match {
-				case AddressRegex.FullyQualifiedWay( addy ) => { 
-						appendToFile( post, generateFilename( "ways" ) )
-						visited += post
+				case AddressRegex.FullyQualifiedWay( addy ) => {						
+						saveData( parsedData, visited, "ways", post )
 					}
 				case AddressRegex.FullyQualifiedStreet( addy ) => { 
-						appendToFile( post, generateFilename( "streets" ) ) 
-						visited += post
+						saveData( parsedData, visited, "streets", post )
 					}
 				case AddressRegex.FullyQualifiedCourt( addy ) => { 
-						appendToFile( post, generateFilename( "courts" ) ) 
-						visited += post
+						saveData( parsedData, visited, "courts", post )
 					}
 				case AddressRegex.FullyQualifiedAvenue( addy ) => { 
-						appendToFile( post, generateFilename( "avenues" ) ) 
-						visited += post
+						saveData( parsedData, visited, "avenues", post )
 					}
 				case AddressRegex.FullyQualifiedPlace( addy ) => { 
-						appendToFile( post, generateFilename( "places" ) ) 
-						visited += post
+						saveData( parsedData, visited, "places", post )
 					}
 				case AddressRegex.FullyQualifiedLane( addy ) => { 
-						appendToFile( post, generateFilename( "lanes" ) ) 
-						visited += post
+						saveData( parsedData, visited, "lanes", post )
 					}
 				case AddressRegex.FullyQualifiedCircle( addy ) => { 
-						appendToFile( post, generateFilename( "circles" ) ) 
-						visited += post
+						saveData( parsedData, visited, "circles", post )
 					}
 				case AddressRegex.FullyQualifiedRoad( addy ) => { 
-						appendToFile( post, generateFilename( "roads" ) ) 
-						visited += post
+						saveData( parsedData, visited, "roads", post )
 					}
 				case _ => 
 			}
@@ -72,17 +74,29 @@ object TreasureMaps {
 		for( post <- posts \ "description" ) {
 			post text match {
 				case AddressRegex.FullyQualifiedDrive( addy ) => {
-					appendToFile( post, generateFilename( "drives" ) )
-						visited += post
+						saveData( parsedData, visited, "drives", post )
 				}
 				case _ => {
 					if( !visited( post ) ) {
-						appendToFile( post, generateFilename( "unidentifiables" ) )
-						visited += post
+						saveData( parsedData, visited, "unidentifiables", post )
 					}
 				}
 			}
-		}		
+		}
+		
+		// for each entry in parsedData write to disk
+		
+	}
+	
+	def writeToFile( filePrefix: String, data: List[Node] ) {
+	  val filename = generateFilename( filePrefix )
+	  // load xml file
+	  
+	  // get nodes
+	  
+	  // concat with data passed in
+	  
+	  // write to file
 	}
 	
 	def generateFilename( prefix :String, suffix :String = "" ) :String = {
