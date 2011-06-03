@@ -1,8 +1,4 @@
 #!/bin/sh
-////////////////////////////////////////////////////////////////////
-// Script to call collector
-///////////////////////////////////////////////////////////////////
-//Setup classpath using compiled bytes in ../out (may need to change) 
 L=`dirname $0`/../out
 cp=`echo $L/*.jar|sed 's/ /:/g'`
 exec scala -classpath $cp $0 $@
