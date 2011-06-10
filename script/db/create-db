@@ -1,0 +1,23 @@
+#!/bin/sh
+exec scala -deprecation "$0" "$@"
+!#
+/////////////////////////////////////////////////////////////////////////
+// Script to create the database and populate it
+/////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+// Imports
+/////////////////////////////////////////////////////////////////////////
+import scala.io.Source
+import scala.sys.process.Process
+
+import java.io.ByteArrayInputStream
+
+val sql = new StringBuilder()
+sql.append( Source.fromFile( "sql/connect.sql" ).mkString )
+sql.append( Source.fromFile( "sql/create-tables.sql" ).mkString )
+sql.append( Process( "script/db/parse-sac_county" ) !! ) 
+sql.append( Process( "script/db/parse-placer_county" ) !! ) 
+sql.append( "DISCONNECT;" )
+sql.append( "EXIT;" )
+( Process( "ij" ) #< new ByteArrayInputStream( sql.toString().getBytes() ) ).run

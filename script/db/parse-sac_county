@@ -66,20 +66,16 @@ def validEntry( items: Array[ String ], visitedItems: HashSet[ String ] ) :Boole
 		!visitedItems( generateDataKey( items ) ) &&
 		items( StreetNameIndex ) != "" &&
 		items( StreetTypeIndex ) != "" &&
-		items( StreetFullIndex ) != ""
+		items( StreetFullIndex ) != "" &&
+		items( ZipLeftIndex ) != ""
 }
 
 def generateDataKey( data: Array[ String ] ) :String = {
 	return data( StreetFullIndex )
 }
 
-
 def generateSql( data: String ) = {
-  println( data )
-  val out = new FileWriter( "sql/streets.sql" )
-  out.write( data )
-  out.flush
-  out.close
+	println( data )
 }
 
 /////////////////////////////////////////////////////////////////////////
@@ -95,9 +91,6 @@ def generateSql( data: String ) = {
 val visited = new HashSet[String]()
 
 val builder = new StringBuilder();
-builder.append( """CONNECT 'jdbc:derby:treasuremaps;create=true';""" )
-builder.append( "\nDROP TABLE STREETS;\n" );
-builder.append( "CREATE TABLE STREETS (ID INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), STREET_NAME VARCHAR(20) NOT NULL, STREET_TYPE VARCHAR(10) NOT NULL, STREET_FULL VARCHAR(255) NOT NULL);\n" );
 
 // TODO: Create Indexes
 
@@ -114,18 +107,18 @@ lines.zipWithIndex.foreach { case( line, lineIndex ) =>
 	else if( validEntry( splitStr, visited ) ) {
 		// record a visit for this address
 		visited += generateDataKey( splitStr )
-		builder.append( " INSERT INTO STREETS (STREET_NAME, STREET_TYPE, STREET_FULL) VALUES ('" )
+		builder.append( "INSERT INTO STREETS (STREET_NAME, STREET_TYPE, STREET_FULL, ZIPCODE) VALUES ('" )
 		builder.append( splitStr( StreetNameIndex ) )
 		builder.append( "','" )
 		builder.append( splitStr( StreetTypeIndex ) )
 		builder.append( "','" )
 		builder.append( splitStr( StreetFullIndex ) )
-		builder.append( "');" )
+		builder.append( "'," )
+		builder.append( splitStr( ZipLeftIndex ) )		
+		builder.append( ");" )
 		builder.append( "\n" );
 	}
 }
-builder.append( "DISCONNECT;\n" )
-builder.append( "EXIT" )
 generateSql( builder toString() )
 /////////////////////////////////////////////////////////////////////////
 // End Script

@@ -1,0 +1,94 @@
+#!/bin/sh
+exec scala -deprecation "$0" "$@"
+!#
+/////////////////////////////////////////////////////////////////////////
+// Script to parse CSV files containing street names for Placer County
+/////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+// Imports
+/////////////////////////////////////////////////////////////////////////
+import scala.io.Source
+import scala.collection.immutable.List
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.HashSet
+
+import java.io.File
+import java.io.FileWriter
+import java.io.BufferedWriter
+
+/////////////////////////////////////////////////////////////////////////
+// Filenames to parse
+/////////////////////////////////////////////////////////////////////////
+val PlacerCountyStreetNames = "data/centerlines-placer_county.csv"
+
+/////////////////////////////////////////////////////////////////////////
+// CSV Column Names and their Indexes
+/////////////////////////////////////////////////////////////////////////
+val StreetNameIndex = 0
+val StreetTypeIndex = 1
+val ZipcodeIndex = 3
+
+/////////////////////////////////////////////////////////////////////////
+// Begin Function definitions
+/////////////////////////////////////////////////////////////////////////
+
+def generateDataKey( data: Array[ String ] ) :String = {
+	return data( StreetNameIndex ) + data( StreetTypeIndex )
+}
+
+def validEntry( items: Array[ String], visitedItems: HashSet[ String ] ) :Boolean = {
+
+	return !visitedItems( generateDataKey( items ) ) && items.size == 4
+}
+
+def generateSql( data: String ) = {
+	println( data );
+}
+
+/////////////////////////////////////////////////////////////////////////
+// End Function definitions
+/////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+// Begin Script
+/////////////////////////////////////////////////////////////////////////
+
+// used to keep track of all the addresses we've visited so we don't record
+// duplicates
+val visited = new HashSet[String]()
+
+val builder = new StringBuilder();
+
+// TODO: Create Indexes
+
+// Iterator containing all the lines of the file
+val lines = Source.fromFile( PlacerCountyStreetNames ).getLines
+lines.zipWithIndex.foreach { case( line, lineIndex ) =>
+
+	val splitStr = line.split( "," )
+
+	// only handle valid entries, i.e. entries we haven't already seen
+	// and entries that have the correct number of CSVs
+	if( validEntry( splitStr, visited ) ) {
+		// record a visit for this address
+		visited += generateDataKey( splitStr )
+		builder.append( "INSERT INTO STREETS (STREET_NAME, STREET_TYPE, STREET_FULL, ZIPCODE) VALUES ('" )
+		builder.append( splitStr( StreetNameIndex ) )
+		builder.append( "','" )
+		builder.append( splitStr( StreetTypeIndex ) )
+		builder.append( "','" )
+		// have to generate the full street value
+		builder.append( splitStr( StreetNameIndex ) )
+		builder.append( " " )
+		builder.append( splitStr( StreetTypeIndex ) )	
+		builder.append( "'," )
+		builder.append( splitStr( ZipcodeIndex ) )				
+		builder.append( ");" )
+		builder.append( "\n" );
+	}
+}
+generateSql( builder toString() )
+/////////////////////////////////////////////////////////////////////////
+// End Script
+/////////////////////////////////////////////////////////////////////////
