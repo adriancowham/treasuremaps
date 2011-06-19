@@ -3,104 +3,52 @@ import java.util._
 import java.text.SimpleDateFormat
 import java.io.FileWriter
 import scala.collection.mutable.HashSet
-import scala.xml.XML
+import scala.xml.Elem
 import scala.xml.Node
 import scala.xml.PrettyPrinter
 import org.treasuremaps.rss.Rss
 import org.treasuremaps.regex.AddressRegex
 import scala.util.matching.Regex
-
+import scala.collection.immutable.Map
+import scala.collection.immutable.List
+import scala.collection.mutable.MultiMap
+//Ahh.. Scala... u r00l
+import scala.collection.mutable.{ Set => MSet, HashMap, MultiMap }
+import scala.collection.mutable.{ Set => MSet, HashMap, MultiMap }
 
 class TreasureCollector {
-	def hello(){
-		println("hello")
-		collectTreasure()
-	}
-	
-	def collectTreasure() {
-		
-		println("collecting")
-		val rss = new Rss().getFeed( "http://sacramento.craigslist.org/gms/index.rss" );
-		
-		// parse feed all the posts
-		val posts = rss \ "item"
-				
-		val visited = new HashSet[Node]()
-		// for every "post" in the feed, try to match its description against a
-		// regular expression
-		var total = new java.lang.Integer( 0 )
-		var misses = new java.lang.Integer( 0 )
-		for( post <- posts \ "description" ) {
-			// TODO: create filenames based on date/time for the current day and the type of 
-			// street qualifier
-		
-			post text match {
-				case AddressRegex.FullyQualifiedWay( addy ) => { 
-						appendToFile( post, generateFilename( "ways" ) )
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedStreet( addy ) => { 
-						appendToFile( post, generateFilename( "streets" ) ) 
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedCourt( addy ) => { 
-						appendToFile( post, generateFilename( "courts" ) ) 
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedAvenue( addy ) => { 
-						appendToFile( post, generateFilename( "avenues" ) ) 
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedPlace( addy ) => { 
-						appendToFile( post, generateFilename( "places" ) ) 
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedLane( addy ) => { 
-						appendToFile( post, generateFilename( "lanes" ) ) 
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedCircle( addy ) => { 
-						appendToFile( post, generateFilename( "circles" ) ) 
-						visited += post
-					}
-				case AddressRegex.FullyQualifiedRoad( addy ) => { 
-						appendToFile( post, generateFilename( "roads" ) ) 
-						visited += post
-					}
-				case _ => 
-			}
-		}
-		// Workaround for a defect in the scala compiler, need to break-up the pattern
-		// matching
-		for( post <- posts \ "description" ) {
-			post text match {
-				case AddressRegex.FullyQualifiedDrive( addy ) => {
-					appendToFile( post, generateFilename( "drives" ) )
-						visited += post
-				}
-				case _ => {
-					if( !visited( post ) ) {
-						appendToFile( post, generateFilename( "unidentifiables" ) )
-						visited += post
-					}
-				}
-			}
-		}		
-	}
-	
-	def generateFilename( prefix :String, suffix :String = "" ) :String = {
-		 "data/analytics/" + prefix + suffix + ".xml"
-	}
-	
-	// TODO: Convert to scala speak when possible
-	def appendToFile( node :Node, filename :String ) = {
-		println("Writing file: " + filename)
-		val builder = new StringBuilder()
-		val printer = new PrettyPrinter( 100, 5 )
-		printer.format( node, builder )
-		val writer = new FileWriter( filename, true )
-		writer.write( builder.toString )
-		writer.close()
-	}
+  /* collectTreasure(...)
+   *  Given the data in Elem, use the parsers in cats2parsers, and build a map
+   *  of category -> set with each group of matches 
+   * 
+   */
+  def collectTreasure(rss: Elem, cats2parsers: Map[String, Regex]): MultiMap[String, Node] = {
+
+    println("collecting")
+
+    // parse feed all the posts
+    val posts = rss \ "item"
+     //setup result, using map with MultiMap mixin to provide 1->many mapping
+    val result: MultiMap[String, Node] = new HashMap[String, MSet[Node]] with MultiMap[String, Node]
+    
+    //Walk parsed posts...
+    for (post <- posts \ "description") {
+      //give it parser a shot at classification
+      cats2parsers.foreach { parsers: (String, Regex) =>
+        val (name, parser) = parsers
+        post text match {
+          case parser(addy) => {
+            println("The addy: " + addy + " is qualified as a: " + name)
+            result.add(name, post)
+          }
+          case _ => {
+            println("The post is qualified as unidentifiable " + post  )
+            result.add("unidentifiables", post)
+          }
+        }
+      }
+    }
+    result
+  }
 
 }

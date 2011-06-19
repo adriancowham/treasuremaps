@@ -13,26 +13,26 @@
 	<!-- directory for all libraries required to compile the production code -->
 	<property name="lib" value="lib" />
 
- 	<!-- directory for all libraries required to compile the test code -->
-	<property name="test-lib" value="test-lib" /> 
+	<!-- directory for all libraries required to compile the test code -->
+	<property name="test-lib" value="test-lib" />
 
 	<!-- output directory for the production classes -->
 	<property name="production-classes" value="out/src" />
 
 	<!-- output directory for the test classes -->
 	<property name="test-classes" value="out/test" />
-	
+
 	<!-- jar file name, generated as a result of the "jar" target-->
 	<property name="jarfile-name" value="out/treasuremaps.jar" />
-	
+
 	<!--
 		Path definitions
 	-->
 	<!-- classpath for loading the scalatest ANT task definition -->
 	<path id="scalatest-classpath">
-    	<pathelement location="${test-lib}/scalatest-1.4.1/scalatest-1.4.1.jar"/>
-    	<pathelement location="${lib}/scala-library.jar"/>
-  	</path>
+		<pathelement location="${test-lib}/scalatest-1.4.1/scalatest-1.4.1.jar"/>
+		<pathelement location="${lib}/scala-library.jar"/>
+	</path>
 
 	<!-- classpath for compiling the treasuremaps production code-->
 	<path id="production-classpath">
@@ -44,6 +44,7 @@
 	<path id="test-classpath">
 		<path refid="scalatest-classpath"/>
 		<path refid="production-classpath"/>
+		<pathelement location="out/src"/>
 		<pathelement location="${test-lib}/junit.jar"/>
 	</path>
 
@@ -53,15 +54,16 @@
 	<!-- scalatest ANT task definition used for running the tests -->
 	<taskdef name="scalatest" classname="org.scalatest.tools.ScalaTestAntTask">
 		<classpath refid="scalatest-classpath"/>
-	</taskdef>	
-	
+		<classpath location="out/src" />
+	</taskdef>
+
 	<taskdef resource="scala/tools/ant/antlib.xml">
 		<classpath>
 			<pathelement location="${lib}/scala-compiler.jar"   />
 			<pathelement location="${lib}/scala-library.jar"   />
 		</classpath>
 	</taskdef>
-	
+
 	<!--
 		Target definitions
 	-->
@@ -70,40 +72,52 @@
 		<mkdir dir="${test-classes}"/>
 		<mkdir dir="${production-classes}"/>
 	</target>
-	
+
 	<!-- compiles all the treasuremaps production and test code into the "out/src" and "out/test" 
 	directories respectively -->
-	<target name="compile" depends="compile-init, compile-production, compile-test" />
+	<target name="compile" depends="compile-init, compile-production" />
 
 	<!-- compiles all the treasure maps production code into the "out/" directory -->
 	<target name="compile-production" depends="compile-init">
 		<scalac srcdir="src" destdir="${production-classes}" classpathref="production-classpath" />
 	</target>
-	
+
 	<!-- compiles all the treasuremaps test code into the "out/test" directory -->
-	<target name="compile-test" depends="compile-init">
+	<target name="compile-test" depends="compile">
 		<scalac srcdir="test" destdir="${test-classes}" classpathref="test-classpath" />
 	</target>
-	
+
 	<!-- wipes the development env clean of residue -->
 	<target name="clean">
 		<delete dir="${production-classes}" />
 		<delete dir="${test-classes}" />
 		<delete file="${jarfile-name}" />
 	</target>
-	
+
 	<!-- create the jar file from the output of the production compile -->
 	<target name="jar" depends="compile">
 		<jar destfile="${jarfile-name}" basedir="${production-classes}" >
 			<include name="**/*.class"/>
 		</jar>
 	</target>
-		
+
 	<!-- runs all the treasuremaps tests-->
-	<target name="test" depends="jar" >
-		<scalatest runpath="${test-classes}" />
+	<target name="test-general" depends="compile-test" >
+		<scalatest runpath="${test-classes}"  >
+			
+		</scalatest>
 	</target>
 
+
+	<target name="test-collector" depends="compile-test" >
+		<scalatest runpath="${test-classes}"  >
+	
+		<suite classname="org.treasuremaps.application.TreasureCollectorSpec"/>
+		</scalatest>
+	</target>
+
+	<target name="test" depends="compile-test,test-general"/>
+
 	<!-- default target used for convienently compiling the code and running all the tests -->
-	<target name="all" depends="clean, test"/>		
+	<target name="all" depends="clean, test,jar"/>
 </project>
