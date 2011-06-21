@@ -1,0 +1,2650 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://sacramento.craigslist.org/gms/">
+<title>craigslist | garage &#x26; moving sales in sacramento</title>
+<link>http://sacramento.craigslist.org/gms/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:publisher>webmaster@craigslist.org</dc:publisher>
+<dc:creator>webmaster@craigslist.org</dc:creator>
+<dc:source>http://sacramento.craigslist.org/gms//</dc:source>
+<dc:title>craigslist | garage &#x26; moving sales in sacramento</dc:title>
+<dc:type>Collection</dc:type>
+<syn:updateBase>2011-06-20T20:23:29-07:00</syn:updateBase>
+<syn:updateFrequency>4</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452849413.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452836908.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452816521.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452755915.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452747213.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452746297.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452735788.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452701289.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452699609.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452638237.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452586970.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452485481.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452482364.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452450729.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452449508.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452442647.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452371508.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452360697.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452334607.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452316649.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452314327.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452220352.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452167365.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452160052.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452130818.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452103677.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452100119.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452086706.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452054610.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452033895.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452031660.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452026639.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452021642.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2452012016.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451995885.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451982742.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451976703.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451939765.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451898485.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451886323.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451870381.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451833319.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451829918.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451815031.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451798474.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451764084.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451761709.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451747122.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451666457.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451604140.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451572875.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451570234.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451551705.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451537159.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451433141.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451394654.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451365122.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451357311.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451327697.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451231233.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451200340.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451117339.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2451039205.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450949655.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450775895.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450766042.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450722862.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450719331.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450666500.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450657719.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450646781.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450622176.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450607516.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450601216.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450589768.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450545751.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450545071.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450541561.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450538882.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450445674.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450406549.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450357954.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450303532.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450301561.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450288324.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450263901.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450263622.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450251588.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450220852.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450217959.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450198329.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450133717.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450109862.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450100717.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450099097.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450079560.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450030037.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2450002051.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2449972918.html" />
+  <rdf:li rdf:resource="http://sacramento.craigslist.org/gms/2449963727.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452849413.html">
+<title><![CDATA[ROSEVILLE YARD SALE ONE DAY ONLY SAT. 25TH, 8-4 (Diamond Oaks Way, Roseville)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452849413.html</link>
+<description><![CDATA[YARD SALE THIS SATURDAY- ONE DAY ONLY!!!<br>
+<br>
+SATURDAY 25, 2011. . . (8:00 am- 4pm)<br>
+<br>
+MANY MISC ITEMS:<br>
+<br>
+*Martin 6 String Guitar w/ case, and Ibanez Acoustic guitar<br>
+*Kids bike (Used twice)<br>
+*K2, Satellite Snowboard, never used- no bindings<br>
+*Fax machine SHARP<br>
+*Misc women's clothes (kids/ adult), books.<br>
+*Remote Control Toys (Robot, Trucks, dino etc.)<br>
+*XBOX wireless racing wheel (never used)<br>
+*HP Monitor, HP printer/scanner/copy, (both need repair)<br>
+*Porcelain clown dolls<br>
+*Older Golf club set with bag<br>
+*Small older keyboard<br>
+*Thomas Kinkaid small Lighthouses<br>
+*Older metal Canopy Bed, cream colored with headboard, footboard, and all chiffon drapery inc.<br>
+<br>
+GREAT DEALS FOR ONE DAY ONLY-<br>
+ <br>
+(Next to Diamond Oaks Golf Course) ROSEVILLE<br>
+<br>
+(916) 583-3287     Please call for questions/ address<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Diamond Oaks Way, Roseville -->Location: Diamond Oaks Way, Roseville
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T20:08:27-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452849413.html</dc:source>
+<dc:title><![CDATA[ROSEVILLE YARD SALE ONE DAY ONLY SAT. 25TH, 8-4 (Diamond Oaks Way, Roseville)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T20:08:27-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452836908.html">
+<title><![CDATA[College Student Garage Sell (Elk Grove)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452836908.html</link>
+<description><![CDATA[Help a child go to college need to raise money for college<br>
+<br>
+Items  for sell dishes, cocktail tables, plus size women clothing size -22 - 34W, size 2 - 8 women clothing, alternator for a 1981 Jaguar never been used, infant clothing - women adult clothing, alot of misc items.  off Franklin High Road <br>
+<br>
+Saturday June 25, 2011 at 7:00 am<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Elk Grove -->Location: Elk Grove
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T19:59:17-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452836908.html</dc:source>
+<dc:title><![CDATA[College Student Garage Sell (Elk Grove)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T19:59:17-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452816521.html">
+<title><![CDATA[we pick up your childrens' clothes size 0-16yrs and toys for free! (antelope, roseville, citrus heights)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452816521.html</link>
+<description><![CDATA[we pick up kids clothes and toys for free. If you dont need it anymore please e-mail to n_voitenko@mail.ru and we'll do our best to arrive shortly and pick up your stuff.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=antelope, roseville, citrus heights -->Location: antelope, roseville, citrus heights
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T19:44:47-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452816521.html</dc:source>
+<dc:title><![CDATA[we pick up your childrens' clothes size 0-16yrs and toys for free! (antelope, roseville, citrus heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T19:44:47-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452755915.html">
+<title><![CDATA[Estate Sale (8518 Fairmont Way, Fair Oaks 95628)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452755915.html</link>
+<description><![CDATA[Saturday June 25 8am-3pm - Estate Sale-all items-livingroom furniture, bedroom set, kitchen items, all itmes in the house will go on sale for best offers. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=8518 Fairmont Way, Fair Oaks 95628 -->Location: 8518 Fairmont Way, Fair Oaks 95628
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T19:04:07-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452755915.html</dc:source>
+<dc:title><![CDATA[Estate Sale (8518 Fairmont Way, Fair Oaks 95628)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T19:04:07-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452747213.html">
+<title><![CDATA[Garage & Estate Sale June 25th & 26th ( Rio Linda) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2452747213.html</link>
+<description><![CDATA[Large multi-family garage & estate sale. This Saturday and Sunday June 25th & 26th from 7am-3pm...what we don't have in person here we will also have in pictures with prices. There is just too much to bring to one house. Lazyboy couch and 2 rocker recliners, birdseye maple entertainment center,19 in tv w/ dvd player, 32 inch tv , oak dining table with 6 matching chairs, matching oak hutch, full size 1960 bed with mattresses and 2 nightstands, chest dresser, & large dresser with mirror, chest freezer x2, kenmore fridge, birdseye maple bookcase, birdseye maple desk (hand crafted), tools, lots of kitchen stuff too, glasses, utensils, bathroom rugs, bath towels, sheets, trashcans,nik-naks, wicker baskets, dirt devil vacum, kids board games, kids toys, legos, action figures, kids clothes (boy & girl), shoes, coach & dooney& bourke purses (10 total), barstools, Roland ep-9 digital piano w/bench, we also have a 1967 VW karmann ghia for sale as well. Tons of stuff and I know there is more but I can't think of it off the top of my head. SO...please come and check us out this weekend at 1815 C Street Rio Linda, CA 95673. If there is a big item listed here that you think you might want before this weekend feel free to contact me at 916-997-4777.<br>
+<br>
+Thanks,<br>
+Crystal<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea= Rio Linda -->Location:  Rio Linda
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T18:58:40-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452747213.html</dc:source>
+<dc:title><![CDATA[Garage & Estate Sale June 25th & 26th ( Rio Linda) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T18:58:40-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452746297.html">
+<title><![CDATA[Community Garage Sale-June 25 (Fulton Woods Apartments - Sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452746297.html</link>
+<description><![CDATA[Community garage sale! This Saturday at Fulton Woods Apartments. Gates will be open. Come check us out this Saturday. Variety of items available including but not limited to: furniture, clothes, maybe some electronics. HUGE variety. Please feel free to stop by<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Fulton Woods Apartments - Sacramento -->Location: Fulton Woods Apartments - Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T18:58:05-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452746297.html</dc:source>
+<dc:title><![CDATA[Community Garage Sale-June 25 (Fulton Woods Apartments - Sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T18:58:05-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452735788.html">
+<title><![CDATA[EVERYTHING MUST GO!  SATURDAY, June 25th! (2440 Berrywood Drive, Rancho Cordova)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452735788.html</link>
+<description><![CDATA[COME EARLY!  8:00 A.M. -- RETIRED CHEF!  GREAT DEALS!<br>
+KITCHEN Gadgets, Chaffing Dishes, Ice Cream Maker, Deep Fryer, Dish Set (bowls, dessert plates, dinner plates), Muffin Pans, Fireplace Utensils, Bedside Commode, Shelving Unit (retail $300), Tools, Women's Clothing, Futon Frame and Much More!<br>
+<br>
+Call 916-635-9659 for more info!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=2440 Berrywood Drive, Rancho Cordova -->Location: 2440 Berrywood Drive, Rancho Cordova
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T18:50:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452735788.html</dc:source>
+<dc:title><![CDATA[EVERYTHING MUST GO!  SATURDAY, June 25th! (2440 Berrywood Drive, Rancho Cordova)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T18:50:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452701289.html">
+<title><![CDATA[Estate Sale Sat 6/25 8AM-Noon- Furniture (Sierra Oaks, Sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452701289.html</link>
+<description><![CDATA[1. Girls bedroom set (cream color) - bedframe, two storage drawers on rollers, night stand, dresser, trunk and mirror (7 pieces) $450 or best offer.<br>
+2. Solid wood dining room table and 8 chairs: square table, seats eight. $495 or best offer.<br>
+3. Wrought iron side board buffet table:  Ballard Designs, textured wooden top. $150 or best offer.<br>
+4. Oak desk and hutch with bookcase/cupboards. $250 or best offer.<br>
+5. Two carved wood entry chairs with upholstered, padded seats. $50/each or best offer.<br>
+<br>
+Call 916-337-0504 for information or an appointment to preview.  On Gifford Way, Sierra Oaks Neighborhood in Sacramento.<br>
+<br>
+<br>
+ <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sierra Oaks, Sacramento -->Location: Sierra Oaks, Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T18:30:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452701289.html</dc:source>
+<dc:title><![CDATA[Estate Sale Sat 6/25 8AM-Noon- Furniture (Sierra Oaks, Sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T18:30:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452699609.html">
+<title><![CDATA[Garage Sale - Saturday June 25th  (Curtis Park / Land Park)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452699609.html</link>
+<description><![CDATA[Saturday Only - June 25th - Starting at 7am - Ending at 2pm, Please no early birds. <br>
+<br>
+Here are just a few of the items for sale:<br>
+- Work-out bench with adjustable dumbbell set<br>
+- Thomas O'brien coffee table<br>
+- Nirve Cruiser Bike - Paul Frank Edition <br>
+- Xbox / Wii Games<br>
+- Bluray movies<br>
+- DVD Player<br>
+- Children's piano<br>
+- Children's activity table w/ chairs<br>
+- Children's / Baby clothes <br>
+- Indoor & outdoor toys<br>
+- Sports equipment<br>
+- Tools<br>
+- Women's shoes<br>
+- Women's Sun glasses - Ray-Ban<br>
+- Many other items not listed<br>
+<br>
+Address:<br>
+2432 6th Ave<br>
+Sacramento, CA 95818<br>
+<br>
+Google Maps:<br>
+<a href="http://maps.google.com/maps?q=2432+6th+ave+sacramento&hl=en&gl=us&sqi=2&t=h&z=16" rel="nofollow">http://maps.google.com/maps?q=2432+6th+ave+sacramento&hl=en&gl=us&sqi=2&t=h&z=16</a><br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Curtis Park / Land Park -->Location: Curtis Park / Land Park
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T18:29:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452699609.html</dc:source>
+<dc:title><![CDATA[Garage Sale - Saturday June 25th  (Curtis Park / Land Park)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T18:29:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452638237.html">
+<title><![CDATA[Estate Sale, Pine Grove (Pine Grove)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452638237.html</link>
+<description><![CDATA[Estate Sale<br>
+14071 Hooper Court, Pine Grove, CA 95665<br>
+Saturday & Sunday, June 25th & 26th.<br>
+10 am to 3 pm each day.<br>
+Just furniture. No calls or emails please, just come if interested.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Pine Grove -->Location: Pine Grove
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T17:53:20-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452638237.html</dc:source>
+<dc:title><![CDATA[Estate Sale, Pine Grove (Pine Grove)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T17:53:20-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452586970.html">
+<title><![CDATA[HUGE MOVING SALE (Citrus heights)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452586970.html</link>
+<description><![CDATA[WE ARE MOVING FROM A 4 BED TO A 2 BED AND HAVE LOTS OF STUFF THAT MUST GO( TABLES, LAMPS, BED, COUCH, TV, CLOTHES, KITCHEN STUFF ODDS AND ENDS INVENTORY CHANGES DAILY) WEN THE 22ND AND THUS THE 23RD FROM 10AM TO 6PM AND FRI THE 24TH SAT THE 25 AND SUN THE 26TH FROM 7AM TO 7PM 7231 KERSTEN ST IN CITRUS HEIGHTS 95621<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Citrus heights -->Location: Citrus heights
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T17:24:30-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452586970.html</dc:source>
+<dc:title><![CDATA[HUGE MOVING SALE (Citrus heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T17:24:30-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452485481.html">
+<title><![CDATA[Garage Sale June 25 Saturday 8 to 1  (Lincoln Crossing)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452485481.html</link>
+<description><![CDATA[Garage sale in Lincoln Crossing<br>
+<br>
+Furniture<br>
+Hot wheels cars (over 300)<br>
+Baseball cards<br>
+Computer items<br>
+Digital camera picture frame<br>
+Wall Art<br>
+Electric Quad for kids<br>
+<br>
+8 am to 1 pm Saturday the 25th<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Lincoln Crossing -->Location: Lincoln Crossing
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T16:29:38-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452485481.html</dc:source>
+<dc:title><![CDATA[Garage Sale June 25 Saturday 8 to 1  (Lincoln Crossing)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T16:29:38-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452482364.html">
+<title><![CDATA[Huge Garage Sale (7559Monogram Dr)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452482364.html</link>
+<description><![CDATA[Multi-Family Garage Sale!!!! U don't want to miss it.<br>
+Where: 7559 Monogram Dr Sacramento CA 95842(cross streets:(Antelope and Don Julio) behind the Kohls store.<br>
+When:Saturday June 25 starts@ 8:30am-3:00pm <br>
+Lots of stuff: electronics, clothes (mans,women's , kids),king size bedding set,books,barbecue grill,games,chairs,jewelry,toys and much, much more....<br>
+<br>
+<br>
+----<br>
+Posted from Craigslist Mobile for iPhone<br>
+<a href="http://itunes.apple.com/app/id405656544?mt=8" rel="nofollow">http://itunes.apple.com/app/id405656544?mt=8</a><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=7559Monogram Dr -->Location: 7559Monogram Dr
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T16:28:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452482364.html</dc:source>
+<dc:title><![CDATA[Huge Garage Sale (7559Monogram Dr)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T16:28:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452450729.html">
+<title><![CDATA[Multi Family Yard Sale (Galt, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452450729.html</link>
+<description><![CDATA[302 Oak Avenue<br>
+<br>
+Tuesday June 21st and Wednesday June 22nd<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Galt, CA -->Location: Galt, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T16:11:56-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452450729.html</dc:source>
+<dc:title><![CDATA[Multi Family Yard Sale (Galt, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T16:11:56-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452449508.html">
+<title><![CDATA[Giant Moving Sale (Winters)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452449508.html</link>
+<description><![CDATA[High end housewares:  Pottery Barn dishes, beautiful serving dishes, stainless steel pots & pans, great kitchen appliances, furniture, TOOLS, cd's, camping equipment, books, many picture frames, some chairs and oh so much more.  Saturday, Aug. 25th 8:00 A.M. - 12:00 at 105 Baker St, Winters, CA.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Winters -->Location: Winters
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T16:11:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452449508.html</dc:source>
+<dc:title><![CDATA[Giant Moving Sale (Winters)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T16:11:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452442647.html">
+<title><![CDATA[Community Yard Sale (Shingle Springs)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452442647.html</link>
+<description><![CDATA[Community Yard Sale <br>
+Lots for sale<br>
+South Shingle/Lakeview dr.<br>
+ June 24, 25, 26<br>
+Questions or direstions 530-676-2807<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Shingle Springs -->Location: Shingle Springs
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T16:07:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452442647.html</dc:source>
+<dc:title><![CDATA[Community Yard Sale (Shingle Springs)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T16:07:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452371508.html">
+<title><![CDATA[ford 67 truck door (citrus heights calif) $125]]></title>
+<link>http://sacramento.craigslist.org/gms/2452371508.html</link>
+<description><![CDATA[This is a passenger door  for a 1967 ford truck complete with all handles and glass. this fit a f=250but all year ford doors are the same f150/f250/f350 very minor dents pictures on request 125.00 or offer thanks chris<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=citrus heights calif -->Location: citrus heights calif
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T15:32:40-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452371508.html</dc:source>
+<dc:title><![CDATA[ford 67 truck door (citrus heights calif) $125]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T15:32:40-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452360697.html">
+<title><![CDATA[POLARIS POOL SWEEP MODEL 380   (SACRAMENTO)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452360697.html</link>
+<description><![CDATA[GREAT CONDITION!  CLEAN, WORKS , HAS ALL HOSES, BACK UP VALVE, BAG<br>
+<br>
+$120 CASH EMAIL ME IF YOU WOULD LIKE TO PURCHASE, PICS UPON REQUEST THANKS!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=SACRAMENTO -->Location: SACRAMENTO
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T15:27:27-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452360697.html</dc:source>
+<dc:title><![CDATA[POLARIS POOL SWEEP MODEL 380   (SACRAMENTO)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T15:27:27-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452334607.html">
+<title><![CDATA[Garage Sale (1955 Horseshoe Glen Circle Folsom)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452334607.html</link>
+<description><![CDATA[Furniture for sale - desks, tables, dinning room set<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=1955 Horseshoe Glen Circle Folsom -->Location: 1955 Horseshoe Glen Circle Folsom
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T15:15:13-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452334607.html</dc:source>
+<dc:title><![CDATA[Garage Sale (1955 Horseshoe Glen Circle Folsom)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T15:15:13-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452316649.html">
+<title><![CDATA[YARD SALE-06/25/11-STAR WARS FIGURES-HALLMARK ORNAMENTS-LAKERS JERSEYS (SACRAMENTO, 95833)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452316649.html</link>
+<description><![CDATA[YARD SALE, SATURDAY, JUNE 25, 2011<br>
+1100 FAIRWEATHER DRIVE <br>
+SACRAMENTO, 95833<br>
+<br>
+CHILDERN CLOTHES, SHOES, TOYS, KITCHEN ITEMS, HANDBAGS, BEANIE BABIES, MCDONALD TOYS, AND OTHER MISCELLANEOUS ITEMS<br>
+LEAPSTER SET WITH BOOKS & GAMES<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=SACRAMENTO, 95833 -->Location: SACRAMENTO, 95833
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T15:06:54-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452316649.html</dc:source>
+<dc:title><![CDATA[YARD SALE-06/25/11-STAR WARS FIGURES-HALLMARK ORNAMENTS-LAKERS JERSEYS (SACRAMENTO, 95833)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T15:06:54-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452314327.html">
+<title><![CDATA[Like New - Foosball Table - MUST SEE!!!! (Sacramento) $200]]></title>
+<link>http://sacramento.craigslist.org/gms/2452314327.html</link>
+<description><![CDATA[Harvard Foosball Table - $200 <br>
+<br>
+Barely Used...Clean & Sturdy....54 3/4"L x 30 3/4"W x 34 1/2"H<br>
+<br>
+Call or Text 916-710-6940 if seriously interested. Thanks for looking!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sacramento -->Location: Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T15:05:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452314327.html</dc:source>
+<dc:title><![CDATA[Like New - Foosball Table - MUST SEE!!!! (Sacramento) $200]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T15:05:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452220352.html">
+<title><![CDATA[Tool Shelf and Gun Cabinet (Sacramento) $45]]></title>
+<link>http://sacramento.craigslist.org/gms/2452220352.html</link>
+<description><![CDATA[I am in the middle of moving and I have a gun cabinet and tool shelf that I would like to sell.   The tool chest has already been sold.   If you are interested in any of these 2 items, please feel free to call me.   For anyone buying the tool shelf, I will include some tools with the shelf for the same price.<br>
+<br>
+<br>
+Darren<br>
+(209)912-8162<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sacramento -->Location: Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T14:24:35-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452220352.html</dc:source>
+<dc:title><![CDATA[Tool Shelf and Gun Cabinet (Sacramento) $45]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T14:24:35-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452167365.html">
+<title><![CDATA[Moving Sale Davis (Davis)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452167365.html</link>
+<description><![CDATA[We are moving back to Germany and we'd like to sell all our household items, including a couch & coffee table, a dining table & chairs, a desk & chairs, a bed, and several kitchen items and electronics. Please follow this link to see all items with pictures.<br>
+<br>
+<a href="https://sites.google.com/site/movingsaledavis/" rel="nofollow">https://sites.google.com/site/movingsaledavis/</a><br>
+<br>
+You can contact us either at the email address above or via phone at 530 304 9621 or 530 219 4775<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Davis -->Location: Davis
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T14:01:57-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452167365.html</dc:source>
+<dc:title><![CDATA[Moving Sale Davis (Davis)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T14:01:57-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452160052.html">
+<title><![CDATA[HUGE Garage/Estate Sale!! (Granite Bay)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452160052.html</link>
+<description><![CDATA[When:  This Saturday and Sunday (6/25 & 6/26)!  Starts at 9 am!<br>
+<br>
+Where: 4371 Whispering Oaks Circle, Granite Bay<br>
+<br>
+Items:  Women and Men's designer clothes and shoes, household items, bedroom furniture, chaise lounge, living/dining room furniture, children's toys and games, sporting goods (golf clubs, tennis equipment, bikes and parts), framed art, books, DVD's, electronics, almost new appliances, purses, jewelry, bedding, gaming equipment, dishes, glassware, laptops, printers and more...<br>
+<br>
+If you need something, we probably have it.  Come by and check it out for yourself!!!  <br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Granite Bay -->Location: Granite Bay
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:58:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452160052.html</dc:source>
+<dc:title><![CDATA[HUGE Garage/Estate Sale!! (Granite Bay)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:58:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452130818.html">
+<title><![CDATA[WED & THURSDAY JUNE 22ND & 23 YARD SALE (2733 GUNN RD CARMICHAEL)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452130818.html</link>
+<description><![CDATA[7 A.M. TO 3 P.M.<br>
+<br>
+LOTS OF NICE FURNITURE<br>
+<br>
+DRESSERS<br>
+TABLES<br>
+COFFEE TABLES<br>
+END TABLES<br>
+NIGHT STANDS<br>
+LAMPS<br>
+SOME ANTIQUES<br>
+<br>
+MISC HOUSEHOLD ITEMS<br>
+<br>
+QUESTIONS OR TO SEE SOME OF MY ITEMS<br>
+<br>
+Call Dave - I have lots of other furniture if this is not exactly what you are looking for! Do a search under my phone number to see all of my great items!<br>
+<br>
+916-212-9360 <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=2733 GUNN RD CARMICHAEL -->Location: 2733 GUNN RD CARMICHAEL
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:47:00-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452130818.html</dc:source>
+<dc:title><![CDATA[WED & THURSDAY JUNE 22ND & 23 YARD SALE (2733 GUNN RD CARMICHAEL)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:47:00-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452103677.html">
+<title><![CDATA[6 Families Garage Sale (Woodside Cir VACAVILLE)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452103677.html</link>
+<description><![CDATA[6 Families at Woodside Circle, VACAVILLE, 72 Merc Comet ($1200 NEEDS ENG Rebuild), misc tools, Lawn Mowers, near new Kenmore 800D gas dryer, apt fridge, house hold items, Lots of Stuff - Friday June 24 3PM to 8PM & Sat 8AM to 1PM. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Woodside Cir VACAVILLE -->Location: Woodside Cir VACAVILLE
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:36:11-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452103677.html</dc:source>
+<dc:title><![CDATA[6 Families Garage Sale (Woodside Cir VACAVILLE)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:36:11-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452100119.html">
+<title><![CDATA[Lien Foreclosure Sale (Sacramento, Ca-Calvine Road)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452100119.html</link>
+<description><![CDATA[Superior Self Storage on 8960 Calvine Road, Sacramento, California will be conducting a lien foreclosure sale on Thursday, June 23rd at 10:00 a.m.  We have 12 units that will be sold.  Items for sale include furniture, clothes, tools, toys, bicycles, household items, gardening tools, lamps, boxes of miscellaneous household items, etc.  For more information contact Superior Self Storage at 916-682-1300.  See you there!!!!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sacramento, Ca-Calvine Road -->Location: Sacramento, Ca-Calvine Road
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:34:44-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452100119.html</dc:source>
+<dc:title><![CDATA[Lien Foreclosure Sale (Sacramento, Ca-Calvine Road)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:34:44-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452086706.html">
+<title><![CDATA[******YARD TOOLS****** (WOODLAND)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452086706.html</link>
+<description><![CDATA[lawn mower honda runs perfect, echo blower,echo weed eater, power trim hedger, runs perfect.......i know what everything is worth call if interested.....firm on prices honda $200 weed eater $150....blower $100....hedger $60 please call (530)723-8863<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=WOODLAND -->Location: WOODLAND
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:29:26-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452086706.html</dc:source>
+<dc:title><![CDATA[******YARD TOOLS****** (WOODLAND)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:29:26-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452054610.html">
+<title><![CDATA[Briggs & Stratton Lawnmower Engine (Natomas) $30]]></title>
+<link>http://sacramento.craigslist.org/gms/2452054610.html</link>
+<description><![CDATA[Still in the box.<br>
+676 190cc<br>
+<br>
+I need to get rid of this quick.. I'm moving and I never had the time to replace my old mower.. I live in an apartment complex now and It's just going to take up space when I move.<br>
+My cell phone is off but you can contact me by email and I can get ahold of you. xllx_n3xt.lvl_xllx@yahoo.com<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Natomas -->Location: Natomas
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:16:54-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452054610.html</dc:source>
+<dc:title><![CDATA[Briggs & Stratton Lawnmower Engine (Natomas) $30]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:16:54-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452033895.html">
+<title><![CDATA[MoViNg SaLe]]></title>
+<link>http://sacramento.craigslist.org/gms/2452033895.html</link>
+<description><![CDATA[piano, dinning table, coffee table, night stands, vases and wall decor 7194613<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:08:46-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452033895.html</dc:source>
+<dc:title><![CDATA[MoViNg SaLe]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:08:46-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452031660.html">
+<title><![CDATA[huge garage sale  (sac./E.G.)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452031660.html</link>
+<description><![CDATA[tv's, electronics,cooking, clothes, fishing/camping many dif type items.  8190 derbyshire circle sac.95828 major cross sts. britney park & elk groce-florin           sat. & sun 6/25 6/26  7am-1    916 689 2654<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=sac./E.G. -->Location: sac./E.G.
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:07:53-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452031660.html</dc:source>
+<dc:title><![CDATA[huge garage sale  (sac./E.G.)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:07:53-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452026639.html">
+<title><![CDATA[BookShelf/ CmpterDesk/ IKEA table/ Stool (Davis) $9]]></title>
+<link>http://sacramento.craigslist.org/gms/2452026639.html</link>
+<description><![CDATA[Clearance Sale in Davis<br>
+Book shelf .................. $9 each<br>
+Computer Desk............$15 each, x2  <br>
+Stool(high heel).............$9 each, x2<br>
+IKEA small table..........  $3 <br>
+<br>
+Too many things going around in my house, so I don't get a chance to take pictures of them.<br>
+<br>
+But please stop by and have a look if you are interested.<br>
+<br>
+You can contact me by email or 626-758-2652<br>
+<br>
+Vincent<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Davis -->Location: Davis
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:05:57-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452026639.html</dc:source>
+<dc:title><![CDATA[BookShelf/ CmpterDesk/ IKEA table/ Stool (Davis) $9]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:05:57-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452021642.html">
+<title><![CDATA[MOVING SALE (antelope)]]></title>
+<link>http://sacramento.craigslist.org/gms/2452021642.html</link>
+<description><![CDATA[Wall decor, vases, lights Call 7194613<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=antelope -->Location: antelope
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:04:02-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452021642.html</dc:source>
+<dc:title><![CDATA[MOVING SALE (antelope)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:04:02-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2452012016.html">
+<title><![CDATA[Office Furnitures & Equipments (7717 Mariposa Ave Citrus Heights Ca 9561) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2452012016.html</link>
+<description><![CDATA[Whole Office closing, selling  equipments,  furnitures & office stuffs CHEAP and some for FREE.<br>
+conference table and chairs, sits 8 person<br>
+office tables and chairs<br>
+exec table and chair<br>
+Credenza<br>
+decors<br>
+copier<br>
+filing cabinets<br>
+and lot of lot of office stuffs and supply<br>
+COME WEDNESDAY June 22nd between 9:00AM - 12:00 Noon and 1:30PM - 4:00PM<br>
+<br>
+contact: 916-300-5388 <br>
+<br>
+ <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=7717 Mariposa Ave Citrus Heights Ca 9561 -->Location: 7717 Mariposa Ave Citrus Heights Ca 9561
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T13:00:26-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2452012016.html</dc:source>
+<dc:title><![CDATA[Office Furnitures & Equipments (7717 Mariposa Ave Citrus Heights Ca 9561) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T13:00:26-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451995885.html">
+<title><![CDATA[Garage and Moving sales - REDUCED PRICES!! (ELK GROVE, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451995885.html</link>
+<description><![CDATA[Everything must be sold within a few weeks; moving out of town.  Reduced prices this week!!!<br>
+Nice 3-piece oak entertainment center set, lots of shelves $190 obo<br>
+29-gal fish tank with 10 different variety of fishes with expensive oak stand $140 obo<br>
+60-in Sony LCD projection 1080p resolution TV (bad fan and lighting, needs parts replace) $125 obo<br>
+36-in Sony flat screen tube TV in great condition $ 110 obo<br>
+Excellent basketball court set $45 obo<br>
+Excellent condition treadmill various speeds, programming modes, and can be set up to 12% incline $225 obo<br>
+2 nice and new baby playpins ($35 for large one, $25 for medium-size one) obo<br>
+Baby walker with car carrier all in 1 set.  $40 obo<br>
+Lots of baby clothes, blakets, other items at $1 a piece.  All like new.<br>
+Beautiful 12 - 15ft Christmas tree complete with lighting, pine cones, etc. Only used 2 seasons $ 90 obo<br>
+<br>
+Open on Saturday 6/25/11 at 8AM sharp.  First come first serve.<br>
+LOCATION:  9540 Royston Way, Elk Grove, CA  95758<br>
+<br>
+**PLEASE INQUIRE VIA EMAIL ONLY AND SERIOUS INQUIRY ONLY.  YOU MAY PURCHASE ANYTIME BETWEEN NOW AND GARAGE SALE DATE EVENING TIME 6:30 PM - 8 PM UPON ARRANGEMENT ONLY**<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=ELK GROVE, CA -->Location: ELK GROVE, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:54:15-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451995885.html</dc:source>
+<dc:title><![CDATA[Garage and Moving sales - REDUCED PRICES!! (ELK GROVE, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:54:15-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451982742.html">
+<title><![CDATA[SPA -33 JETS! (Citrus Heights, CA) $1250]]></title>
+<link>http://sacramento.craigslist.org/gms/2451982742.html</link>
+<description><![CDATA[SPA DEPOT MONTEREY<br>
+83"x83"x36"<br>
+Seating Capacity 6-7<br>
+Water Capacity- 440 Gallons<br>
+33 Total Jet Configurations<br>
+Power- 220 volts<br>
+<br>
+<br>
+SPAS require proper equipment and knowledge or professional movers.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Citrus Heights, CA -->Location: Citrus Heights, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:49:14-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451982742.html</dc:source>
+<dc:title><![CDATA[SPA -33 JETS! (Citrus Heights, CA) $1250]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:49:14-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451976703.html">
+<title><![CDATA[6/25 SAT Moving/Gargage Sale (6707 Leatherwood Way)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451976703.html</link>
+<description><![CDATA[STARTS @ 9 AM<br>
+Huge Multi-Family Sale<br>
+6707 Leatherwood Way     Cross Street - Andrea Blvd off Elkhorn<br>
+<br>
+Furniture<br>
+Tools<br>
+Household Items<br>
+Kitchen Appliances<br>
+Collectibles inc China Set in New Condition<br>
+Games<br>
+HORSE TACK - liquidating 40 yrs of equipment, including dressage saddle, Tom Balding bit w/ bridle<br>
+<br>
+<br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=6707 Leatherwood Way -->Location: 6707 Leatherwood Way
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:46:56-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451976703.html</dc:source>
+<dc:title><![CDATA[6/25 SAT Moving/Gargage Sale (6707 Leatherwood Way)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:46:56-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451939765.html">
+<title><![CDATA[Garage Sale! 6/25 (Vacaville)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451939765.html</link>
+<description><![CDATA[I moved home from college & I'm selling all my furniture (desk, bed, nightstand, table, etc.)<br>
+Also, lots of CLOTHES (mens, womens, juniors), shoes, baseball gear & a pitching machine<br>
+<br>
+Address:<br>
+125 Feather River Circle<br>
+Vacaville (Browns Valley)<br>
+<br>
+Saturday, June 25th, 7am-11am<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Vacaville -->Location: Vacaville
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:33:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451939765.html</dc:source>
+<dc:title><![CDATA[Garage Sale! 6/25 (Vacaville)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:33:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451898485.html">
+<title><![CDATA[Moving sale (antelope)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451898485.html</link>
+<description><![CDATA[everything for sale!!!<br>
+bed, dinning table night stand, piano, lights, wall decor, vases, rug and lots more!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=antelope -->Location: antelope
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:17:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451898485.html</dc:source>
+<dc:title><![CDATA[Moving sale (antelope)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:17:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451886323.html">
+<title><![CDATA[Moving Sale- Furniture & other items... (Suisun City) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2451886323.html</link>
+<description><![CDATA[ITEMS for SALE. MOVING SALE. Furniture and other items for sale in Suisun City<br>
+<br>
+Dining Table w/ set of 6 chairs $375 <br>
+Living room couch $300<br>
+Chaise Lounge$300<br>
+Mirrors $50-$150<br>
+Hallway Tables $75 ea<br>
+Congo Drums $350<br>
+Full size bedset (iron wrought headboard/foot board/bedframe) w/ mattress $275<br>
+Karaoke Machine w/ Surround sound speakers $700 obo<br>
+...and other items up for sale.<br>
+<br>
+Please email for more info and/or to make an appt to come see items in person.<br>
+You can also call 707.416.5103 (pls. leave message if no answer)<br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Suisun City -->Location: Suisun City
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:12:43-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451886323.html</dc:source>
+<dc:title><![CDATA[Moving Sale- Furniture & other items... (Suisun City) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:12:43-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451870381.html">
+<title><![CDATA[Time To Downsize (Rocklin)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451870381.html</link>
+<description><![CDATA[<b>Washer/Dryer</b><br>
+* Kenmore <br>
+* Washer <br>
+* Dryer electric 90 series<br>
+* In good working condition<br>
+* 5 Years Old<br>
+* Asking $250- obo<br>
+<br>
+<b>Weight Set</b><br>
+* Olympic MWB716<br>
+* Standard size, multi-functional weight bench<br>
+* Durable, powder coated finish<br>
+* Total leg developer with 4 roller pads<br>
+* Cushioned Mat<br>
+* Includes 300 lb weight set and standard barbell<br>
+* Asking $200- obo<br>
+<br>
+<b>Twin Size Bed</b><br>
+* Includes Mattress and Box-spring<br>
+* Twin / Full Size Bed Frame<br>
+* Three Years Old<br>
+* Asking $50- obo<br>
+<br>
+<b>L Shaped Desk</b><br>
+* Hutch with shelving & media storage<br>
+* Slide-out Adjustable Keyboard Tray<br>
+* Storage Shelf Under Raised Computer Screen Shelf <br>
+* Maple/Black<br>
+* This is a Large Desk<br>
+* Asking $125- obo<br>
+<br>
+<b>Love seat with Sleeper</b><br>
+* Dark Brown Love seat<br>
+* Twin Size Pullout<br>
+* 5 Years Old<br>
+* Asking $195- obo<br>
+<br>
+<b>Corner Chair</b><br>
+* V Shaped With Large Cushion Back<br>
+* Olive Color<br>
+* Four Years Old<br>
+* $45- obo<br>
+<br>
+<b>Large Sofa</b><br>
+* Over 10 Feet Long<br>
+* Slight U Shape<br>
+* 10' 7" x 3' 6"<br>
+* Light Tan Color<br>
+* Asking $295 obo<br>
+<br>
+<b>Kitchen Sink</b><br>
+* Set In<br>
+* Double Bowl<br>
+* Iron Cast<br>
+* Acid-Resistant Enamel Finish<br>
+* Attached Satin Nickel Faucet<br>
+* Asking $65- obo<br>
+<br>
+<b>Custom Dog House</b><br>
+* Height 3' 2"<br>
+* Width 3' 5"<br>
+* Length 4' 1"<br>
+* Small Overhang to Provide Extra Shade<br>
+* $65- obo<br>
+<br>
+<b>AC Units</b><br>
+* Two AC Units <br>
+* Frigidaire 8,000 BTU Wall Sleeve Replacement A/C<br>
+* Frigidaire 12,000 BTU Wall Sleeve Replacement A/C<br>
+* Power Requirements: 115 Volts, 60 Hz, 1 PH<br>
+* Amperage: 10.2 Amps<br>
+* Energy Star: Approved <br>
+* Remote Control<br>
+* Automatic Timer<br>
+* 3 Cooling Speeds <br>
+* 4 Way Adjustable Louvers <br>
+* Asking for 12,000: $395- OBO <br>
+* Asking for 8,000: $305- OBO <br>
+<br>
+ <br>
+<b><br>
+If you would like extra pictures of any of the above items please e-mail me and I will forward them to you! Otherwise if you would like to come by to look at the item please call!<br>
+<br>
+(916) 300-9186</b><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Rocklin -->Location: Rocklin
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T12:06:46-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451870381.html</dc:source>
+<dc:title><![CDATA[Time To Downsize (Rocklin)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T12:06:46-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451833319.html">
+<title><![CDATA[DEEP FREEZER FOR SALE $70]]></title>
+<link>http://sacramento.craigslist.org/gms/2451833319.html</link>
+<description><![CDATA[in good condition.<br>
+call if interested 9166702181<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:53:23-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451833319.html</dc:source>
+<dc:title><![CDATA[DEEP FREEZER FOR SALE $70]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:53:23-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451829918.html">
+<title><![CDATA[Multi-family Garage sale 06/25/11 at 9AM (2505 W. Street Downtown Sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451829918.html</link>
+<description><![CDATA[We have a multiple family garage sale this Saturday at 2505 W. Street Downtown Sacramento. Too many different things to list but come by and see us. <br>
+Starts at 9AM!!! <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=2505 W. Street Downtown Sacramento -->Location: 2505 W. Street Downtown Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:52:10-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451829918.html</dc:source>
+<dc:title><![CDATA[Multi-family Garage sale 06/25/11 at 9AM (2505 W. Street Downtown Sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:52:10-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451815031.html">
+<title><![CDATA[Yard Sale (10285 Badger Creek Ln., Wilton, CA 95693)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451815031.html</link>
+<description><![CDATA[Sat. June 25, 2011 8 a.m to 2 pm.  Antique furniture and unique household items.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=10285 Badger Creek Ln., Wilton, CA 95693 -->Location: 10285 Badger Creek Ln., Wilton, CA 95693
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:46:57-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451815031.html</dc:source>
+<dc:title><![CDATA[Yard Sale (10285 Badger Creek Ln., Wilton, CA 95693)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:46:57-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451798474.html">
+<title><![CDATA[A big pile of moving boxes (Folsom) $50]]></title>
+<link>http://sacramento.craigslist.org/gms/2451798474.html</link>
+<description><![CDATA[I have about 50 to 60 boxes of various sizes for sale, includes a pretty good sized roll of bubble wrap. Lots of big and medium boxes and a nice assortment of smaller ones as well. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Folsom -->Location: Folsom
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:41:10-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451798474.html</dc:source>
+<dc:title><![CDATA[A big pile of moving boxes (Folsom) $50]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:41:10-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451764084.html">
+<title><![CDATA[30 LARGE STURDY MOVING BOXES (CITRUS HEIGHTS) $15]]></title>
+<link>http://sacramento.craigslist.org/gms/2451764084.html</link>
+<description><![CDATA[LARGE BOXES FROM HOME DEPOT GOOD COND CALL 916 308 9515 <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=CITRUS HEIGHTS -->Location: CITRUS HEIGHTS
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:29:08-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451764084.html</dc:source>
+<dc:title><![CDATA[30 LARGE STURDY MOVING BOXES (CITRUS HEIGHTS) $15]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:29:08-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451761709.html">
+<title><![CDATA[Huge Moving sale  Auburn(wed,Thurs,Fri) (Auburn/Christian Valley)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451761709.html</link>
+<description><![CDATA[2513 Gayle ln Auburn Ca Christian valley rd to allan to Gayle  Home stuff of last 10 years most must go.......<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Auburn/Christian Valley -->Location: Auburn/Christian Valley
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:28:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451761709.html</dc:source>
+<dc:title><![CDATA[Huge Moving sale  Auburn(wed,Thurs,Fri) (Auburn/Christian Valley)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:28:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451747122.html">
+<title><![CDATA[Garage Sale for Breast Cancer (Rocklin) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2451747122.html</link>
+<description><![CDATA[All proceeds from this garage sale will go directly to the Avon Breast Cancer Foundation.  My daughter is part of the Youthcrew for the San Francisco Avon Walk for Breast Cancer and she is trying to raise money for breast cancer research and treatment.<br>
+<br>
+A bake sale with lemonade and various baked goods will be running at the same time.<br>
+<br>
+For Sale:<br>
+<br>
+Assorted electronics (including a TV, computer, printer, and DVD player), two couches, a weight set, a treadmill, children's Halloween costumes, toys, books, stuffed animals, clothes, shoes, various home items, and much more!<br>
+<br>
+Location:<br>
+<br>
+5120 Topaz Ave.<br>
+Rocklin, CA 95677<br>
+<br>
+Time:<br>
+<br>
+8AM - 2PM<br>
+Friday, June 24th, and Saturday, June 25th<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Rocklin -->Location: Rocklin
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T11:23:14-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451747122.html</dc:source>
+<dc:title><![CDATA[Garage Sale for Breast Cancer (Rocklin) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T11:23:14-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451666457.html">
+<title><![CDATA[Yard Sale Sunday June 26th (Downtown Sacramento 95818)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451666457.html</link>
+<description><![CDATA[Come to my sale on Sunday June 26, 2011.  Beginning at 9am.<br>
+<br>
+Items for sale include:<br>
+Kenmore Washer/Dryer $350 for the pair<br>
+Kenmore Refrigerator $300<br>
+Sofa/Loveseat $350 for the pair<br>
+Microwave oven $25<br>
+Microwave cart $20<br>
+32" Television $200<br>
+TV Stand $50<br>
+19" Television, stand, DVD player and modulator all for $100<br>
+Pantry cabinet--5' cabinet for $40<br>
+Pantry cabinet--3' cabinet for $20 (Take both for $50)<br>
+End Tables, Sofa Table and 2 Lamps $200<br>
+Night Stand $15<br>
+Miscellaneous Exercise equipment $40 (Exercise ball, pull up bar, workout mat, thigh exerciser, workout band)<br>
+Total Gym 1500 $100<br>
+Computer Desk $150<br>
+Book Shelves $40 for 2 or $25 each<br>
+Wheeled clothing rack $10<br>
+Wire shelf unit $25<br>
+Nintendo 64 unit, controllers, games $40<br>
+PS2 unit, 1 regular controller, 2 wired Guitar Hero guitars $100<br>
+Some miscellaneous kitchen items (various prices)<br>
+Miscellaneous knick knacks (various prices)<br>
+<br>
+If you are interested in any of the listed items and would like to arrange time to view them please reply to this e-mail with your name, phone number and desired item. Otherwise I hope to see you at my sale!<br>
+<br>
+2015 4th St<br>
+Sacramento, CA 95818<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Downtown Sacramento 95818 -->Location: Downtown Sacramento 95818
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T10:55:16-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451666457.html</dc:source>
+<dc:title><![CDATA[Yard Sale Sunday June 26th (Downtown Sacramento 95818)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T10:55:16-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451604140.html">
+<title><![CDATA[HUGE MOVING SALE ALL WEEK (Citrus heights)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451604140.html</link>
+<description><![CDATA[EVERYTHING MUST GO WE ARE MOVING FROM A 4 BEDROOM TO A 2 BEDROOM AND IT MUST GO WE ARE HAVEING IT ALL WEEK LONG TILL SUNDAY JUNE 26TH COME BY BEFORE WORK AT LUNCH OR EVEN AFTER WORK WE ARE HERE ALL DAY LONG AGAIN EVERYTHING MUST GO 7231 KERSTEN ST COME ON BY ILL MAKE A DEAL<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Citrus heights -->Location: Citrus heights
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T10:33:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451604140.html</dc:source>
+<dc:title><![CDATA[HUGE MOVING SALE ALL WEEK (Citrus heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T10:33:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451572875.html">
+<title><![CDATA[HUGE TOOL SALE (Sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451572875.html</link>
+<description><![CDATA[HUGE Tool Sale.  Includes Tablesaw, drill press, air/paint compressor, ladders, dollies, cordless drills, tool boxes, hand tools and much much more.  Starts June 25th at 7:00 a.m..  Check it out at 3415 Comet Court, Sacramento, CA 95827 -  June 25th and 26th at 7:00 a.m.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sacramento -->Location: Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T10:23:10-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451572875.html</dc:source>
+<dc:title><![CDATA[HUGE TOOL SALE (Sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T10:23:10-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451570234.html">
+<title><![CDATA[HUGE 3 Family Moving/Garage Sale (Carmichael, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451570234.html</link>
+<description><![CDATA[Sat 24th & Sun 25th.  8:00AM - 4:30PM<br>
+Furniture, Lazy Boy Recliners, Couch, Entertainment Center, Mini Fridge, Chest of Drawers, Electronics, Stereos, TV's, Guitar,<br>
+Wi Drum Set, 100's of Music CD's, CD/DVD Towers, Garden, Some Tools, Household, Kitchen, Small Appliances, Linens, <br>
+Bedding, Clothes, Shoes, Purses, Baby, Toys, Games, etc etc etc.<br>
+Lots of Misc. You name it - we've probably got it!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Carmichael, CA -->Location: Carmichael, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T10:22:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451570234.html</dc:source>
+<dc:title><![CDATA[HUGE 3 Family Moving/Garage Sale (Carmichael, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T10:22:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451551705.html">
+<title><![CDATA[MOVING SALE!!!! Everything Must Go!!! Priced to sale Lots to choose... (Davis) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2451551705.html</link>
+<description><![CDATA[Lots to sell here. Furnitur, Art, Paintings, Artifacts, Nik-Nacs, Sectional Couch, Clothes, TV, Chest, Fake parrot in bird cage, Sectional couch, coffee table, end table with drawer, and a lot more.<br>
+Call for details and prices., 760-333-0954.
+Cheack out my other ads too 
+<a href="http://sacramento.craigslist.org/spo/2445238664.html" rel="nofollow">http://sacramento.craigslist.org/spo/2445238664.html</a>     Military Gear
+<a href="http://sacramento.craigslist.org/gms/2444946569.html" rel="nofollow">http://sacramento.craigslist.org/gms/2444946569.html</a>    Name Brand Clothes<br>
+<br>
+<div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/042.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/041.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/040.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/039.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/038.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/037.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/036.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/035.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/034.JPG"><br>
+</div><div style="width:400px; clear:both;"><img width="400" height="300" src="http://www.multipleimageuploader.com/uploads/7fcf2c4782241c5dadcbfbf36f8bdee4/033.JPG"><br>
+</div>    <br>
+    <br>
+    <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <br>
+    <div style="width:400px; clear:both;"><br>
+    <br>
+    <img src="http://www.multipleimageuploader.com/js/myad.PNG"></tr></td><br>
+    <br>
+    </div><br>
+    <br>
+    <div style="width:400px; clear:both;"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div><br>
+    <br>
+    <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Davis -->Location: Davis
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T10:16:01-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451551705.html</dc:source>
+<dc:title><![CDATA[MOVING SALE!!!! Everything Must Go!!! Priced to sale Lots to choose... (Davis) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T10:16:01-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451537159.html">
+<title><![CDATA[WASHING MACHINE&DRYER FOR LOW PRICE (SOUTH SACRAMENTO) $150]]></title>
+<link>http://sacramento.craigslist.org/gms/2451537159.html</link>
+<description><![CDATA[I'm selling a Magic Chef washing machine&Kenmore{SEAR} dryer for low price. If you're interested in ANY of TWO items, then WE need to set-up a time to view the two items I'm selling. My name is Richard&the number for YOU to call ME, it's {916}392-4128(H} or MY cell phone number of{916} 284-2790(M)&if YOU'RE interested in ANY of TWO items, then YOU'LL need a truck or SOMETHING who's willing to assist in moving the two items from MY residence&here's  PICTURES TWO ITEMS, but LIFE's ROUGH&TOUGH for MANY.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=SOUTH SACRAMENTO -->Location: SOUTH SACRAMENTO
+<li><!-- CLTAG outsideContactOK=on -->it's ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T10:11:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451537159.html</dc:source>
+<dc:title><![CDATA[WASHING MACHINE&DRYER FOR LOW PRICE (SOUTH SACRAMENTO) $150]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T10:11:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451433141.html">
+<title><![CDATA[Cleaning warehouse must sell (Rocklin) $50]]></title>
+<link>http://sacramento.craigslist.org/gms/2451433141.html</link>
+<description><![CDATA[We are cleaning out the warehouse and need to get these items into the hands of people that want them. We have many desk's and chairs that need to find a new home. There is a walnut desk and credenza that are in fairly good condition, an Oak desk, many Rubbermade desks for corners and straigth runs, some steel desks and a few chairs. These items need to find a new home so don't be  shy and put in an offer.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Rocklin -->Location: Rocklin
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T09:36:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451433141.html</dc:source>
+<dc:title><![CDATA[Cleaning warehouse must sell (Rocklin) $50]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T09:36:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451394654.html">
+<title><![CDATA[Moving Sale (Cameron Park)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451394654.html</link>
+<description><![CDATA[Moving Sale / Saturday June 25, 2011 from 10am - noon<br>
+3188 United Drive, Cameron Park<br>
+Call Amy with questions - 415-235-6492<br>
+<br>
+Items Availale include:<br>
+Dining Table with 3 leaves (oval, pic attached)<br>
+Dining Chairs<br>
+Danish Style Hutch (pic attached)<br>
+Sectional Sofa (Tan - pic attached)<br>
+Coffee Table (wood, round, pic attached)<br>
+End Tables (pic attached of one)<br>
+Lamps<br>
+Rolltop desk and chair (pic attached)<br>
+Queen Headboard<br>
+Framed Map<br>
+<br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Cameron Park -->Location: Cameron Park
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T09:21:14-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451394654.html</dc:source>
+<dc:title><![CDATA[Moving Sale (Cameron Park)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T09:21:14-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451365122.html">
+<title><![CDATA[HUGE YARD SALE-june 24th and 25th (4007 ramsey dr, north highlands)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451365122.html</link>
+<description><![CDATA[we moved in together, have lots for sale: gas barbecue, lawn mower, sofa,love seat and chair,kitchen appliances,cabinet,tv,misc chairs,garden stuff,futons,golf clubs,clothes,shoes,dishes,silverware, exercise equipment, camping tent w/mosquito nets, lots of stuff cheap.<br>
+we will start early in the morning, so come and get it <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=4007 ramsey dr, north highlands -->Location: 4007 ramsey dr, north highlands
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T09:10:36-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451365122.html</dc:source>
+<dc:title><![CDATA[HUGE YARD SALE-june 24th and 25th (4007 ramsey dr, north highlands)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T09:10:36-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451357311.html">
+<title><![CDATA[BIG Sale in the Country (Galt)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451357311.html</link>
+<description><![CDATA[Mon. June 20 through Friday June 24<br>
+7am - 4pm<br>
+<br>
+COUNTRY SALE<br>
+<br>
+Antiques, Collectibles, TOOLS, furniture, household, old 100 lb. Anvil, <br>
+hunting and fishing equipment; old 100 lb. Anvil; Johnson boat motor;<br>
+tilt trailer for 4-wheelers; over 80 fishing poles; JAZZY scooter; five <br>
+motorcycles and More!<br>
+<br>
+10657 Simmerhorn Rd., Galt<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Galt -->Location: Galt
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T09:07:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451357311.html</dc:source>
+<dc:title><![CDATA[BIG Sale in the Country (Galt)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T09:07:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451327697.html">
+<title><![CDATA[Giant Estate Sale (Clearlake Oaks, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451327697.html</link>
+<description><![CDATA[Hundreds of items.  Everything must go.  Antiques, collector rocks, machinery, tools, tools and more tools.<br>
+Something for everyone.<br>
+Sale starts Tuesday, June 21st at 9:00 am<br>
+Throop Ranch - 645 Old Long Valley Road, Clearlake Oaks, CA  <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Clearlake Oaks, CA -->Location: Clearlake Oaks, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T08:57:24-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451327697.html</dc:source>
+<dc:title><![CDATA[Giant Estate Sale (Clearlake Oaks, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T08:57:24-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451231233.html">
+<title><![CDATA[Carriage (Sacramento) $10]]></title>
+<link>http://sacramento.craigslist.org/gms/2451231233.html</link>
+<description><![CDATA[For sale:<br>
+<br>
+1. Kids Doll Carriage.  In good condition and can be parted to make separate stroller & bassinet. $20<br>
+<br>
+Also have some DVDS: all for just $10<br>
+The Town<br>
+X-Men Last Stand<br>
+Ninja Assassin<br>
+Corpse Bride <br>
+Dinosaurs seasons 1 & 2 w/4 disks <br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sacramento -->Location: Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T08:22:29-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451231233.html</dc:source>
+<dc:title><![CDATA[Carriage (Sacramento) $10]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T08:22:29-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451200340.html">
+<title><![CDATA[Multi - Home Garage Sale (Laguna West, EG)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451200340.html</link>
+<description><![CDATA[Multi - House Garage Sale<br>
+~~~ Cedarview Way, Elk Grove 95758 ~~~<br>
+(Just off Babson in Laguna West)<br>
+June 25 & 26th<br>
+7AM - 12 PM<br>
+Baby items, household items, educational items, toys, scooters, collectibles, clothing, etc...<br>
+Some homes will only be participating on Sunday so come on back to check it out!<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Laguna West, EG -->Location: Laguna West, EG
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T08:10:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451200340.html</dc:source>
+<dc:title><![CDATA[Multi - Home Garage Sale (Laguna West, EG)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T08:10:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451117339.html">
+<title><![CDATA[Huge sale today 10am to 8pm (West sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451117339.html</link>
+<description><![CDATA[<br>
+  Lots of household goods.Antiques,collectibles,electronics,vintage stereo receivers,CB radio Equipments,1000s of CDS,DVDS,Albums,Cassettes tapes,Reel To Reels,Photography Equip,35mm Cameras,<br>
+  Old books,china dishes,fishing gears,camping gears,jewelry,coins,old knifes,Military stuff,sewing machines,tons of tools everything from A TO Z.1335 Merkley AVE West sacramento CA 95691<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=West sacramento -->Location: West sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T07:37:35-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451117339.html</dc:source>
+<dc:title><![CDATA[Huge sale today 10am to 8pm (West sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T07:37:35-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2451039205.html">
+<title><![CDATA[Auction it Off! We Auction Estates! Give us a Call! (Near Natomas)]]></title>
+<link>http://sacramento.craigslist.org/gms/2451039205.html</link>
+<description><![CDATA[Our mission is to provide residents of Northern California with a service that will assist you with the liquidation of assets after the passing of a loved one, during times when it is necessary to relocate, in the event of financial hardship, or for other various personal reasons.   When you visit or call our office, we want you to feel comfortable discussing your situation with us so that we can provide you with the information and services that will allow you to make an informed decision. Read about us on our website at <a href="http://www.lemarauctions.com/" rel="nofollow">http://www.lemarauctions.com/</a> or give us a call at 916-565-1100 or 916-203-5443.  <br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Near Natomas -->Location: Near Natomas
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T07:02:32-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2451039205.html</dc:source>
+<dc:title><![CDATA[Auction it Off! We Auction Estates! Give us a Call! (Near Natomas)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T07:02:32-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450949655.html">
+<title><![CDATA[I WILL PICK UP YOUR UNSOLD YARD SALE ITEMS FREE SAME DAY  (ALL-AREAS )]]></title>
+<link>http://sacramento.craigslist.org/gms/2450949655.html</link>
+<description><![CDATA[CALL KIM916-910-3585<br>
+I WILL PICK UP SAME DAY  NO BROKEN ITEMS WILL BE TAKEN <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=ALL-AREAS  -->Location: ALL-AREAS 
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T06:13:30-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450949655.html</dc:source>
+<dc:title><![CDATA[I WILL PICK UP YOUR UNSOLD YARD SALE ITEMS FREE SAME DAY  (ALL-AREAS )]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T06:13:30-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450775895.html">
+<title><![CDATA[MONDAY GARAGE SALE 10 am till 8 pm (Orangevale/Citrus Heights)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450775895.html</link>
+<description><![CDATA[MONDAY 10 AM TO 8 PM GARAGE SALE!!!!!!! JUNE 20th    HI IT IS 7 PM AND WE ARE STILL HERE TILL 8<br>
+<br>
+We have everything from furniture, pet carriers (large, med and small), 3 bike racks, 50 plus movies, dvd's, games. over 100 books.  Brand new ladder for pool (the kind that fits in the inside and outside of the above ground pools, still in the box and plastic never used) for $10.00.  Loads of yarn, New in box white trellis for the out doors that has lights all over it.  Grinder and polisher for $20.00.  Foreman grill, sandwich maker, flower arrangements, tents, 55" TV (yes, it works). 2 aquariums one 55 gallon and one is I think 20, $75 for the large one which we paid over $150.00 for, the smaller one for $20.00.  <br>
+We have a 4 year old 4 feet long Ball Python Snake that we need to re-home ($50.00).  Barbie dolls 75cents, 50 cents and a quarter.  Clothes for ten cents each...all in good shape.  Shoes, ceiling fan excellent condition for $15.00.   Motor cycle helmets ($15.00 to $75.00  10 of them.  Roller Blade knee pads (6) and wrist pads (4). Kidney belt $10.00.  SCOTT goggles two pair $15.00 each, red and clear lenses excellent condition firm on these.Glider outdoor swing for $45.00.  Pictures, bedding, clothes,woman's left handed golf clubs and bag, two joggers one a double and one single, exercise misc., hand made slippers,stair container which is wood, that fits on the stairs with a handle for you to take things up and down the stairs with ease, Girl Scout Cookies $4.00 (two of our girls are in the Scouts, Gazelle exercise machine, Ab Machine, push-up grips (set of two) Woman's small to extra small exercise belt all leather,  too much to list all.  COME AND SEE US!<br>
+<br>
+7017 Allenwood Ct. Citrus Heights 95610  -  border of Orangevale and Citrus Heights.  Between Greenback and Oak.  Off of Fair Oaks.  From Greenback take Fair Oaks Blvd ( going towards Roseville and approx 1 1/2 miles, go right on Stacy Hills, it will bend to the left and still read Stacy Hills, just continue straight and it turns into Allenwood Ct....SEE YOU THERE <br>
+<br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Orangevale/Citrus Heights -->Location: Orangevale/Citrus Heights
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T00:35:14-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450775895.html</dc:source>
+<dc:title><![CDATA[MONDAY GARAGE SALE 10 am till 8 pm (Orangevale/Citrus Heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T00:35:14-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450766042.html">
+<title><![CDATA[SAVE OUR CHURCH SALE AND FAIR (8127 AUBURN BLVD CITRUS HEIGHTS CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450766042.html</link>
+<description><![CDATA[Remember that church in Citrus Heights that was on the news & almost lost their building ?<br>
+Well, we didn't loose the building, and we're in the home stretch ! <br>
+Our Goal is to raise $10,000 !! <br>
+<br>
+Here's the info - 8127 Auburn Blvd CH 95610 Monday - Saturday. 9-9 sat 9-12 <br>
+There is going to be:<br>
+bounce houses, water slides, face painting, largest Garage sale..EVER.., snow cones, FOOD, basketball, LIVE MUSIC at 7 pm everyday, recycle booth, kid zone, popcorn, video games, CAR WASH daily!<br>
+<br>
+<br>
+Please come out and support,<br>
+ADMISSION IS FREE. <br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=8127 AUBURN BLVD CITRUS HEIGHTS CA -->Location: 8127 AUBURN BLVD CITRUS HEIGHTS CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-20T00:05:19-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450766042.html</dc:source>
+<dc:title><![CDATA[SAVE OUR CHURCH SALE AND FAIR (8127 AUBURN BLVD CITRUS HEIGHTS CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-20T00:05:19-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450722862.html">
+<title><![CDATA[Garage/Moving Sale High End Items-Dirt Cheap Prices-Sunday, June 26 (4570 Rolling Oak Drive, Granite Bay, CA) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450722862.html</link>
+<description><![CDATA[We recently moved to Granite Bay, joining two houses into one.  As you can imagine, we have a lot of nice things we're parting with.  Come on by for our garage sale/moving sale on Sunday, June 26th...starting at 8:00am.  Here is a sneak preview of just some of the things we'll have to offer...<br>
+<br>
+Corner Shelf Unit<br>
+Samsonite Hard Shell Suit Case<br>
+Dirt Devil Vacuum<br>
+Double Door Cat Carrier<br>
+Crutches<br>
+Brooms<br>
+Pathfinder Floor Mats-Generic Brand-Tan<br>
+Leather Mini Storage Ottoman<br>
+Dell 3 in 1 Printer/Scanner/Copy<br>
+Autographed Larry Fitzgerald Authentic Football and Jersey<br>
+Autographed Baseballs<br>
+Kids Plastic Choo Choo Train Teeter Totter (Ages 2 and Up)<br>
+Kids First Shot Plastic Basketball Hoop<br>
+Tons of Crafts, Candles, Baskets, Picture Frames, Brand New and  Barely Warm Clothes (Women's Sizes 4-8, + Maternity Clothes, Purses, and more), Blankets, and much more!<br>
+Kitchenware, China, George Foreman Grill, Coffee Maker, Ice Cream Maker, Pots/Pans, Dishes, Hand Mixer, and much more!<br>
+<br>
+<br>
+<br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=4570 Rolling Oak Drive, Granite Bay, CA -->Location: 4570 Rolling Oak Drive, Granite Bay, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T22:33:26-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450722862.html</dc:source>
+<dc:title><![CDATA[Garage/Moving Sale High End Items-Dirt Cheap Prices-Sunday, June 26 (4570 Rolling Oak Drive, Granite Bay, CA) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T22:33:26-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450719331.html">
+<title><![CDATA[Moving sale (Sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450719331.html</link>
+<description><![CDATA[Saws, cordless and corded drills, hand tools, cir saw, Samsung 15 inch TV/computer monitor, ice chest, 10 inch Tile saw, new ropes, Sony home cd player, Sony PSP with 3 games and 2 movies, Miner box and saw, small flashlights, Softball stuff (bats, balls, gloves and bags), Sugar scrubs, Braun cordless shaver, Travel handheld video games, age defying sreum, lotions, battery charger with some batteries, vintage Yashica Electro 35 camera, 1929 Singer sewing machine with all attachments and manual, stuffed animal, small electric travel toys, 600 watt Amp, (2) 10in speackers in box, computer parts and misc wires, Teakwondo Bo Staff, Sparing gear (chest protector, head gear, leg protection, bag and more) and much more. 916-370-0589 <br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Sacramento -->Location: Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T22:27:40-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450719331.html</dc:source>
+<dc:title><![CDATA[Moving sale (Sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T22:27:40-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450666500.html">
+<title><![CDATA[Yard Sale--Something for Everybody (3330 Sierra View Lane, Sacramento)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450666500.html</link>
+<description><![CDATA[Everything plus a bathroom sink!!  (including some antiques and collectables.)  Saturday and Sunday, June 25 and 26  from  7 am until it's too darn hot to be out here any more<br>
+<br>
+COME ONE, COME ALL!  (And bring a friend!!!!)<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=3330 Sierra View Lane, Sacramento -->Location: 3330 Sierra View Lane, Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T21:16:14-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450666500.html</dc:source>
+<dc:title><![CDATA[Yard Sale--Something for Everybody (3330 Sierra View Lane, Sacramento)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T21:16:14-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450657719.html">
+<title><![CDATA[Yard Sale June 25th  (Antelope, Ca) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450657719.html</link>
+<description><![CDATA[Yard sale with multi items. <br>
+Tupperware, Pampered Chef, Star Wars for those that are collectors, 4- racing Go Karts, Household goods, Beanie Babies and the list goes on...<br>
+Don't want to miss this one.<br>
+Saturday June 25th, 8am<br>
+4922 Juniper Hill Pl<br>
+Antelope, Ca 95843<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Antelope, Ca -->Location: Antelope, Ca
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T21:06:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450657719.html</dc:source>
+<dc:title><![CDATA[Yard Sale June 25th  (Antelope, Ca) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T21:06:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450646781.html">
+<title><![CDATA[ELK GROVE BIG. BIG YARD SALE (Elk Grove) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450646781.html</link>
+<description><![CDATA[Sale starts this coming Friday the 24th at 7:30am!!!  Selling furniture, patio furniture, trailer, household items, some tools and lawn/garden equipment, saddle, toys,clothing... this is really a big sale so plan on being here!!!<br>
+<br>
+Runs Friday, Saturday and Sunday 24-26th. On Excelsior at Sheldon Rd. LOOK FOR THE SIGNS <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Elk Grove -->Location: Elk Grove
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T20:54:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450646781.html</dc:source>
+<dc:title><![CDATA[ELK GROVE BIG. BIG YARD SALE (Elk Grove) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T20:54:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450622176.html">
+<title><![CDATA[LARGE Multi-Person Garage Sale 6/25 Saturday  (MarkDale Lane Lincoln, Ca)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450622176.html</link>
+<description><![CDATA[TONS AND TONS OF STUFF<br>
+<br>
+Hundreds of pieces of clothing:<br>
+Roxy<br>
+Old Navy<br>
+Hippie<br>
+Hurley<br>
+Jackie Smith<br>
+Osiris<br>
+Clothes to fit everyone from Size Small Teenagers to XXL womens clothing and some mens clothing<br>
+<br>
+LOTS of Shoes sizes 7-9<br>
+<br>
+Car/ Auto and Truck Parts:<br>
+Stock 2000-2004 Stock Jetta Springs<br>
+Stock Jetta 2.0 Engine cover<br>
+Stock '00-04 Front Side marker lights for Jetta<br>
+Apex Blow off Valve<br>
+Intercooler Piping<br>
+Intercooler silicone connectors<br>
+Brand New Intercooler<br>
+Acura/Honda aftermarket Header with gaskets<br>
+2008 Aftermarket GMC Sierra Exhaust<br>
+<br>
+Christmas Decorations<br>
+Set of Sango Dishes<br>
+Asian inspired Decor<br>
+Vases<br>
+Dishes<br>
+George Foreman<br>
+Juicer<br>
+Knife Sets<br>
+Photo Albums<br>
+Computer Monitors Flat Screen<br>
+Coffee Mugs<br>
+<br>
+<br>
+Much more to come<br>
+<br>
+Saturday Starts at 7am sharp no early birds please 6/25 <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=MarkDale Lane Lincoln, Ca -->Location: MarkDale Lane Lincoln, Ca
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T20:28:53-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450622176.html</dc:source>
+<dc:title><![CDATA[LARGE Multi-Person Garage Sale 6/25 Saturday  (MarkDale Lane Lincoln, Ca)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T20:28:53-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450607516.html">
+<title><![CDATA[Garage Sale - Folsom, Enclave Community (CA Hills) (Folsom, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450607516.html</link>
+<description><![CDATA[Community Garage Sale - Enclave Community (California Hills), Folsom<br>
+<br>
+Saturday, June 25, 2011 8am - 3pm<br>
+<br>
+Cross Streets - Glenn Drive and Vierra Circle<br>
+<br>
+Streets include:<br>
+<br>
+Humbert St<br>
+Given St<br>
+Ferrier Way<br>
+Moore Way<br>
+Ward Way<br>
+Webb Way<br>
+Bussing Ct<br>
+Spiva Ct<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Folsom, CA -->Location: Folsom, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T20:14:42-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450607516.html</dc:source>
+<dc:title><![CDATA[Garage Sale - Folsom, Enclave Community (CA Hills) (Folsom, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T20:14:42-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450601216.html">
+<title><![CDATA[Tools, Materials, Housewares (Elk Grove)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450601216.html</link>
+<description><![CDATA[1)  Tools & Supplies- Long list, see 'Tools' under "Super Tool & Supply Sale"- As Priced <br>
+2)  4 Drawer Gray Letter-Sized Filing Cabinets (used as garage storage - missing 1 drawer) - $5<br>
+3)  Painter's Heavy Canvas Drop 9.5' X 11.5' -$9<br>
+5)  Good Quality Solid Brass Bath Towel Bars & Hardware - $29 (3 matching racks)<br>
+6)  Gold Finish Matchin Bath Hardware - $15 (4 piece set)<br>
+7)  Stainless Steel Towel Bars & Apparel Hangers -$25 (5 matching pieces)<br>
+8)  New Moen Nikel Finish Tub & Shower Finishing Hardware - (same model as in photo) - TBD<br>
+9)  Bull-nosed Plywood Shelfing (suitable for finishing) - $8<br>
+10)  HoMedics Kneading Shiatsu Massager SM-100 (great price!) - $29 <br>
+11)  Contech Cat Stop (Ultrasonic Repellent) - $29<br>
+12) Other Housewares & Supplies available - TBD<br>
+<br>
+<br>
+Other items for sale.  Please leave your name and number with all inquiries.  Thank you!!  <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Elk Grove -->Location: Elk Grove
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T20:08:51-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450601216.html</dc:source>
+<dc:title><![CDATA[Tools, Materials, Housewares (Elk Grove)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T20:08:51-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450589768.html">
+<title><![CDATA[Yard Sale Sunday Only!  June 26th 8:00am-1:00pm  (7215 Lyne Bay Drive, Roseville 95747)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450589768.html</link>
+<description><![CDATA[Sunday Only: June 26th Yard Sale, lots of great stuff. Two couches like new, kids toys and books, games, pet supplies, clothes and much more <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=7215 Lyne Bay Drive, Roseville 95747 -->Location: 7215 Lyne Bay Drive, Roseville 95747
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T19:58:21-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450589768.html</dc:source>
+<dc:title><![CDATA[Yard Sale Sunday Only!  June 26th 8:00am-1:00pm  (7215 Lyne Bay Drive, Roseville 95747)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T19:58:21-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450545751.html">
+<title><![CDATA[Estate Sale Leftovers (Rancho Cordova)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450545751.html</link>
+<description><![CDATA[Estate Sale Leftovers <br>
+Large amounts of items left over from Estate Sale<br>
+looking for someone to buy everything.<br>
+<br>
+Collectables, antiques, furniture and whole lot more<br>
+Garage, bedrooms, Kitchen, 2 rooms and back yard<br>
+<br>
+Make Offer<br>
+<br>
+Please Call Nancy<br>
+(916) 363-0852 or<br>
+(916) 501-0082<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Rancho Cordova -->Location: Rancho Cordova
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T19:20:55-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450545751.html</dc:source>
+<dc:title><![CDATA[Estate Sale Leftovers (Rancho Cordova)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T19:20:55-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450545071.html">
+<title><![CDATA[full size pool table AND beer signs (north natomas) $100]]></title>
+<link>http://sacramento.craigslist.org/gms/2450545071.html</link>
+<description><![CDATA[Pool table is in decent condition great for a garage set up (how i had it) Movin to richmond and cant take with me so sellin for cheap and have many beer signs...please call  530-383-5865..FRED<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=north natomas -->Location: north natomas
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T19:20:21-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450545071.html</dc:source>
+<dc:title><![CDATA[full size pool table AND beer signs (north natomas) $100]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T19:20:21-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450541561.html">
+<title><![CDATA[***EVERY DAY all week!!! MOVING SALE (hazel & madison area) (FAIR OAKS)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450541561.html</link>
+<description><![CDATA[EVERY DAY TILL SUNDAY from 8am-7pm!<br>
+(if someone's not out, just give a knock at the door!)<br>
+<br>
+RABENECK WAY<br>
+FAIR OAKS<br>
+(just off phoenix)<br>
+<br>
+916-612-4671 call if you're looking for something specific!<br>
+<br>
+SOME TOOLS, SEWING MACHINES, some CRAFT stuff, YARN, lots of BEADS and jewelry making supplies, COOL JEWELRY, FREEZER, CARPET CLEANING MACHINE, GOLF CLUBS (right handed adult & left handed youth), "TOTAL GYM" bench only, YARD and LAWN CHEMICALS, PICTURE FRAMES, BOOKS, HOLIDAY OUTDOOR FLAGS,  20 ft extension LADDER $90, 16 ft folding LADDER $90, used DARTBOARD, LINENS and BLANKETS, and a bunch of other stuff.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=FAIR OAKS -->Location: FAIR OAKS
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T19:17:29-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450541561.html</dc:source>
+<dc:title><![CDATA[***EVERY DAY all week!!! MOVING SALE (hazel & madison area) (FAIR OAKS)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T19:17:29-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450538882.html">
+<title><![CDATA[4th of July JACKSON ELKS FLEA MARKET (Hwy 49 &amp; 88 - Jackson,ca)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450538882.html</link>
+<description><![CDATA[July 2, 3, 4 Jackson Elks Flea Market<br>
+<br>
+WANTED:  Vendors & Customers - vendors call 209-223-1905 for details<br>
+<br>
+Lunch will be available. - All proceeds go to charity<br>
+<br>
+Collectibles, tools, miscellaneous too much to mention<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Hwy 49 &amp; 88 - Jackson,ca -->Location: Hwy 49 &amp; 88 - Jackson,ca
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T19:15:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450538882.html</dc:source>
+<dc:title><![CDATA[4th of July JACKSON ELKS FLEA MARKET (Hwy 49 &amp; 88 - Jackson,ca)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T19:15:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450445674.html">
+<title><![CDATA[Estate Moving Sale (Roseville) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450445674.html</link>
+<description><![CDATA[
+Estate Sale on this weekend 6/25 Saturday
+<p><font color="#202020" size="4" face="Trebuchet MS">Selling following items.. Please email at jwkim211 at gmail.com for any inquiries<br><br>For more pictures, please visit <a href="http://www.dropbox.com/gallery/32878836/1/Sale?h=e50e09" rel="nofollow">http://www.dropbox.com/gallery/32878836/1/Sale?h=e50e09</a><br></font></p><p><font color="#202020" size="4" face="Trebuchet MS"><span>Furniture</span><br><br>Dining Table and 6 Chairs: $380<br><font color="#202020" size="4" face="Trebuchet MS"><img src="https://lh4.googleusercontent.com/-uQFy1c9A2jo/Tf9Sr4ZxmbI/AAAAAAAAA0U/0pxvp-vFh7A/s640/IMG_1304.JPG"><br></font><p><font color="#202020" size="4" face="Trebuchet MS">Oriental Chest Drawer 1: $300<br><img src="https://lh6.googleusercontent.com/-8NRiogmafaY/Tf9S4jbIkCI/AAAAAAAAA0g/sUJlfAXNvaY/s640/IMG_1324.JPG"><br><br>Oriental Chest Drawer 2: $300<br><img src="https://lh3.googleusercontent.com/-apShNavAcgE/Tf9SMN0DpiI/AAAAAAAAAzs/4oQyy6mTBl8/s640/IMG_1309.JPG"><br><font color="#202020" size="4" face="Trebuchet MS"><br></font>Bookshelf : $20<br><img src="https://lh4.googleusercontent.com/-MPGyI9Ej7M8/Tf9T1FC0YYI/AAAAAAAAA1w/7cAT7soSrLg/s640/IMG_1371.JPG"><br><br>Night Stand light: $5<br></font><font color="#202020" size="4" face="Trebuchet MS"><img src="https://lh4.googleusercontent.com/-xcmY8hGY1BU/Tf9T049ZFxI/AAAAAAAAA1s/UDuUnrk2jXA/s640/IMG_1372.JPG"><br><br>Console: $20:<br><img src="https://lh5.googleusercontent.com/-gcOk7TXPsrM/Tf9SlRuk9kI/AAAAAAAAA0M/Cm8IDST5_-0/s640/IMG_1318.JPG"><br><br>Sofa :</font></p><p><font color="#202020" size="4" face="Trebuchet MS"><img src="https://lh6.googleusercontent.com/-HuVSnmL6NYU/Tf9T_1qj1qI/AAAAAAAAA18/f_IIEk1AFy8/s640/IMG_1395.JPG"></font><font color="#202020" size="4" face="Trebuchet MS"></font><p></p><p>China Hutch Dinning : $120</p><p><img src="https://lh6.googleusercontent.com/-V3wj2ur2flQ/Tf9UN7mnpgI/AAAAAAAAA2Q/5Y8bMV56JQc/s640/IMG_1404.JPG"></p><p> </p><p></p><p><font color="#202020" size="4" face="Trebuchet MS"> </font>
+<p><font color="#202020" size="4" face="Trebuchet MS"><span>Construction Tools</span><br><br>Concrete Mixer: $300<br><img src="https://lh6.googleusercontent.com/-zTfiZpCrnTg/Tf9TPiYg0bI/AAAAAAAAA1A/MQlmDubZYuM/s640/IMG_1338.JPG"><br><br>Concrete Stamp Tool: $25<br><img src="https://lh6.googleusercontent.com/-64UCGvwmDhE/Tf9TshVwnpI/AAAAAAAAA1k/mQgWYoofbnc/s640/IMG_1346.JPG"><br><br>Table Saw: $350
+</font><font color="#202020" size="4" face="Trebuchet MS"></font></p><font color="#202020" size="4" face="Trebuchet MS"><p><img src="https://lh3.googleusercontent.com/-e7ZrR3Ucxbo/Tf9TJhk17nI/AAAAAAAAA04/gh3c4CtfRLM/s640/IMG_1336.JPG"></p><font color="#202020" size="4" face="Trebuchet MS"><p><br><font color="#202020" size="4" face="Trebuchet MS">Commercial Table Refrigerator: $600</font></p>
+<p><font color="#202020" size="4" face="Trebuchet MS"><img src="https://lh3.googleusercontent.com/-9dvgtQz3mOI/Tf9TaoO1BuI/AAAAAAAAA1Q/eMn1bdSVLeo/s640/IMG_1340.JPG"></font></p><font color="#202020" size="4" face="Trebuchet MS"><p> </p><p> </p><p><br><font color="#202020" size="4" face="Trebuchet MS"><span>Appliance</span></font></p><p> </p>
+<p><font color="#202020" size="4" face="Trebuchet MS">Ge Refrigerator : $700<br><img src="https://lh3.googleusercontent.com/-jTeJyfxjn_Y/Tf9SW97c6_I/AAAAAAAAAz4/Cvs7eeFPO0w/s912/IMG_1313.JPG"><br><br>Washer & Dryers : $700<br><img src="https://lh6.googleusercontent.com/-Sv5w-yehAJI/Tf9S6zWD_QI/AAAAAAAAA0k/3I55Bqe-5Ts/s640/IMG_1325.JPG"><br><br></font></p><p></p><p></p></font></font></font></p></p></font></p><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Roseville -->Location: Roseville
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T18:03:40-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450445674.html</dc:source>
+<dc:title><![CDATA[Estate Moving Sale (Roseville) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T18:03:40-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450406549.html">
+<title><![CDATA[JUNE 25 garage sale! (W. Roseville ) $11000]]></title>
+<link>http://sacramento.craigslist.org/gms/2450406549.html</link>
+<description><![CDATA[Having a garage sale on June 25, 2011. Come buy lots of things!  2319 Aldridge lane, Roseville 95747<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=W. Roseville  -->Location: W. Roseville 
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T17:34:26-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450406549.html</dc:source>
+<dc:title><![CDATA[JUNE 25 garage sale! (W. Roseville ) $11000]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T17:34:26-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450357954.html">
+<title><![CDATA[Downsizing Garage Sale over 1000 items (Elk Grove, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450357954.html</link>
+<description><![CDATA[We are moving from 4 bedrooms to 1 bedroom and have lots of items to sell on June 25th and 26th from 8:00-1:00. <br>
+<br>
+9372 Hoyleton Way<br>
+Elk Grove, Ca 95758<br>
+<br>
+&#61514;	Frigidaire Top Mount Refrigerator/Freezer 18.2 cubic ft. Black $300.00 6 months new<br>
+&#61514;	Frigidaire Stand up Freezer White $400.00 5 years new. <br>
+&#61514;	Slate pooltable 9ft by 5 ft.  $600.00<br>
+&#61514;	Hamilton Beach Counter type Convection Oven  $50.00<br>
+&#61514;	M & M Collectibles (still in originally packaging)  $5.00-$25.00<br>
+&#61514;	Kitchen items pots, pans, serving bowls, utensils $1.00-$5.00<br>
+&#61514;	Princess House Crystal $1.50-$10.00<br>
+&#61514;	Videos and DVDS $.50<br>
+&#61514;	Assorted Paintings  $75.00-$125.00<br>
+&#61514;	Clothes $.50<br>
+&#61514;	Asst. Desks $25.00<br>
+&#61514;	Asst. Shelve $10.00<br>
+&#61514;	Entertainment Center $5.00<br>
+&#61514;	Three piece wall unit $20.00 a piece or the whole set $50.00<br>
+&#61514;	Asst. Dishes $1.00 or 6 for $5.00<br>
+&#61514;	Asst. Christmas decorations, trees, animated decorations, in and outdoor decorations, ornaments, and more $1.00-$10.00<br>
+&#61514;	Asst. Lamps $2.00-$5.00<br>
+&#61514;	Collectible ships $20.00<br>
+&#61514;	Ikea Armoire (assembled) $10.00<br>
+&#61514;	Asst. televisions all working $10.00-$50.00<br>
+&#61514;	Outside Fountain-$300.00<br>
+&#61514;	Outdoor Security Cameras with recorder $300.00 includes four cameras<br>
+&#61514;	Asst. Stereo Equipment <br>
+&#61514;	Over 100 Books-cook, fiction, non-fiction, reference, text, classics, children, child development, resource and more. <br>
+&#61514;	Games, vases, decorations, bathroom accessories, and more. <br>
+ No reasonable offer will be denied. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Elk Grove, CA -->Location: Elk Grove, CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T16:57:20-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450357954.html</dc:source>
+<dc:title><![CDATA[Downsizing Garage Sale over 1000 items (Elk Grove, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T16:57:20-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450303532.html">
+<title><![CDATA[WHITE WHIRLPOOL REFRIGRATOR FOR SALE ASAP (ROCKLIN CA) $200]]></title>
+<link>http://sacramento.craigslist.org/gms/2450303532.html</link>
+<description><![CDATA[WE ARE MOVING AND CAN NOT TAKE THE FRIDGE WITH US. IT IS IN GREAT CONDITION, BOUGHT NEW IN 2009 AND GENTLY USED. WE NEED TO SELL ASAP SO IF INTERESTED PLEASE EMAIL ME THE PRICE IS $200.00/OBO<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=ROCKLIN CA -->Location: ROCKLIN CA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T16:16:30-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450303532.html</dc:source>
+<dc:title><![CDATA[WHITE WHIRLPOOL REFRIGRATOR FOR SALE ASAP (ROCKLIN CA) $200]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T16:16:30-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450301561.html">
+<title><![CDATA[MOVING SALE  (Citrus Heights)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450301561.html</link>
+<description><![CDATA[We are down sizing from a 4 bed to a 2 bed lots of stuff that must GO THE address is 7231 kersten st citrus heights we will have it from June 19th thru June 26th  YES thats right  from the 19th to the 26th sunday to sunday com by on lunch or after work we will be here LOTS AND LOTS OF STUFF COME ON BY again 7231 Kersten ST in citrus height <br>
+THANKS <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Citrus Heights -->Location: Citrus Heights
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T16:15:05-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450301561.html</dc:source>
+<dc:title><![CDATA[MOVING SALE  (Citrus Heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T16:15:05-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450288324.html">
+<title><![CDATA[BackYard Sale (it's in the backyard) (4941 mendocino blvd Sacramento Ca 95820)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450288324.html</link>
+<description><![CDATA[There is a lot of stuff for sale, we have kid size or small adult size wake board, kid and adult size life jackets, 3 in 1 game table, 2 kid quads (no batteries), tons of pictures, a few things for camping, boxes of miscellaneous, records and more.<br>
+Come to the yard sale and take a look, a few pictures below, but there is more. <br>
+<br>
+4941 mendocino blvd sacramento ca 95820<br>
+<br>
+There is a toyota truck with a camper shell, the gate to the backyard is behind the truck and open. We are just sitting in back waiting. <br>
+See you all soon. We are open til sunset.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=4941 mendocino blvd Sacramento Ca 95820 -->Location: 4941 mendocino blvd Sacramento Ca 95820
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T16:05:13-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450288324.html</dc:source>
+<dc:title><![CDATA[BackYard Sale (it's in the backyard) (4941 mendocino blvd Sacramento Ca 95820)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T16:05:13-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450263901.html">
+<title><![CDATA[LAST CHANCE, YARD SALE NOW! FREE ITEMS TOO! (RIO LINDA) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450263901.html</link>
+<description><![CDATA[I'm selling or giving my things till dark. Come see all the cool stuff i have for you. Camping gear, tools, jewelry, kids outside toys, sewing machines, gas blowers, furniture. If you come today and mention you heard of my yard sale from CL, I will give you something you want for free. I got alot of the items given to me so I'm not trying to regain an investment. I have other things still put up and will get them if you want to look. LOTS OF FREE THINGS FOR ANY ONE WHO SHOWS&lt; I'M SERIOUS! Just get in your car, bring a friend or two, and a little cash, you will be treated well.<br>
+LOCATION: 6041 Rio Linda Blvd. House no. 3. Just north of E St., where Moose Lodge is. West side of road down a gravel driveway on right. Dark Green House. Sale kinda hard to see from R.L. Blvd., but I'm here til dark. If you want a bargain this is the place.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=RIO LINDA -->Location: RIO LINDA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T15:47:28-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450263901.html</dc:source>
+<dc:title><![CDATA[LAST CHANCE, YARD SALE NOW! FREE ITEMS TOO! (RIO LINDA) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T15:47:28-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450263622.html">
+<title><![CDATA[ESTATE SALE VINTAGE/ANTIQUE (RANCHO CORDOVA) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450263622.html</link>
+<description><![CDATA[I am having an estate sale sunday June the 26th from the hours of 10am until 2pm at 2410 Laloma Drive in Rancho Cordova. The items for sale include: 7 piece maple kitchen table with leaf, Buffet/serving table, vintage dishes, rocking chair, couch, coffee table with fold out ends, marble end tables, antique lamps, 2 tvs, desk,  5 piece antique vintage bedroom set, and other miscellaneous things.<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=RANCHO CORDOVA -->Location: RANCHO CORDOVA
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T15:47:18-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450263622.html</dc:source>
+<dc:title><![CDATA[ESTATE SALE VINTAGE/ANTIQUE (RANCHO CORDOVA) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T15:47:18-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450251588.html">
+<title><![CDATA[Moving Sale- Leaving Country!! Everything Must GO!! (Roseville) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450251588.html</link>
+<description><![CDATA[Moving Sale!!! Moving to Dubai in a few days and everything must go<br>
+Dining Room <br>
+Living Room<br>
+All sorts of stuff<br>
+10AM- 5PM  No Early Birds Please, These hours are good until the 24th<br>
+7780 Belle Rose Cir<br>
+Roseville CA 95678<br>
+916 771 9631<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Roseville -->Location: Roseville
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T15:38:36-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450251588.html</dc:source>
+<dc:title><![CDATA[Moving Sale- Leaving Country!! Everything Must GO!! (Roseville) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T15:38:36-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450220852.html">
+<title><![CDATA[cherrywood bed & frame (rio linda) $100]]></title>
+<link>http://sacramento.craigslist.org/gms/2450220852.html</link>
+<description><![CDATA[queen size cherrywood bed frame with bed , moving need to sell asap . also have 37 inch tube tv with remote & various baby items . call or text for pictures 916-519-4266<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=rio linda -->Location: rio linda
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T15:16:45-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450220852.html</dc:source>
+<dc:title><![CDATA[cherrywood bed & frame (rio linda) $100]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T15:16:45-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450217959.html">
+<title><![CDATA[HUGE MOVING SALE, JUNE 24TH AND 25TH, 9AM TO 3PM (VACAVILLE)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450217959.html</link>
+<description><![CDATA[Huge Moving Sale!!!<br>
+Friday, June 24th and Saturday, June 25th- 9am to 3pm<br>
+106 Monte Verde Drive, Vacaville<br>
+Book Shelves, Kitchen Table and Chairs, Breakfast Nook, Several Kitchen Items including; Bread Machine, Copper Bottom Cookware Set, Utensils, Coffee Grinder, Cake and Muffin pans, Griddle, Tea Set, Salad Bowl Set, etc.<br>
+Infant Crib transitions into Toddler Bed, Changing Table, Pack-N-Play, Toys and Stuffed Animals<br>
+Mirrors, Rugs, Vases, Home Décor including; Partylite items and More!!!<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=VACAVILLE -->Location: VACAVILLE
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T15:14:44-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450217959.html</dc:source>
+<dc:title><![CDATA[HUGE MOVING SALE, JUNE 24TH AND 25TH, 9AM TO 3PM (VACAVILLE)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T15:14:44-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450198329.html">
+<title><![CDATA[WAREHOUSE SALE OPEN MONDAY 10-4 (ROSEVILLE)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450198329.html</link>
+<description><![CDATA[<br>
+GIANT WAREHOUSE SALE OPEN MONDAY FROM 10-4<br>
+911 WASHINGTON BLVD # 213 ROSEVILLE 95678<br>
+IF YOU SEE SOMETHING YOU WANT CALL 916 367 6022 FOR MORE INFO<br>
+SOLID OAK QUEEN SIZE BED FRAME ASKING JUST 150.00<br>
+5 DRAWER OAK DRESSER JUST 75.00<br>
+QUEEN SIZE MATTRESS AND BOX SPRING IN EXCELLENT CONDITION JUST 75.00<br>
+OR BUY THE WHOLE SET FOR JUST 250.00<br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=FORSALE006.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/FORSALE006.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=FORSALE008.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/FORSALE008.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=FORSALE005.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/FORSALE005.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=FORSALE015.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/FORSALE015.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=FORSALE009.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/FORSALE009.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=fur001-2.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/fur001-2.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=fur003-2.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/fur003-2.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=rug018.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/rug018.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=rug015.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/rug015.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=cars001.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/cars001.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SALE11014.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SALE11014.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SALE11008.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SALE11008.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SALE11002.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SALE11002.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SALE11012.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SALE11012.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SALE11001.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SALE11001.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SALE22006.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SALE22006.jpg" border="0" alt="Photobucket"></a><br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=SM015.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/SM015.jpg" border="0" alt="Photobucket"></a><br>
+<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=ROSEVILLE -->Location: ROSEVILLE
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T15:00:52-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450198329.html</dc:source>
+<dc:title><![CDATA[WAREHOUSE SALE OPEN MONDAY 10-4 (ROSEVILLE)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T15:00:52-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450133717.html">
+<title><![CDATA[free items left over from garage sale first come first serve (eldorado hills)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450133717.html</link>
+<description><![CDATA[We just had a grage sale this weekend and have a bunch of stuff left over that we are giving away for free. Everything must go there is a lot of stuff left. Take whatever you want that is outside. In front of the garage. Do not enter the residents or go in the backyard.there are couches, shoes ,fans ,and many more items available. House is located in eldorado hills address is 3483 patterson way eldorado hills ca 95762. <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=eldorado hills -->Location: eldorado hills
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T14:16:09-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450133717.html</dc:source>
+<dc:title><![CDATA[free items left over from garage sale first come first serve (eldorado hills)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T14:16:09-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450109862.html">
+<title><![CDATA[Cessna 172 Gages (Madison(Yolo Co.))]]></title>
+<link>http://sacramento.craigslist.org/gms/2450109862.html</link>
+<description><![CDATA[Taken from a wrecked Cessna 172...available at a yard sale in Madison,Ca.....Call Johnny at 916-804-4604...We are moving on Wednesday morning call soon!<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Madison(Yolo Co.) -->Location: Madison(Yolo Co.)
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T14:00:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450109862.html</dc:source>
+<dc:title><![CDATA[Cessna 172 Gages (Madison(Yolo Co.))]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T14:00:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450100717.html">
+<title><![CDATA[Garage Sale  (8248 Country Ranch Dr., Sacramento, CA)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450100717.html</link>
+<description><![CDATA[Garage sale; baby items, furniture, womens clothes, shoes, bikes, video games (Playstation I, II and Xbox). <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=8248 Country Ranch Dr., Sacramento, CA -->Location: 8248 Country Ranch Dr., Sacramento, CA
+<li><!-- CLTAG outsideContactOK=on -->it's ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T13:53:54-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450100717.html</dc:source>
+<dc:title><![CDATA[Garage Sale  (8248 Country Ranch Dr., Sacramento, CA)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T13:53:54-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450099097.html">
+<title><![CDATA[Moving Sale/Honda Motorcycles/Cessna Gages (Madison Ca (Yolo Co.))]]></title>
+<link>http://sacramento.craigslist.org/gms/2450099097.html</link>
+<description><![CDATA[17815 Scott St. on the corner of Scott and Rudolph St. in Madison,9 miles west of Woodland.  <br>
+ Only 2 more days left for this Sale....Leer Camper Shell for long bed,full size pickup.Honda Goldwing motorcycle and Honda 750,four cyclinder.for parts or salvage...ALSO..just added Cessna 172 gages(altimeter and other stuff)...Make us an offer and we will make you a deal!CALL JOHNNY at 916-804-4604......<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Madison Ca (Yolo Co.) -->Location: Madison Ca (Yolo Co.)
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T13:52:48-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450099097.html</dc:source>
+<dc:title><![CDATA[Moving Sale/Honda Motorcycles/Cessna Gages (Madison Ca (Yolo Co.))]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T13:52:48-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450079560.html">
+<title><![CDATA[YARD SALE 1114 24TH Street (1114 24th St Between K and L)]]></title>
+<link>http://sacramento.craigslist.org/gms/2450079560.html</link>
+<description><![CDATA[SUNDAY 19TH FATHERS DAY YARD SALE 1114 24TH ST Between K & L behind the GOLDEN BEAR <br>
+PS2, GAME CUBE, MISC ELECTRONIC WOMAN'S CLOTHING Size 6-12, PURSES, LUGGAGE, MISC HOUSEHOLD ITEMS,CERAMIC KITCHEN ITEMS VARIETY OF GLASS  VASES,<br>
+PRESSURE COOKER,,VINTAGE GLASS PUNCH BOWL WITH THE GLASSES,  HUGE VICTORIAN AREA RUG, DVD'S RECORDS , BOOKS NEW AND OLD, SOME ART BY LOCAL ARTIST, GLASS PICTURE FRAMED ART,<br>
+ANIMAL CARRIER, PROM, BRIDE'S MAID DRESSES<br>
+<br>
+WE SHOULD BE OUT HERE TILL 4 OR 5PM  <!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=1114 24th St Between K and L -->Location: 1114 24th St Between K and L
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T13:39:51-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450079560.html</dc:source>
+<dc:title><![CDATA[YARD SALE 1114 24TH Street (1114 24th St Between K and L)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T13:39:51-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450030037.html">
+<title><![CDATA[Beautiful Large 10X14 Area Rug Must See (ROSEVILLE) $1]]></title>
+<link>http://sacramento.craigslist.org/gms/2450030037.html</link>
+<description><![CDATA[This is a large area rug that IS IN EXCELENT condition.<br>
+It is 10 feet by 14 feet nice thick and plush.<br>
+COME GET IT TODAY BEFORE 4 ASKING JUST 200.00 RETAILS FOR 1200.00<br>
+Call 916 367 6022<br>
+<br>
+<br>
+<a href="http://s981.photobucket.com/albums/ae296/misskathyl/?action=view&amp;current=rug019.jpg" target="_blank" rel="nofollow"><img src="http://i981.photobucket.com/albums/ae296/misskathyl/rug019.jpg" border="0" alt="Photobucket"></a><!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=ROSEVILLE -->Location: ROSEVILLE
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T13:07:21-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450030037.html</dc:source>
+<dc:title><![CDATA[Beautiful Large 10X14 Area Rug Must See (ROSEVILLE) $1]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T13:07:21-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2450002051.html">
+<title><![CDATA[(*(*(*(*(*****LARGE CABNIT an MORE]]></title>
+<link>http://sacramento.craigslist.org/gms/2450002051.html</link>
+<description><![CDATA[Large cabnit white 80ins. tall 20 ins. deep  $30     Overstuffed chairs florial pattern  $15 each    Large Punch Bowl  Horseshoe Pattern very old  selling on e-bay for $525 I'm asking $100 for mine  please call Mike or Linda  916-451-3973  or e-mail this ad<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T12:49:30-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2450002051.html</dc:source>
+<dc:title><![CDATA[(*(*(*(*(*****LARGE CABNIT an MORE]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T12:49:30-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2449972918.html">
+<title><![CDATA[Commercial Fridge N Tobbacoo Dispaly (South Sacramento) $1700]]></title>
+<link>http://sacramento.craigslist.org/gms/2449972918.html</link>
+<description><![CDATA[Selling my Commercial Fridge and My Tobbaco Display Case<br>
+After Running A Business of my own for 4 years im calling it quits<br>
+i have all these items for sale if you are interested in opening a store of <br>
+your own these items will be perfect to start a small Smoke Shop or Convience Store<br>
+if u are interested contact me at 916-212-2351 Ask For Tim<br>
+<br>
+Fridge $1,700 Works Great, Still Looks Like New<br>
+<br>
+Marbolo Display $160.00 Has Working Back Light<br>
+<br>
+Camel/Kool Display $160.00 Two Piece <br>
+<br>
+Want more pictures Contact me Thank You.<br>
+<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=South Sacramento -->Location: South Sacramento
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T12:30:50-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2449972918.html</dc:source>
+<dc:title><![CDATA[Commercial Fridge N Tobbacoo Dispaly (South Sacramento) $1700]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T12:30:50-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sacramento.craigslist.org/gms/2449963727.html">
+<title><![CDATA[fathers day sale  (citrus heights)]]></title>
+<link>http://sacramento.craigslist.org/gms/2449963727.html</link>
+<description><![CDATA[garage sale stuff pictures ,bed rails ,car bras all kinds new in box ,electrical panels,2 rolls of linoleum and more come check it out everything is priced to go or any offers 7584 park drive just off sylvan road 13th house down on the right thank you & HAPPY FATHERS DAY !<!-- START CLTAGS -->
+
+
+<br><br><ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=citrus heights -->Location: citrus heights
+<li>it's NOT ok to contact this poster with services or other commercial interests</ul>
+<!-- END CLTAGS -->]]></description>
+<dc:date>2011-06-19T12:25:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright &#x26;copy; 2011 craigslist, inc.</dc:rights>
+<dc:source>http://sacramento.craigslist.org/gms/2449963727.html</dc:source>
+<dc:title><![CDATA[fathers day sale  (citrus heights)]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2011-06-19T12:25:04-07:00</dcterms:issued>
+</item>
+</rdf:RDF>
