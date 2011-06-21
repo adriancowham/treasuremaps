@@ -18,7 +18,6 @@ import org.treasuremaps.acquisition._
 class TreasureCollectorSpec extends Spec {
 
   describe("TreasureCollector Returns results that are not empty") {
-    val rss = XML load (new URL("http://sacramento.craigslist.org/gms/index.rss").openConnection.getInputStream)
     val acquirer = new TestDataAcquirer("test/data/gms/sacramento/index.rss")
     
     var collector = new TreasureCollector
