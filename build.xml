@@ -108,7 +108,6 @@
 		</scalatest>
 	</target>
 
-
 	<target name="test-collector" depends="compile-test" >
 		<scalatest runpath="${test-classes}"  >
 	

@@ -15,6 +15,7 @@ import scala.collection.mutable.MultiMap
 //Ahh.. Scala... u r00l
 import scala.collection.mutable.{ Set => MSet, HashMap, MultiMap }
 import scala.collection.mutable.{ Set => MSet, HashMap, MultiMap }
+import org.treasuremaps.acquisition.FeedAcquirer
 
 class TreasureCollector {
   /* collectTreasure(...)
@@ -22,12 +23,12 @@ class TreasureCollector {
    *  of category -> set with each group of matches 
    * 
    */
-  def collectTreasure(rss: Elem, cats2parsers: Map[String, Regex]): MultiMap[String, Node] = {
+  def collectTreasure(acquirer : FeedAcquirer, cats2parsers: Map[String, Regex]): MultiMap[String, Node] = {
 
     println("collecting")
 
     // parse feed all the posts
-    val posts = rss \ "item"
+    val posts = acquirer.acquire \ "item"
      //setup result, using map with MultiMap mixin to provide 1->many mapping
     val result: MultiMap[String, Node] = new HashMap[String, MSet[Node]] with MultiMap[String, Node]
     
@@ -50,5 +51,14 @@ class TreasureCollector {
     }
     result
   }
-
+  def computeStats(things2sum: MultiMap[String, Node] ): Map[String, Int] = {
+    val result: scala.collection.immutable.Map[String,Int] = new  scala.collection.immutable.HashMap[String,Int]
+    
+    things2sum.foreach{ category: (String, MSet[Node]) =>
+      var(name, nodes) = category
+      //result.add(name,1)
+      println(name + " count: " + nodes.size)
+    }
+    return result  
+  }
 }

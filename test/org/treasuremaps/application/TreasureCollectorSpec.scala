@@ -12,28 +12,29 @@ import java.net._
 import scala.io.Source
 import scala.collection.immutable.List
 import org.treasuremaps.regex.AddressRegex
+import org.treasuremaps.acquisition._
 
 @RunWith(classOf[JUnitRunner])
 class TreasureCollectorSpec extends Spec {
 
   describe("TreasureCollector Returns results that are not empty") {
     val rss = XML load (new URL("http://sacramento.craigslist.org/gms/index.rss").openConnection.getInputStream)
+    val acquirer = new TestDataAcquirer("test/data/gms/sacramento/index.rss")
+    
     var collector = new TreasureCollector
 
-    val results = collector.collectTreasure(rss,
+    val results = collector.collectTreasure(acquirer,
       Map("ways"    -> AddressRegex.FullyQualifiedWay,
           "streets" -> AddressRegex.FullyQualifiedStreet,
           "courts"  -> AddressRegex.FullyQualifiedCourt,
           "avenues" -> AddressRegex.FullyQualifiedAvenue,
           "places"  -> AddressRegex.FullyQualifiedPlace,
           "lanes"   -> AddressRegex.FullyQualifiedLane,
-          "circles" ->AddressRegex.FullyQualifiedCircle,
-          "roads"   ->AddressRegex.FullyQualifiedRoad,
-          "drives"  ->  AddressRegex.FullyQualifiedDrive)
-          )
-      
-    println("fofofof")
-
+          "circles" -> AddressRegex.FullyQualifiedCircle,
+          "roads"   -> AddressRegex.FullyQualifiedRoad,
+          "drives"  -> AddressRegex.FullyQualifiedDrive)
+     )
+    
     it("should return a collection that is not empty") {
       assert(!results.isEmpty)
     }
@@ -50,5 +51,11 @@ class TreasureCollectorSpec extends Spec {
       val waysSet = results("unidentifiables")
       assert(waysSet.size > 1)
     }
+    val cats2counts = collector.computeStats(results)
+     it("should return have counts") {
+    	val ways = cats2counts.get("ways")
+    	
+    }
+    
   }
 }
