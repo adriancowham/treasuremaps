@@ -32,12 +32,8 @@ class TreasureCollector {
       //give it parser a shot at classification
       cats2parsers.foreach { case( name, parser ) =>
         post text match {
-          case parser(addy) => {
-            result.add(name, post)
-          }
-          case _ => {
-            result.add("unidentifiables", post)
-          }
+          case parser(addy) =>	result.add( name, post )
+          case _ 			=>  result.add( "unidentifiables", post )          
         }
       }
     }
