@@ -18,12 +18,9 @@ import org.treasuremaps.acquisition._
 class TreasureCollectorSpec extends Spec {
 
   describe("TreasureCollector Returns results that are not empty") {
-    val acquirer = new TestDataAcquirer("test/data/gms/sacramento/index.rss")
-    
-    
-    var collector = new TreasureCollector
 
-    val results = collector.collectTreasure(acquirer,
+    val results =  new TreasureCollector().collectTreasure(
+     new TestDataAcquirer("test/data/gms/sacramento/index.rss"),
       Map("ways"    -> AddressRegex.FullyQualifiedWay,
           "streets" -> AddressRegex.FullyQualifiedStreet,
           "courts"  -> AddressRegex.FullyQualifiedCourt,
@@ -51,9 +48,9 @@ class TreasureCollectorSpec extends Spec {
       val waysSet = results("unidentifiables")
       assert(waysSet.size > 1)
     }
-    val cats2counts = collector.computeStats(results)
+    val cats2counts = new TreasureCollector().computeStats(results)
      it("should return have counts") {
-    	val ways = cats2counts.get("ways")
+    	assert(cats2counts.get("ways").size > 0)
     	
     }
     

@@ -14,10 +14,9 @@ import org.treasuremaps.acquisition._
 @RunWith(classOf[JUnitRunner])
 class AddressSaverSpec extends Spec{
   describe("Should produce file as side effect"){
-    var collector = new TreasureCollector
-    val acquirer = new TestDataAcquirer("test/data/gms/sacramento/index.rss")
     
-    val results = collector.collectTreasure(acquirer,
+    val results = new TreasureCollector().collectTreasure(
+      new TestDataAcquirer("test/data/gms/sacramento/index.rss") ,
       Map("ways"    -> AddressRegex.FullyQualifiedWay,
           "streets" -> AddressRegex.FullyQualifiedStreet,
           "courts"  -> AddressRegex.FullyQualifiedCourt,
@@ -30,7 +29,7 @@ class AddressSaverSpec extends Spec{
      )
      val saver = new AddressSaver
      saver.persistAddys( results )
-     
+     //TODO... assert on something here
   }
 
 }
