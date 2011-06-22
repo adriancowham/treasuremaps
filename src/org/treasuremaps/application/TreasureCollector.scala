@@ -29,7 +29,7 @@ class TreasureCollector {
     
     //Walk parsed posts...
     for (post <- posts \ "description") {
-      //give it parser a shot at classification
+      //give each parser a shot at classification
       cats2parsers.foreach { case( name, parser ) =>
         post text match {
           case parser(addy) =>	result.add( name, post )
@@ -42,9 +42,9 @@ class TreasureCollector {
   
   def computeStats(things2sum: MultiMap[String, Node] ): Map[String, Int] = {
     val result: scala.collection.immutable.Map[String,Int] = new  scala.collection.immutable.HashMap[String,Int]
-    
+    throw new RuntimeException ("not yet implemented")
     things2sum.foreach{ case( name, nodes ) =>
-      //result.add(name,1)
+    
       println(name + " count: " + nodes.size)
     }
     return result  
