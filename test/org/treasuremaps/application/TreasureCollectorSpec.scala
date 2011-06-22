@@ -13,6 +13,7 @@ import scala.io.Source
 import scala.collection.immutable.List
 import org.treasuremaps.regex.AddressRegex
 import org.treasuremaps.acquisition._
+import org.treasuremaps.acquisition.TestDataAcquirer
 
 @RunWith(classOf[JUnitRunner])
 class TreasureCollectorSpec extends Spec {
@@ -35,19 +36,21 @@ class TreasureCollectorSpec extends Spec {
     it("should return a collection that is not empty") {
       assert(!results.isEmpty)
     }
+    
     it("should return a collection that has more than one set mapped") {
 
       assert(results.size > 1)
     }
+    
     it("ways should return a set that has more than 1 result") {
-      val waysSet = results("ways")
-      assert(waysSet.size > 1)
+      assert( results("ways").size > 1 )
 
     }
+    
     it("should return have some unidentfiables") {
-      val waysSet = results("unidentifiables")
-      assert(waysSet.size > 1)
+      assert( results("unidentifiables").size > 1 )
     }
+    
     val cats2counts = new TreasureCollector().computeStats(results)
      it("should return have counts") {
     	assert(cats2counts.get("ways").size > 0)
