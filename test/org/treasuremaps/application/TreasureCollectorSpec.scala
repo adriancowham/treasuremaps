@@ -20,6 +20,7 @@ class TreasureCollectorSpec extends Spec {
   describe("TreasureCollector Returns results that are not empty") {
     val acquirer = new TestDataAcquirer("test/data/gms/sacramento/index.rss")
     
+    
     var collector = new TreasureCollector
 
     val results = collector.collectTreasure(acquirer,
