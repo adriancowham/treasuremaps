@@ -28,8 +28,25 @@ class AddressSaverSpec extends Spec{
           "drives"  -> AddressRegex.FullyQualifiedDrive)
      )
      val saver = new AddressSaver
-     saver.persistAddys( results )
-     //TODO... assert on something here
+     /*This is lame for now, really have just moved the naming of the file (by region)
+      * outside of AddressSaver, but there is no mechanism to actually automagically get the region
+      */
+     
+     val  files = saver.persistAddys( results, "sacramento" )
+     it("files should not be empty"){
+    	assert(files.size > 0)
+    }
+    it("should produce files that exist"){
+      files.foreach{case(file) =>
+        println(file.getName() )
+        assert(file.exists())
+      }
+    }
+     it("shold have exactly one file per category"){
+       assert(files.size == 10,"size is: " + files.size )
+     }
+    
+     
   }
 
 }
