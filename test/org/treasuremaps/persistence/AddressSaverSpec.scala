@@ -16,7 +16,7 @@ class AddressSaverSpec extends Spec{
   describe("Should produce file as side effect"){
     
     val results = new TreasureCollector().collectTreasure(
-      new TestDataAcquirer("test/data/gms/sacramento/index.rss") ,
+      new TestDataAcquirer("data/index.rss") ,
       Map("ways"    -> AddressRegex.FullyQualifiedWay,
           "streets" -> AddressRegex.FullyQualifiedStreet,
           "courts"  -> AddressRegex.FullyQualifiedCourt,
