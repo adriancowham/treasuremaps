@@ -11,12 +11,12 @@ import java.io.File
 import java.util.Calendar
 class AddressSaver {
   val DATE_FORMAT = "yyyyMMddHHmmss"
-    
+   /**
+    * persistAddys - give the map in data, create files qualified by region, and return  a list
+    * of files created.  For now, the return list is mainly for testability 
+    */
   def persistAddys(data: MultiMap[String, Node], region: String):List[File] = {
-    /* TODO.. this is just java with scala syntax..
-     * Refactor as idiomatic
-     * 
-     */
+   
     var files =   List[File]()
     
     val timeStamp = getTimeStamp()

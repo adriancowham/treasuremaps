@@ -1,11 +1,27 @@
 #!/bin/sh
-L=`dirname $0`/../out
+L=./out
 cp=`echo $L/*.jar|sed 's/ /:/g'`
+echo $cp
 exec scala -classpath $cp $0 $@
 !#
 //Imports
 import org.treasuremaps.application.TreasureCollector
-//Actual script 
-val collector = new TreasureCollector
-//TODO... any method other than hello does not work, this is scala newbishness, needs to call something other than hello...
-collector.hello
+import org.treasuremaps.persistence.AddressSaver
+import org.treasuremaps.acquisition.URLDataAcquirer
+import org.treasuremaps.regex.AddressRegex
+
+	new AddressSaver().persistAddys(
+		new TreasureCollector().collectTreasure(
+      		new URLDataAcquirer("http://sacramento.craigslist.org/gms/index.rss") ,
+      			Map("ways"    -> AddressRegex.FullyQualifiedWay,
+          		"streets" -> AddressRegex.FullyQualifiedStreet,
+          		"courts"  -> AddressRegex.FullyQualifiedCourt,
+          		"avenues" -> AddressRegex.FullyQualifiedAvenue,
+          		"places"  -> AddressRegex.FullyQualifiedPlace,
+          		"lanes"   -> AddressRegex.FullyQualifiedLane,
+          		"circles" -> AddressRegex.FullyQualifiedCircle,
+          		"roads"   -> AddressRegex.FullyQualifiedRoad,
+          		"drives"  -> AddressRegex.FullyQualifiedDrive)
+          ),"sacramento"
+         )
+    
