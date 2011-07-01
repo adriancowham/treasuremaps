@@ -13,7 +13,7 @@ import org.treasuremaps.regex.AddressRegex
 	new AddressSaver().persistAddys(
 		new TreasureCollector().collectTreasure(
       		new URLDataAcquirer("http://sacramento.craigslist.org/gms/index.rss") ,
-      			Map("ways"    -> AddressRegex.FullyQualifiedWay,
+      		Map("ways"    -> AddressRegex.FullyQualifiedWay,
           		"streets" -> AddressRegex.FullyQualifiedStreet,
           		"courts"  -> AddressRegex.FullyQualifiedCourt,
           		"avenues" -> AddressRegex.FullyQualifiedAvenue,
