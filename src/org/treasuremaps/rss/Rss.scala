@@ -12,10 +12,5 @@ class Rss {
 	/**
 	 * Retrieves the feed
 	 */
-	def getFeed( location :String ) = {
-		
-		
-		// now load the stream and return an XML DOM
-		XML load(  new URL( location ).openConnection.getInputStream )
-	}
+	def getFeed( location :String ) : Elem = XML load(  new URL( location ).openConnection.getInputStream )
 }

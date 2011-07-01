@@ -29,7 +29,7 @@ def count( filename: String ) : Int = {
 	// parse feed all the posts
 	val posts = rss \ "description"
 
-	println( "Filename: " + filename + " - " + posts.size )
+	println( "Filename: " + filename + " - Number of posts: " + posts.size )
 	return posts size
 }
 
@@ -38,18 +38,18 @@ def count( filename: String ) : Int = {
 /////////////////////////////////////////////////////////////////////////
 
 // list of posts where an address couldn't be identified
-val unidentifiables = "data/analytics/unidentifiables.xml" :: Nil
+val unidentifiables = "data/analytics/global/unidentifiables.xml" :: Nil
 
 // list of posts where an address was identified with high confidence
-val identifiables = "data/analytics/avenues.xml" :: 
-				"data/analytics/circles.xml" :: 
-				"data/analytics/courts.xml" :: 
-				"data/analytics/drives.xml" :: 
-				"data/analytics/lanes.xml" :: 
-				"data/analytics/places.xml" ::
-				"data/analytics/roads.xml" :: 
-				"data/analytics/streets.xml" :: 
-				"data/analytics/ways.xml" :: Nil
+val identifiables = "data/analytics/global/avenues.xml" :: 
+				"data/analytics/global/circles.xml" :: 
+				"data/analytics/global/courts.xml" :: 
+				"data/analytics/global/drives.xml" :: 
+				"data/analytics/global/lanes.xml" :: 
+				"data/analytics/global/places.xml" ::
+				"data/analytics/global/roads.xml" :: 
+				"data/analytics/global/streets.xml" :: 
+				"data/analytics/global/ways.xml" :: Nil
 
 
 /////////////////////////////////////////////////////////////////////////
