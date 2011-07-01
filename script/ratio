@@ -2,7 +2,10 @@
 exec scala -cp .:out/src -deprecation "$0" "$@"
 !#
 /////////////////////////////////////////////////////////////////////////
-// Script to calculate the ratio of regex matches to non-matches
+// Script to calculate the ratio of regex matches to non-matches. This
+// script takes one parameter, which is the region to to calculate the 
+// ration for. If this parameter not provided ( i.e. no parameters are
+// provided ), this script will target the "global" region.
 /////////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////////
@@ -10,7 +13,7 @@ exec scala -cp .:out/src -deprecation "$0" "$@"
 /////////////////////////////////////////////////////////////////////////
 import scala.xml._
 import scala.collection.immutable.List
-
+import java.io.File
 /////////////////////////////////////////////////////////////////////////
 // Function Definitions
 /////////////////////////////////////////////////////////////////////////
@@ -33,23 +36,40 @@ def count( filename: String ) : Int = {
 	return posts size
 }
 
+def usage( msg: String ) = {
+	println( msg )
+	sys.exit
+}
+
 /////////////////////////////////////////////////////////////////////////
 // Constants
 /////////////////////////////////////////////////////////////////////////
 
+// pull the region from the args and normalize on lower case
+val region = if ( args.size == 0 ) "global" else args( 0 ).toLowerCase
+
+// if the directory does not exist, print usage and exit
+if( !new File( "data/analytics/" + region ).exists ) usage( "Directory %s doesn't exist".format( region ) )
+
+println( "Processing the %s region".format( region ) )
+
+val prefix = "data/analytics/%s/".format( region )
 // list of posts where an address couldn't be identified
-val unidentifiables = "data/analytics/global/unidentifiables.xml" :: Nil
+val unidentifiables = prefix + "unidentifiables.xml" :: Nil
+
+// TODO: need to handle region directories that will have timestamp subdirectories
 
 // list of posts where an address was identified with high confidence
-val identifiables = "data/analytics/global/avenues.xml" :: 
-				"data/analytics/global/circles.xml" :: 
-				"data/analytics/global/courts.xml" :: 
-				"data/analytics/global/drives.xml" :: 
-				"data/analytics/global/lanes.xml" :: 
-				"data/analytics/global/places.xml" ::
-				"data/analytics/global/roads.xml" :: 
-				"data/analytics/global/streets.xml" :: 
-				"data/analytics/global/ways.xml" :: Nil
+val identifiables = 
+				prefix + "avenues.xml" :: 
+				prefix + "circles.xml" :: 
+				prefix + "courts.xml"  :: 
+				prefix + "drives.xml"  :: 
+				prefix + "lanes.xml"   :: 
+				prefix + "places.xml"  ::
+				prefix + "roads.xml"   :: 
+				prefix + "streets.xml" :: 
+				prefix + "ways.xml"    :: Nil
 
 
 /////////////////////////////////////////////////////////////////////////
