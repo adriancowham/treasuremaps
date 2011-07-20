@@ -36,7 +36,7 @@ class AddressSaver {
   def generateFilename(region: String, suffix: String = "",
       timeStamp: String = new SimpleDateFormat(DATE_FORMAT).format(Calendar.getInstance().getTime())): String = {
 
-    "data/analytics/" + region + "-"  + suffix + "-" + timeStamp+ ".xml"
+    "data/analytics/" + region + "/"  + suffix + "-" + timeStamp+ ".xml"
 
   }
   
@@ -48,6 +48,13 @@ class AddressSaver {
 
   def appendToFile(node: Node, filename: String):Unit = {
     println("Writing file: " + filename)
+    val dirName = filename.substring(0, filename.lastIndexOf("/"))
+    println("dirname is" + dirName)
+    val dir = new File( dirName )
+    if (!dir.exists()){
+      println("Creating non-existent directory: " + dir.getCanonicalPath() )
+      dir.mkdir()
+    }
     val builder = new StringBuilder()
     val printer = new PrettyPrinter(100, 5)
     printer.format(node, builder)
